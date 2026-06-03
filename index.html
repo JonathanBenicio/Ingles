@@ -101,11 +101,10 @@
             </div>
 
             <div class="filter-section">
-                <h3><i class="fa-solid fa-shapes icon-section"></i> Grupo / Tema</h3>
-                <select id="select-group" class="custom-select" aria-label="Selecionar grupo ou tema">
-                    <option value="all">Todos os Temas</option>
-                    <!-- Options populated dynamically -->
-                </select>
+                <h3><i class="fa-solid fa-shapes icon-section"></i> Temas e Subgrupos</h3>
+                <div class="accordion-container" id="filter-subgroups-accordion">
+                    <!-- Dynamic Accordions populated by JavaScript -->
+                </div>
             </div>
 
             <!-- Action Buttons in Sidebar Footer -->
@@ -126,8 +125,13 @@
         <!-- Main Dashboard Content -->
         <main class="dashboard-content">
             <header class="dashboard-header">
-                <h1 class="main-title">English Progress Dashboard</h1>
-                <p class="subtitle">Acompanhe seu avanço nos exercícios de inglês do test-english.com</p>
+                <div class="header-main-content">
+                    <h1 class="main-title">English Progress Dashboard</h1>
+                    <p class="subtitle">Acompanhe seu avanço nos exercícios de inglês do test-english.com</p>
+                </div>
+                <button id="btn-toggle-history" class="history-toggle-btn" title="Ver Histórico de Estudos">
+                    <i class="fa-solid fa-clock-rotate-left"></i> Histórico
+                </button>
             </header>
 
             <!-- Stats Section -->
@@ -177,6 +181,24 @@
                 </div>
             </section>
         </main>
+    </div>
+    
+    <!-- History Drawer (collapsible panel) -->
+    <div id="history-drawer" class="drawer">
+        <div class="drawer-header">
+            <h2><i class="fa-solid fa-clock-rotate-left"></i> Histórico de Estudos</h2>
+            <button id="btn-close-history" class="drawer-close-btn" aria-label="Fechar histórico">
+                <i class="fa-solid fa-xmark"></i>
+            </button>
+        </div>
+        <div class="drawer-content">
+            <div class="history-stats">
+                <span id="history-total-count">0 exercícios concluídos</span>
+            </div>
+            <ul class="history-timeline" id="history-timeline-list">
+                <!-- Populated by JavaScript -->
+            </ul>
+        </div>
     </div>
 
     <!-- Script references -->

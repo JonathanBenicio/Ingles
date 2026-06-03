@@ -1,8 +1,110 @@
 /* English Study Tracker - Application Script */
 
+// Taxonomy Definition
+const TAXONOMY = [
+  {
+    group: "Grammar: Verbs & Tenses (Gramática: Verbos e Tempos)",
+    emoji: "📐",
+    type: "grammar",
+    subgroups: [
+      "Present Tenses (Tempos Presentes)",
+      "Past Tenses (Tempos Passados)",
+      "Future Tenses (Tempos Futuros)",
+      "Present Perfect (Presente Perfeito)",
+      "Past Perfect (Passado Perfeito)",
+      "Used to & Would (Hábito no Passado)",
+      "Gerund & Infinitive (Gerúndio e Infinitivo)",
+      "Passive Voice (Voz Passiva)",
+      "Reported Speech (Discurso Indireto)",
+      "Auxiliary Verbs & Reviews (Verbos Auxiliares e Revisões)"
+    ]
+  },
+  {
+    group: "Grammar: Sentence Structure (Gramática: Estrutura de Sentenças)",
+    emoji: "📐",
+    type: "grammar",
+    subgroups: [
+      "Conditionals & Wish (Condicionais)",
+      "Relative Clauses (Orações Relativas)",
+      "Sentence Structure & Conjunctions (Estrutura de Sentenças e Conjunções)"
+    ]
+  },
+  {
+    group: "Grammar: Parts of Speech (Gramática: Classes de Palavras)",
+    emoji: "📐",
+    type: "grammar",
+    subgroups: [
+      "Nouns, Articles & Quantifiers (Substantivos, Artigos e Quantificadores)",
+      "Pronouns & Possessives (Pronomes e Possessivos)",
+      "Adjectives & Adverbs (Adjetivos e Advérbios)",
+      "Prepositions (Preposições)"
+    ]
+  },
+  {
+    group: "Grammar: Vocabulary & Idioms (Gramática: Vocabulário e Idiomas)",
+    emoji: "📐",
+    type: "grammar",
+    subgroups: [
+      "Phrasal Verbs (Verbos Frasais)",
+      "Common Verbs & Confusions (Verbos Comuns e Confusões)"
+    ]
+  },
+  {
+    group: "Grammar: Miscellaneous (Gramática: Diversos)",
+    emoji: "📐",
+    type: "grammar",
+    subgroups: [
+      "Other Grammar Points (Outros Tópicos Gramaticais)"
+    ]
+  },
+  {
+    group: "Topics: Daily Life & Health (Tópicos: Vida Diária e Saúde)",
+    emoji: "🗣️",
+    type: "situational",
+    subgroups: [
+      "Daily Life & Routines (Vida Diária e Rotinas)",
+      "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)",
+      "Body, Health & Medicine (Corpo, Saúde e Medicina)",
+      "Food, Drink & Eating Out (Comida, Bebida e Restaurante)",
+      "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+    ]
+  },
+  {
+    group: "Topics: Work & Technology (Tópicos: Trabalho e Tecnologia)",
+    emoji: "🗣️",
+    type: "situational",
+    subgroups: [
+      "Work, Jobs & Education (Trabalho, Profissões e Educação)",
+      "Technology & Science (Tecnologia e Ciência)",
+      "Shopping, Money & Business (Compras, Dinheiro e Negócios)",
+      "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+    ]
+  },
+  {
+    group: "Topics: Travel & Nature (Tópicos: Viagem e Natureza)",
+    emoji: "🗣️",
+    type: "situational",
+    subgroups: [
+      "Travel, Transport & Tourism (Viagem, Transporte e Turismo)",
+      "Nature, Weather & Environment (Natureza, Clima e Meio Ambiente)"
+    ]
+  },
+  {
+    group: "Topics: General & Skills (Tópicos: Geral e Habilidades)",
+    emoji: "🗣️",
+    type: "situational",
+    subgroups: [
+      "Culture, Society & General Interest (Cultura, Sociedade e Interesse Geral)",
+      "Writing Guides & Essays (Guias de Redação e Ensaios)",
+      "English Exams & Tests (Testes e Exames de Inglês)",
+      "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
+    ]
+  }
+];
+
 // State Management
 const state = {
-    completed: {}, // Maps: link -> dateCompletedString
+    completed: {}, // Maps: link -> dateCompletedString ("DD/MM/YYYY HH:MM")
     theme: 'dark',
     filters: {
         search: '',
@@ -13,7 +115,7 @@ const state = {
         },
         categories: {}, // Maps: categoryName -> checkedBoolean
         status: 'all',
-        group: 'all',
+        subgroups: [],  // Array of active subgroup names
         sortBy: 'pedagogical'
     }
 };
@@ -76,61 +178,66 @@ function getUniqueCategories() {
     return Array.from(cats).sort();
 }
 
-// Gather unique grammar groups/themes
-function getUniqueGrammarGroups() {
-    const groups = new Set();
-    EXERCISES_DATA.forEach(ex => {
-        if (ex.category === 'grammar-points' && ex.group) {
-            groups.add(ex.group);
-        }
-    });
-    return Array.from(groups).sort();
+// Extract Portuguese label from parenthesis (e.g. "Adjectives (Adjetivos)" -> "Adjetivos")
+function formatGroupLabel(groupStr) {
+    const match = groupStr.match(/\(([^)]+)\)/);
+    return match ? match[1] : groupStr;
 }
 
-// Gather unique situational groups/themes
-function getUniqueSituationalGroups() {
-    const groups = new Set();
-    EXERCISES_DATA.forEach(ex => {
-        if (ex.category !== 'grammar-points' && ex.group) {
-            groups.add(ex.group);
-        }
-    });
-    return Array.from(groups).sort();
-}
-
-// Update the disabled status of optgroups in the select drop-down based on active filters
-function updateGroupSelectStatus() {
-    const select = document.getElementById('select-group');
-    const optgroupGrammar = document.getElementById('optgroup-grammar');
-    const optgroupSituational = document.getElementById('optgroup-situational');
-    
-    const isGrammarActive = state.filters.types.grammar;
-    const isSituationalActive = state.filters.types.situational;
-    
-    if (optgroupGrammar) optgroupGrammar.disabled = !isGrammarActive;
-    if (optgroupSituational) optgroupSituational.disabled = !isSituationalActive;
-    
-    // Reset select to "all" if the currently selected value belongs to a disabled group
-    const selectedValue = select.value;
-    if (selectedValue !== 'all') {
-        const grammarThemes = getUniqueGrammarGroups();
-        const isSelectedGrammar = grammarThemes.includes(selectedValue);
-        
-        if (isSelectedGrammar && !isGrammarActive) {
-            select.value = 'all';
-            state.filters.group = 'all';
-        } else if (!isSelectedGrammar && !isSituationalActive) {
-            select.value = 'all';
-            state.filters.group = 'all';
-        }
+// Convert "DD/MM/YYYY HH:MM" to "YYYY-MM-DD" for calendar picker input
+function toInputDate(displayDate) {
+    if (!displayDate) return '';
+    const parts = displayDate.split(' ');
+    const datePart = parts[0];
+    const dParts = datePart.split('/');
+    if (dParts.length === 3) {
+        const [d, m, y] = dParts;
+        return `${y}-${m.padStart(2, '0')}-${d.padStart(2, '0')}`;
     }
+    return '';
 }
 
-// Setup initial DOM elements (categories checkboxes & group dropdowns with optgroups)
+// Convert "YYYY-MM-DD" to "DD/MM/YYYY HH:MM" preserving time or adding current time
+function fromInputDate(inputVal, originalDateTime = '') {
+    if (!inputVal) return '';
+    const parts = inputVal.split('-');
+    if (parts.length === 3) {
+        const [y, m, d] = parts;
+        let timeStr = '';
+        if (originalDateTime) {
+            const origParts = originalDateTime.split(' ');
+            if (origParts.length === 2) {
+                timeStr = ' ' + origParts[1];
+            }
+        }
+        if (!timeStr) {
+            const now = new Date();
+            timeStr = ' ' + now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+        }
+        return `${d.padStart(2, '0')}/${m.padStart(2, '0')}/${y}${timeStr}`;
+    }
+    return inputVal;
+}
+
+// Parses "DD/MM/YYYY HH:MM" into a Sortable Date Object
+function parseCompletionDate(dateStr) {
+    if (!dateStr) return new Date(0);
+    const parts = dateStr.split(' ');
+    const dParts = parts[0].split('/');
+    const tParts = (parts[1] || '00:00').split(':');
+    if (dParts.length === 3) {
+        const [d, m, y] = dParts.map(Number);
+        const [h, min] = tParts.map(Number);
+        return new Date(y, m - 1, d, h, min);
+    }
+    return new Date(0);
+}
+
+// Setup initial DOM elements (categories checkboxes & accordions for subgroups)
 function setupDOM() {
     // Populate Categories Checkbox Group
-    const container = document.getElementById('filter-categories');
-    container.innerHTML = '';
+    const categoriesContainer = document.getElementById('filter-categories');
+    categoriesContainer.innerHTML = '';
     
     const categories = getUniqueCategories();
     categories.forEach(cat => {
@@ -142,58 +249,113 @@ function setupDOM() {
             <span class="checkmark"></span>
             <span style="color: ${metadata.color || 'inherit'}; font-weight: 500;">${metadata.label}</span>
         `;
-        container.appendChild(labelEl);
+        categoriesContainer.appendChild(labelEl);
     });
     
-    // Populate Group Dropdown Select with <optgroup>
-    const select = document.getElementById('select-group');
-    select.innerHTML = '<option value="all">Todos os Temas</option>';
+    // Populate Group/Subgroup Accordions
+    const accordionContainer = document.getElementById('filter-subgroups-accordion');
+    accordionContainer.innerHTML = '';
     
-    // Create Grammatical optgroup
-    const grammarGroup = document.createElement('optgroup');
-    grammarGroup.id = 'optgroup-grammar';
-    grammarGroup.label = '📐 Tópicos Gramaticais';
-    const grammarThemes = getUniqueGrammarGroups();
-    grammarThemes.forEach(g => {
-        const option = document.createElement('option');
-        option.value = g;
-        option.textContent = g;
-        grammarGroup.appendChild(option);
+    TAXONOMY.forEach((taxItem, index) => {
+        const itemEl = document.createElement('div');
+        itemEl.className = 'accordion-item';
+        itemEl.setAttribute('data-group-type', taxItem.type);
+        
+        let subgroupInputsHTML = '';
+        taxItem.subgroups.forEach(sub => {
+            subgroupInputsHTML += `
+                <label class="custom-checkbox">
+                    <input type="checkbox" class="subgroup-checkbox" data-subgroup="${sub}">
+                    <span class="checkmark"></span>
+                    <span>${formatGroupLabel(sub)}</span>
+                </label>
+            `;
+        });
+        
+        itemEl.innerHTML = `
+            <button class="accordion-header" type="button">
+                <span>${taxItem.emoji} ${formatGroupLabel(taxItem.group)}</span>
+                <i class="fa-solid fa-chevron-down arrow-icon"></i>
+            </button>
+            <div class="accordion-content">
+                <div class="accordion-content-inner">
+                    ${subgroupInputsHTML}
+                </div>
+            </div>
+        `;
+        
+        // Toggle Accordion Click event
+        itemEl.querySelector('.accordion-header').addEventListener('click', () => {
+            itemEl.classList.toggle('open');
+        });
+        
+        accordionContainer.appendChild(itemEl);
     });
-    select.appendChild(grammarGroup);
     
-    // Create Situational optgroup
-    const situationalGroup = document.createElement('optgroup');
-    situationalGroup.id = 'optgroup-situational';
-    situationalGroup.label = '🗣️ Tópicos Situacionais';
-    const situationalThemes = getUniqueSituationalGroups();
-    situationalThemes.forEach(g => {
-        const option = document.createElement('option');
-        option.value = g;
-        option.textContent = g;
-        situationalGroup.appendChild(option);
+    // Set desktop toggle sidebar button arrow icon correctly
+    const toggleBtn = document.getElementById('btn-toggle-sidebar');
+    const container = document.querySelector('.app-container');
+    if (toggleBtn) {
+        toggleBtn.querySelector('i').className = container.classList.contains('sidebar-collapsed') 
+            ? 'fa-solid fa-angles-right' 
+            : 'fa-solid fa-angles-left';
+    }
+}
+
+// Update active visibility of accordions based on Subject Type filters
+function updateAccordionVisibility() {
+    const isGrammarActive = state.filters.types.grammar;
+    const isSituationalActive = state.filters.types.situational;
+    
+    document.querySelectorAll('.accordion-item').forEach(item => {
+        const type = item.getAttribute('data-group-type');
+        if (type === 'grammar') {
+            item.style.display = isGrammarActive ? 'block' : 'none';
+        } else if (type === 'situational') {
+            item.style.display = isSituationalActive ? 'block' : 'none';
+        }
     });
-    select.appendChild(situationalGroup);
 }
 
 // Register DOM Event Listeners
 function registerEventListeners() {
+    const container = document.querySelector('.app-container');
+    const toggleBtn = document.getElementById('btn-toggle-sidebar');
+    const sidebar = document.getElementById('app-sidebar');
+    
     // Theme Toggle
     document.getElementById('btn-theme-toggle').addEventListener('click', toggleTheme);
     
-    // Mobile Sidebar Toggle
-    const sidebar = document.getElementById('app-sidebar');
-    const toggleBtn = document.getElementById('btn-toggle-sidebar');
-    
+    // Retractable Sidebar Toggle (Desktop & Mobile)
     toggleBtn.addEventListener('click', (e) => {
         e.stopPropagation();
-        sidebar.classList.toggle('open');
+        if (window.innerWidth > 768) {
+            container.classList.toggle('sidebar-collapsed');
+            const icon = toggleBtn.querySelector('i');
+            icon.className = container.classList.contains('sidebar-collapsed') 
+                ? 'fa-solid fa-angles-right' 
+                : 'fa-solid fa-angles-left';
+        } else {
+            container.classList.toggle('sidebar-open');
+        }
     });
     
+    // Close mobile sidebar clicking outside
     document.addEventListener('click', (e) => {
-        if (window.innerWidth <= 768 && sidebar.classList.contains('open') && !sidebar.contains(e.target) && e.target !== toggleBtn) {
-            sidebar.classList.remove('open');
+        if (window.innerWidth <= 768 && container.classList.contains('sidebar-open') && !sidebar.contains(e.target) && e.target !== toggleBtn) {
+            container.classList.remove('sidebar-open');
         }
+    });
+    
+    // History Drawer toggle open
+    document.getElementById('btn-toggle-history').addEventListener('click', () => {
+        document.getElementById('history-drawer').classList.add('open');
+        renderHistory();
+    });
+    
+    // History Drawer close
+    document.getElementById('btn-close-history').addEventListener('click', () => {
+        document.getElementById('history-drawer').classList.remove('open');
     });
     
     // Search Bar Input
@@ -215,10 +377,12 @@ function registerEventListeners() {
     // Type Checkboxes (Grammar / Situational)
     document.getElementById('type-grammar').addEventListener('change', (e) => {
         state.filters.types.grammar = e.target.checked;
+        updateAccordionVisibility();
         renderAll();
     });
     document.getElementById('type-situational').addEventListener('change', (e) => {
         state.filters.types.situational = e.target.checked;
+        updateAccordionVisibility();
         renderAll();
     });
     
@@ -239,10 +403,19 @@ function registerEventListeners() {
         });
     });
     
-    // Group Selector
-    document.getElementById('select-group').addEventListener('change', (e) => {
-        state.filters.group = e.target.value;
-        renderAll();
+    // Subgroups Checkboxes
+    document.getElementById('filter-subgroups-accordion').addEventListener('change', (e) => {
+        if (e.target.classList.contains('subgroup-checkbox')) {
+            const sub = e.target.getAttribute('data-subgroup');
+            if (e.target.checked) {
+                if (!state.filters.subgroups.includes(sub)) {
+                    state.filters.subgroups.push(sub);
+                }
+            } else {
+                state.filters.subgroups = state.filters.subgroups.filter(s => s !== sub);
+            }
+            renderAll();
+        }
     });
     
     // Sorting Selector
@@ -277,6 +450,8 @@ function toggleTheme() {
 // Toggle Completion state of an exercise card
 function toggleCompletion(link) {
     if (state.completed[link]) {
+        const confirmUncheck = confirm("Tem certeza que deseja desmarcar este exercício? O registro com data e hora de conclusão será removido.");
+        if (!confirmUncheck) return;
         delete state.completed[link];
     } else {
         const now = new Date();
@@ -286,20 +461,50 @@ function toggleCompletion(link) {
     saveState();
     renderStats();
     
-    // Update target card without re-rendering everything (prevents scroll jumps)
+    // Update target card without full grid reload to prevent scroll jumps
     const cards = document.querySelectorAll(`.exercise-card`);
     cards.forEach(card => {
         const titleLink = card.querySelector('.exercise-title');
         if (titleLink && titleLink.getAttribute('href') === link) {
             if (state.completed[link]) {
                 card.classList.add('completed');
-                card.querySelector('.completion-date').innerHTML = `<span>Concluído em:</span><span>${state.completed[link]}</span>`;
+                card.querySelector('.completion-date').innerHTML = `
+                    <span>Concluído em:</span>
+                    <span class="completion-date-wrapper">
+                        <i class="fa-regular fa-calendar-days"></i>
+                        <span class="date-text">${state.completed[link]}</span>
+                        <input type="date" class="date-picker-input" data-link="${link}" value="${toInputDate(state.completed[link])}">
+                    </span>
+                `;
+                // Add event listener to the new input picker
+                card.querySelector('.date-picker-input').addEventListener('change', (e) => {
+                    updateCompletionDate(link, e.target.value);
+                });
             } else {
                 card.classList.remove('completed');
                 card.querySelector('.completion-date').innerHTML = '';
             }
         }
     });
+
+    // Update history drawer if open
+    if (document.getElementById('history-drawer').classList.contains('open')) {
+        renderHistory();
+    }
+}
+
+// Update specific Completion Date from Inline Date Pickers
+function updateCompletionDate(link, inputDateValue) {
+    const originalDateTime = state.completed[link] || '';
+    const newDateTime = fromInputDate(inputDateValue, originalDateTime);
+    if (newDateTime) {
+        state.completed[link] = newDateTime;
+        saveState();
+        renderAll();
+        if (document.getElementById('history-drawer').classList.contains('open')) {
+            renderHistory();
+        }
+    }
 }
 
 // Render Stats & Progress Indicators
@@ -371,7 +576,6 @@ function renderStats() {
 
 // Render the Exercise cards grid
 function renderCards() {
-    updateGroupSelectStatus();
     const container = document.getElementById('exercises-container');
     container.innerHTML = '';
     
@@ -382,7 +586,8 @@ function renderCards() {
             const matchesTitle = ex.title.toLowerCase().includes(state.filters.search);
             const matchesSlug = ex.slug.toLowerCase().includes(state.filters.search);
             const matchesGroup = ex.group && ex.group.toLowerCase().includes(state.filters.search);
-            if (!matchesTitle && !matchesSlug && !matchesGroup) return false;
+            const matchesSub = ex.subgroup && ex.subgroup.toLowerCase().includes(state.filters.search);
+            if (!matchesTitle && !matchesSlug && !matchesGroup && !matchesSub) return false;
         }
         
         // Level filter
@@ -405,9 +610,9 @@ function renderCards() {
         if (state.filters.status === 'completed' && !isCompleted) return false;
         if (state.filters.status === 'pending' && isCompleted) return false;
         
-        // Group filter
-        if (state.filters.group !== 'all' && ex.group !== state.filters.group) {
-            return false;
+        // Subgroup filter (multi-select filter logic: if active array has elements, item must match one of them)
+        if (state.filters.subgroups.length > 0) {
+            if (!state.filters.subgroups.includes(ex.subgroup)) return false;
         }
         
         return true;
@@ -451,29 +656,101 @@ function renderCards() {
                 </a>
             </div>
             <div class="card-bottom">
-                <span class="group-tag" title="${ex.group || ''}">
-                    <i class="fa-solid fa-folder-open"></i> ${ex.group || 'Geral'}
+                <span class="group-tag" title="${formatGroupLabel(ex.subgroup || ex.group || 'Geral')}">
+                    <i class="fa-solid fa-folder-open"></i> ${formatGroupLabel(ex.subgroup || ex.group || 'Geral')}
                 </span>
                 <div class="completion-date">
-                    ${isCompleted ? `<span>Concluído em:</span><span>${dateStr}</span>` : ''}
+                    ${isCompleted ? `
+                        <span>Concluído em:</span>
+                        <span class="completion-date-wrapper">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <span class="date-text">${dateStr}</span>
+                            <input type="date" class="date-picker-input" data-link="${ex.link}" value="${toInputDate(dateStr)}">
+                        </span>
+                    ` : ''}
                 </div>
             </div>
         `;
         
-        // Checkbox click bindings
+        // Completion click bindings
         card.querySelector('.card-check-btn').addEventListener('click', (e) => {
             e.preventDefault();
             toggleCompletion(ex.link);
         });
         
+        // Date picker bindings
+        if (isCompleted) {
+            card.querySelector('.date-picker-input').addEventListener('change', (e) => {
+                updateCompletionDate(ex.link, e.target.value);
+            });
+        }
+        
         container.appendChild(card);
     });
 }
 
-// Render both Stats and Cards
+// Render the completed timeline in the History Drawer
+function renderHistory() {
+    const listContainer = document.getElementById('history-timeline-list');
+    const totalCountContainer = document.getElementById('history-total-count');
+    listContainer.innerHTML = '';
+    
+    // Filter out completed exercises details
+    const completedList = EXERCISES_DATA.filter(ex => !!state.completed[ex.link]);
+    
+    totalCountContainer.textContent = `${completedList.length} exercício(s) concluído(s)`;
+    
+    if (completedList.length === 0) {
+        listContainer.innerHTML = `
+            <div class="history-empty">
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <p>Nenhum exercício concluído ainda.</p>
+            </div>
+        `;
+        return;
+    }
+    
+    // Sort chronologically descending (newest completion first)
+    completedList.sort((a, b) => {
+        const dateA = parseCompletionDate(state.completed[a.link]);
+        const dateB = parseCompletionDate(state.completed[b.link]);
+        return dateB - dateA;
+    });
+    
+    completedList.forEach(ex => {
+        const metadata = SKILL_METADATA[ex.category] || { label: ex.category, color: 'var(--text-muted)' };
+        const dateStr = state.completed[ex.link];
+        
+        const itemEl = document.createElement('li');
+        itemEl.className = 'history-item';
+        itemEl.innerHTML = `
+            <div class="history-item-content">
+                <a href="${ex.link}" target="_blank" rel="noopener noreferrer" class="history-item-title">${ex.title}</a>
+                <div class="history-item-meta">
+                    <span class="cat-badge" style="color: ${metadata.color};">${metadata.label} (${ex.level.toUpperCase()})</span>
+                    <span class="completion-date-wrapper">
+                        <i class="fa-regular fa-calendar-days"></i>
+                        <span class="date-text">${dateStr}</span>
+                        <input type="date" class="date-picker-input" data-link="${ex.link}" value="${toInputDate(dateStr)}">
+                    </span>
+                </div>
+            </div>
+        `;
+        
+        // Date picker change listener
+        itemEl.querySelector('.date-picker-input').addEventListener('change', (e) => {
+            updateCompletionDate(ex.link, e.target.value);
+        });
+        
+        listContainer.appendChild(itemEl);
+    });
+}
+
+// Render both Stats, Cards and Accordions visibility
 function renderAll() {
     renderStats();
     renderCards();
+    updateAccordionVisibility();
 }
 
 // Export progress database as a JSON download
@@ -507,7 +784,7 @@ function importProgress(e) {
                 return;
             }
             
-            // Validate entries (keys should map to strings)
+            // Validate entries
             let isValid = true;
             for (const key in parsed) {
                 if (typeof parsed[key] !== 'string') {
