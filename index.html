@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="Dashboard interativo para organizar, filtrar e monitorar seu progresso de estudos no test-english.com com salvamento local.">
+    <title>English Study Tracker - Painel Interativo de Progresso</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- CSS Style -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-theme">
+    <div class="app-container">
+        
+        <!-- Toggle Button for Mobile Sidebar -->
+        <button id="btn-toggle-sidebar" class="mobile-toggle-btn" aria-label="Abrir filtros">
+            <i class="fa-solid fa-filter"></i>
+        </button>
+
+        <!-- Sidebar Filters -->
+        <aside id="app-sidebar" class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">
+                    <i class="fa-solid fa-graduation-cap logo-icon"></i>
+                    <span>Study Tracker</span>
+                </div>
+                <button id="btn-theme-toggle" class="theme-toggle-btn" title="Alternar Tema Claro/Escuro" aria-label="Alternar Tema Claro/Escuro">
+                    <i class="fa-solid fa-moon icon-moon"></i>
+                    <i class="fa-solid fa-sun icon-sun"></i>
+                </button>
+            </div>
+
+            <!-- Search Bar -->
+            <div class="search-box">
+                <i class="fa-solid fa-magnifying-glass search-icon"></i>
+                <input type="text" id="search-input" placeholder="Buscar exercício ou tema..." aria-label="Buscar exercício ou tema">
+            </div>
+
+            <!-- Filter Categories -->
+            <div class="filter-section">
+                <h3><i class="fa-solid fa-layer-group icon-section"></i> Níveis</h3>
+                <div class="pill-group" id="filter-levels">
+                    <button class="level-pill active" data-level="all">Todos</button>
+                    <button class="level-pill" data-level="a1">A1</button>
+                    <button class="level-pill" data-level="a2">A2</button>
+                    <button class="level-pill" data-level="b1">B1</button>
+                    <button class="level-pill" data-level="b1-b2">B1-B2</button>
+                    <button class="level-pill" data-level="b2">B2</button>
+                    <button class="level-pill" data-level="c1">C1/C2</button>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h3><i class="fa-solid fa-tags icon-section"></i> Tipo de Assunto</h3>
+                <div class="checkbox-group">
+                    <label class="custom-checkbox">
+                        <input type="checkbox" id="type-grammar" checked>
+                        <span class="checkmark"></span>
+                        Gramática (Grammar Points)
+                    </label>
+                    <label class="custom-checkbox">
+                        <input type="checkbox" id="type-situational" checked>
+                        <span class="checkmark"></span>
+                        Tópicos Situacionais
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h3><i class="fa-solid fa-book-open icon-section"></i> Habilidades</h3>
+                <div class="checkbox-group" id="filter-categories">
+                    <!-- Dynamic categories checkboxes -->
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h3><i class="fa-solid fa-filter-list icon-section"></i> Status</h3>
+                <div class="radio-group">
+                    <label class="custom-radio">
+                        <input type="radio" name="status-filter" value="all" checked>
+                        <span class="radio-mark"></span>
+                        Todos os Exercícios
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="status-filter" value="completed">
+                        <span class="radio-mark"></span>
+                        Concluídos ✔
+                    </label>
+                    <label class="custom-radio">
+                        <input type="radio" name="status-filter" value="pending">
+                        <span class="radio-mark"></span>
+                        Não Concluídos ⌛
+                    </label>
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <h3><i class="fa-solid fa-shapes icon-section"></i> Grupo / Tema</h3>
+                <select id="select-group" class="custom-select" aria-label="Selecionar grupo ou tema">
+                    <option value="all">Todos os Temas</option>
+                    <!-- Options populated dynamically -->
+                </select>
+            </div>
+
+            <!-- Action Buttons in Sidebar Footer -->
+            <div class="sidebar-actions">
+                <button id="btn-export" class="action-btn secondary-btn" title="Exportar progresso para backup (JSON)">
+                    <i class="fa-solid fa-download"></i> Exportar JSON
+                </button>
+                <button id="btn-import-trigger" class="action-btn secondary-btn" title="Importar progresso de um backup (JSON)">
+                    <i class="fa-solid fa-upload"></i> Importar JSON
+                </button>
+                <input type="file" id="input-import-file" accept=".json" class="hidden-file-input">
+                <button id="btn-reset" class="action-btn danger-btn" title="Zerar todo o progresso de conclusão">
+                    <i class="fa-solid fa-trash-can"></i> Zerar Progresso
+                </button>
+            </div>
+        </aside>
+
+        <!-- Main Dashboard Content -->
+        <main class="dashboard-content">
+            <header class="dashboard-header">
+                <h1 class="main-title">English Progress Dashboard</h1>
+                <p class="subtitle">Acompanhe seu avanço nos exercícios de inglês do test-english.com</p>
+            </header>
+
+            <!-- Stats Section -->
+            <section class="stats-overview" id="stats-section">
+                <!-- Main Progress Card -->
+                <div class="stats-card main-stats">
+                    <div class="progress-circle-container">
+                        <svg class="progress-ring" width="120" height="120">
+                            <circle class="progress-ring__circle-bg" stroke="var(--bg-ring)" stroke-width="8" fill="transparent" r="50" cx="60" cy="60"/>
+                            <circle class="progress-ring__circle" id="progress-circle-ring" stroke="var(--accent-primary)" stroke-width="8" fill="transparent" r="50" cx="60" cy="60"/>
+                        </svg>
+                        <div class="progress-text" id="progress-percentage-text">0%</div>
+                    </div>
+                    <div class="stats-info">
+                        <h2>Seu Progresso Geral</h2>
+                        <div class="stats-count" id="overall-count-text">0 / 0 concluídos</div>
+                        <p class="stats-desc">Falta pouco para atingir sua fluência! Mantenha a constância.</p>
+                    </div>
+                </div>
+
+                <!-- Skill Progress Card -->
+                <div class="stats-card skills-stats">
+                    <h3>Progresso por Habilidade</h3>
+                    <div class="skills-progress-list" id="skills-progress-bars">
+                        <!-- Dynamic Progress Bars populated by JavaScript -->
+                    </div>
+                </div>
+            </section>
+
+            <!-- Exercises List Grid Section -->
+            <section class="exercises-section">
+                <div class="section-header">
+                    <div class="results-count" id="results-count-text">Nenhum exercício encontrado</div>
+                    <div class="sorting-controls">
+                        <label for="select-sort">Ordenar por:</label>
+                        <select id="select-sort" class="custom-select-small">
+                            <option value="pedagogical">Ordem Pedagógica (Padrão)</option>
+                            <option value="alphabetical">Nome (A-Z)</option>
+                            <option value="level">Nível (Básico ao Avançado)</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Exercises Grid Container -->
+                <div class="exercises-grid" id="exercises-container">
+                    <!-- Dynamic exercise cards populated by JS -->
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <!-- Script references -->
+    <script src="exercises-data.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
