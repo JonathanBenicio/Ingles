@@ -50,6 +50,14 @@ const EXERCISES_DATA = [
   },
   {
     "category": "grammar-points",
+    "level": "a1",
+    "slug": "how-often-do-you-a1-english-listening-test",
+    "link": "https://test-english.com/listening/a1/how-often-do-you-a1-english-listening-test/",
+    "title": "How often do you...?",
+    "group": "Adjectives & Adverbs (Adjetivos e Advérbios)"
+  },
+  {
+    "category": "grammar-points",
     "level": "a2",
     "slug": "comparative-superlative-adjectives-adverbs",
     "link": "https://test-english.com/grammar-points/a2/comparative-superlative-adjectives-adverbs/",
@@ -226,6 +234,22 @@ const EXERCISES_DATA = [
   },
   {
     "category": "grammar-points",
+    "level": "a1",
+    "slug": "common-verbs-and-verb-phrases-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/common-verbs-and-verb-phrases-a1-english-vocabulary/",
+    "title": "Common verbs and verb phrases",
+    "group": "Common Verbs & Confusions (Verbos Comuns e Confusões)"
+  },
+  {
+    "category": "grammar-points",
+    "level": "a1",
+    "slug": "movement-verbs-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/movement-verbs-a1-english-vocabulary/",
+    "title": "Movement verbs",
+    "group": "Common Verbs & Confusions (Verbos Comuns e Confusões)"
+  },
+  {
+    "category": "grammar-points",
     "level": "a2",
     "slug": "use-verb-go-english",
     "link": "https://test-english.com/grammar-points/a2/use-verb-go-english/",
@@ -251,6 +275,14 @@ const EXERCISES_DATA = [
   {
     "category": "grammar-points",
     "level": "a2",
+    "slug": "say-tell-speak-talk-etc-a2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a2/say-tell-speak-talk-etc-a2-english-vocabulary/",
+    "title": "Say, tell, speak, talk, etc.",
+    "group": "Common Verbs & Confusions (Verbos Comuns e Confusões)"
+  },
+  {
+    "category": "grammar-points",
+    "level": "a2",
     "slug": "first-conditional-future-time-clauses",
     "link": "https://test-english.com/grammar-points/a2/first-conditional-future-time-clauses/",
     "title": "First conditional and future time clauses",
@@ -262,6 +294,14 @@ const EXERCISES_DATA = [
     "slug": "second-conditional",
     "link": "https://test-english.com/grammar-points/a2/second-conditional/",
     "title": "Second conditional",
+    "group": "Conditionals & Wish (Condicionais)"
+  },
+  {
+    "category": "grammar-points",
+    "level": "a2",
+    "slug": "if-i-were-a-millionaire-second-conditional-a2-english-listening-test",
+    "link": "https://test-english.com/listening/a2/if-i-were-a-millionaire-second-conditional-a2-english-listening-test/",
+    "title": "If I were a millionaire (Second conditional)",
     "group": "Conditionals & Wish (Condicionais)"
   },
   {
@@ -346,6 +386,14 @@ const EXERCISES_DATA = [
   },
   {
     "category": "grammar-points",
+    "level": "b2",
+    "slug": "regrets-i-wish-id-b2-english-listening-test",
+    "link": "https://test-english.com/listening/b2/regrets-i-wish-id-b2-english-listening-test/",
+    "title": "Regrets: I Wish I’d...",
+    "group": "Conditionals & Wish (Condicionais)"
+  },
+  {
+    "category": "grammar-points",
     "level": "a1",
     "slug": "will-and-shall",
     "link": "https://test-english.com/grammar-points/a1/will-and-shall/",
@@ -358,6 +406,14 @@ const EXERCISES_DATA = [
     "slug": "be-going-to-plans-predictions",
     "link": "https://test-english.com/grammar-points/a1/be-going-to-plans-predictions/",
     "title": "Be going to: Plans and predictions",
+    "group": "Future Tenses (Tempos Futuros)"
+  },
+  {
+    "category": "grammar-points",
+    "level": "a1",
+    "slug": "what-are-you-going-to-do-a1-english-listening-test",
+    "link": "https://test-english.com/listening/a1/what-are-you-going-to-do-a1-english-listening-test/",
+    "title": "What are you going to do?",
     "group": "Future Tenses (Tempos Futuros)"
   },
   {
@@ -482,6 +538,14 @@ const EXERCISES_DATA = [
   },
   {
     "category": "grammar-points",
+    "level": "c1",
+    "slug": "idiomatic-infinitive-phrases-c1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/c1/idiomatic-infinitive-phrases-c1-english-vocabulary/",
+    "title": "Idiomatic infinitive phrases",
+    "group": "Gerund & Infinitive (Gerúndio e Infinitivo)"
+  },
+  {
+    "category": "grammar-points",
     "level": "a1",
     "slug": "can-cant",
     "link": "https://test-english.com/grammar-points/a1/can-cant/",
@@ -534,6 +598,14 @@ const EXERCISES_DATA = [
     "slug": "had-better-its-time",
     "link": "https://test-english.com/grammar-points/b1/had-better-its-time/",
     "title": "Had better... It's time...",
+    "group": "Modal Verbs (Verbos Modais)"
+  },
+  {
+    "category": "grammar-points",
+    "level": "b1",
+    "slug": "weird-driving-rules-modal-verbs-b1-english-listening-test",
+    "link": "https://test-english.com/listening/b1/weird-driving-rules-modal-verbs-b1-english-listening-test/",
+    "title": "Weird driving rules (Modal verbs)",
     "group": "Modal Verbs (Verbos Modais)"
   },
   {
@@ -614,6 +686,14 @@ const EXERCISES_DATA = [
     "slug": "much-many-little-few-some-any",
     "link": "https://test-english.com/grammar-points/a2/much-many-little-few-some-any/",
     "title": "Much, many, little, few, some, any: Quantifiers",
+    "group": "Nouns, Articles & Quantifiers (Substantivos, Artigos e Quantificadores)"
+  },
+  {
+    "category": "grammar-points",
+    "level": "a2",
+    "slug": "containers-and-quantities-a2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a2/containers-and-quantities-a2-english-vocabulary/",
+    "title": "Containers and quantities",
     "group": "Nouns, Articles & Quantifiers (Substantivos, Artigos e Quantificadores)"
   },
   {
@@ -1002,6 +1082,14 @@ const EXERCISES_DATA = [
   },
   {
     "category": "grammar-points",
+    "level": "a1",
+    "slug": "what-did-you-do-last-summer-listening-test",
+    "link": "https://test-english.com/listening/a1/what-did-you-do-last-summer-listening-test/",
+    "title": "What did you do last summer",
+    "group": "Past Tenses (Tempos Passados)"
+  },
+  {
+    "category": "grammar-points",
     "level": "a2",
     "slug": "past-simple-form-use",
     "link": "https://test-english.com/grammar-points/a2/past-simple-form-use/",
@@ -1026,10 +1114,26 @@ const EXERCISES_DATA = [
   },
   {
     "category": "grammar-points",
+    "level": "a1",
+    "slug": "basic-phrasal-verbs-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/basic-phrasal-verbs-a1-english-vocabulary/",
+    "title": "Basic phrasal verbs",
+    "group": "Phrasal Verbs (Verbos Frasais)"
+  },
+  {
+    "category": "grammar-points",
     "level": "a2",
     "slug": "phrasal-verbs-transitive-and-intransitive-separable-and-inseparable",
     "link": "https://test-english.com/grammar-points/a2/phrasal-verbs-transitive-and-intransitive-separable-and-inseparable/",
     "title": "Phrasal verbs: Transitive / intransitive, separable / inseparable",
+    "group": "Phrasal Verbs (Verbos Frasais)"
+  },
+  {
+    "category": "grammar-points",
+    "level": "a2",
+    "slug": "common-phrasal-verbs-a2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a2/common-phrasal-verbs-a2-english-vocabulary/",
+    "title": "Common phrasal verbs",
     "group": "Phrasal Verbs (Verbos Frasais)"
   },
   {
@@ -1054,6 +1158,22 @@ const EXERCISES_DATA = [
     "slug": "b1-phrasal-verbs-3-exercises-and-explanation",
     "link": "https://test-english.com/grammar-points/b1/b1-phrasal-verbs-3-exercises-and-explanation/",
     "title": "B1 Phrasal verbs 3: Exercises and explanation",
+    "group": "Phrasal Verbs (Verbos Frasais)"
+  },
+  {
+    "category": "grammar-points",
+    "level": "b2",
+    "slug": "phrasal-verbs-i-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/phrasal-verbs-i-b2-english-vocabulary/",
+    "title": "Phrasal verbs I",
+    "group": "Phrasal Verbs (Verbos Frasais)"
+  },
+  {
+    "category": "grammar-points",
+    "level": "b2",
+    "slug": "phrasal-verbs-ii-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/phrasal-verbs-ii-b2-english-vocabulary/",
+    "title": "Phrasal verbs II",
     "group": "Phrasal Verbs (Verbos Frasais)"
   },
   {
@@ -1086,6 +1206,14 @@ const EXERCISES_DATA = [
     "slug": "prepositions-of-movement",
     "link": "https://test-english.com/grammar-points/a2/prepositions-of-movement/",
     "title": "Prepositions of movement: Along, across, over, etc.",
+    "group": "Prepositions (Preposições)"
+  },
+  {
+    "category": "grammar-points",
+    "level": "a2",
+    "slug": "words-with-prepositions-a2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a2/words-with-prepositions-a2-english-vocabulary/",
+    "title": "Words with prepositions",
     "group": "Prepositions (Preposições)"
   },
   {
@@ -1126,6 +1254,22 @@ const EXERCISES_DATA = [
     "slug": "present-perfect-or-past-simple",
     "link": "https://test-english.com/grammar-points/a2/present-perfect-or-past-simple/",
     "title": "Present perfect or past simple?",
+    "group": "Present Perfect (Presente Perfeito)"
+  },
+  {
+    "category": "grammar-points",
+    "level": "a2",
+    "slug": "have-you-ever-experiences-a2-english-listening-test",
+    "link": "https://test-english.com/listening/a2/have-you-ever-experiences-a2-english-listening-test/",
+    "title": "Have you ever... (Experiences)",
+    "group": "Present Perfect (Presente Perfeito)"
+  },
+  {
+    "category": "grammar-points",
+    "level": "a2",
+    "slug": "three-experiences-i-have-had-a2-english-reading-test",
+    "link": "https://test-english.com/reading/a2/three-experiences-i-have-had-a2-english-reading-test/",
+    "title": "Three experiences I've had",
     "group": "Present Perfect (Presente Perfeito)"
   },
   {
@@ -1198,6 +1342,14 @@ const EXERCISES_DATA = [
     "slug": "have-got",
     "link": "https://test-english.com/grammar-points/a1/have-got/",
     "title": "Have got",
+    "group": "Present Tenses (Tempos Presentes)"
+  },
+  {
+    "category": "grammar-points",
+    "level": "a1",
+    "slug": "what-are-you-doing-a1-english-listening-test",
+    "link": "https://test-english.com/listening/a1/what-are-you-doing-a1-english-listening-test/",
+    "title": "What are you doing?",
     "group": "Present Tenses (Tempos Presentes)"
   },
   {
@@ -1545,6 +1697,14 @@ const EXERCISES_DATA = [
     "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
   },
   {
+    "category": "vocabulary",
+    "level": "b1",
+    "slug": "the-body-parts-and-actions-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1/the-body-parts-and-actions-b1-english-vocabulary/",
+    "title": "The body: parts and actions",
+    "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
+  },
+  {
     "category": "listening",
     "level": "b1",
     "slug": "how-do-you-keep-fit-b1-english-listening-test",
@@ -1553,11 +1713,19 @@ const EXERCISES_DATA = [
     "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
   },
   {
-    "category": "vocabulary",
+    "category": "reading",
     "level": "b1",
-    "slug": "the-body-parts-and-actions-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1/the-body-parts-and-actions-b1-english-vocabulary/",
-    "title": "The body: parts and actions",
+    "slug": "the-unhealthiest-places-in-the-world-b1-english-reading-test",
+    "link": "https://test-english.com/reading/b1/the-unhealthiest-places-in-the-world-b1-english-reading-test/",
+    "title": "The unhealthiest places in the world",
+    "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1-b2",
+    "slug": "health-problems-and-injuries-b1-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1-b2/health-problems-and-injuries-b1-b2-english-vocabulary/",
+    "title": "Health problems and injuries",
     "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
   },
   {
@@ -1569,6 +1737,38 @@ const EXERCISES_DATA = [
     "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
   },
   {
+    "category": "listening",
+    "level": "b1-b2",
+    "slug": "the-return-of-polio-in-the-us_b1-b2-listening-test",
+    "link": "https://test-english.com/listening/b1-b2/the-return-of-polio-in-the-us_b1-b2-listening-test/",
+    "title": "The return of Polio in the US",
+    "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
+  },
+  {
+    "category": "listening",
+    "level": "b1-b2",
+    "slug": "cyberchondria",
+    "link": "https://test-english.com/listening/b1-b2/cyberchondria/",
+    "title": "Do you suffer from cyberchondria?",
+    "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
+  },
+  {
+    "category": "listening",
+    "level": "b1-b2",
+    "slug": "sleep-disorders-overview",
+    "link": "https://test-english.com/listening/b1-b2/sleep-disorders-overview/",
+    "title": "Sleep Disorders Overview",
+    "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
+  },
+  {
+    "category": "listening",
+    "level": "b1-b2",
+    "slug": "head-transplant",
+    "link": "https://test-english.com/listening/b1-b2/head-transplant/",
+    "title": "Head transplant",
+    "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
+  },
+  {
     "category": "reading",
     "level": "b1-b2",
     "slug": "your-mental-health-starts-in-your-gut-b1-english-reading",
@@ -1577,11 +1777,27 @@ const EXERCISES_DATA = [
     "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
   },
   {
-    "category": "vocabulary",
+    "category": "reading",
     "level": "b1-b2",
-    "slug": "health-problems-and-injuries-b1-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1-b2/health-problems-and-injuries-b1-b2-english-vocabulary/",
-    "title": "Health problems and injuries",
+    "slug": "why-we-sleep-b1-english-reading-test",
+    "link": "https://test-english.com/reading/b1-b2/why-we-sleep-b1-english-reading-test/",
+    "title": "Why we sleep",
+    "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
+  },
+  {
+    "category": "reading",
+    "level": "b1-b2",
+    "slug": "does-cannabis-cure-cancer",
+    "link": "https://test-english.com/reading/b1-b2/does-cannabis-cure-cancer/",
+    "title": "Does cannabis cure cancer?",
+    "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b2",
+    "slug": "health-and-sickness-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/health-and-sickness-b2-english-vocabulary/",
+    "title": "Health and sickness",
     "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
   },
   {
@@ -1617,12 +1833,44 @@ const EXERCISES_DATA = [
     "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
   },
   {
-    "category": "vocabulary",
+    "category": "reading",
     "level": "b2",
-    "slug": "health-and-sickness-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/health-and-sickness-b2-english-vocabulary/",
-    "title": "Health and sickness",
+    "slug": "finding-calm-in-cities-b2-english-reading-test",
+    "link": "https://test-english.com/reading/b2/finding-calm-in-cities-b2-english-reading-test/",
+    "title": "Finding calm in cities",
     "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
+  },
+  {
+    "category": "reading",
+    "level": "b2",
+    "slug": "fatphobia-the-stigma-of-being-fat-b2-english-reading-test",
+    "link": "https://test-english.com/reading/b2/fatphobia-the-stigma-of-being-fat-b2-english-reading-test/",
+    "title": "Fatphobia: The stigma of being fat",
+    "group": "Body, Health & Medicine (Corpo, Saúde e Medicina)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a1",
+    "slug": "daily-routines-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/daily-routines-a1-english-vocabulary/",
+    "title": "Daily routines",
+    "group": "Daily Life & Routines (Vida Diária e Rotinas)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a1",
+    "slug": "days-months-seasons-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/days-months-seasons-a1-english-vocabulary/",
+    "title": "Days, months and seasons",
+    "group": "Daily Life & Routines (Vida Diária e Rotinas)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a1",
+    "slug": "time-words-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/time-words-a1-english-vocabulary/",
+    "title": "Time words",
+    "group": "Daily Life & Routines (Vida Diária e Rotinas)"
   },
   {
     "category": "listening",
@@ -1713,35 +1961,19 @@ const EXERCISES_DATA = [
     "group": "Daily Life & Routines (Vida Diária e Rotinas)"
   },
   {
-    "category": "vocabulary",
-    "level": "a1",
-    "slug": "daily-routines-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/daily-routines-a1-english-vocabulary/",
-    "title": "Daily routines",
-    "group": "Daily Life & Routines (Vida Diária e Rotinas)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a1",
-    "slug": "days-months-seasons-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/days-months-seasons-a1-english-vocabulary/",
-    "title": "Days, months and seasons",
-    "group": "Daily Life & Routines (Vida Diária e Rotinas)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a1",
-    "slug": "time-words-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/time-words-a1-english-vocabulary/",
-    "title": "Time words",
-    "group": "Daily Life & Routines (Vida Diária e Rotinas)"
-  },
-  {
     "category": "writing",
     "level": "a1",
     "slug": "writing-about-my-daily-routine",
     "link": "https://test-english.com/writing/a1/writing-about-my-daily-routine/",
     "title": "Writing about my daily routine",
+    "group": "Daily Life & Routines (Vida Diária e Rotinas)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a2",
+    "slug": "everyday-problems-and-solutions-a2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a2/everyday-problems-and-solutions-a2-english-vocabulary/",
+    "title": "Everyday problems and solutions",
     "group": "Daily Life & Routines (Vida Diária e Rotinas)"
   },
   {
@@ -1793,22 +2025,6 @@ const EXERCISES_DATA = [
     "group": "Daily Life & Routines (Vida Diária e Rotinas)"
   },
   {
-    "category": "listening",
-    "level": "b1",
-    "slug": "living-with-your-ex-after-a-break-up-b1-english-listening-test",
-    "link": "https://test-english.com/listening/b1/living-with-your-ex-after-a-break-up-b1-english-listening-test/",
-    "title": "Living with your ex after a break-up",
-    "group": "Daily Life & Routines (Vida Diária e Rotinas)"
-  },
-  {
-    "category": "listening",
-    "level": "b1",
-    "slug": "why-saint-patricks-day-went-global-b1-listening-test",
-    "link": "https://test-english.com/listening/b1/why-saint-patricks-day-went-global-b1-listening-test/",
-    "title": "Why Saint Patrick’s day went global",
-    "group": "Daily Life & Routines (Vida Diária e Rotinas)"
-  },
-  {
     "category": "vocabulary",
     "level": "b1",
     "slug": "more-daily-routines-b1-english-vocabulary",
@@ -1834,6 +2050,30 @@ const EXERCISES_DATA = [
   },
   {
     "category": "listening",
+    "level": "b1",
+    "slug": "living-with-your-ex-after-a-break-up-b1-english-listening-test",
+    "link": "https://test-english.com/listening/b1/living-with-your-ex-after-a-break-up-b1-english-listening-test/",
+    "title": "Living with your ex after a break-up",
+    "group": "Daily Life & Routines (Vida Diária e Rotinas)"
+  },
+  {
+    "category": "listening",
+    "level": "b1",
+    "slug": "why-saint-patricks-day-went-global-b1-listening-test",
+    "link": "https://test-english.com/listening/b1/why-saint-patricks-day-went-global-b1-listening-test/",
+    "title": "Why Saint Patrick’s day went global",
+    "group": "Daily Life & Routines (Vida Diária e Rotinas)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1-b2",
+    "slug": "everyday-problems-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1-b2/everyday-problems-b1-english-vocabulary/",
+    "title": "Everyday problems",
+    "group": "Daily Life & Routines (Vida Diária e Rotinas)"
+  },
+  {
+    "category": "listening",
     "level": "b1-b2",
     "slug": "culture-shock-living-abroad-b1-english-listening-test",
     "link": "https://test-english.com/listening/b1-b2/culture-shock-living-abroad-b1-english-listening-test/",
@@ -1847,6 +2087,30 @@ const EXERCISES_DATA = [
     "link": "https://test-english.com/reading/b1-b2/the-alcohol-free-month-challenge-b1-english-reading-test/",
     "title": "The alcohol-free month challenge",
     "group": "Daily Life & Routines (Vida Diária e Rotinas)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a1",
+    "slug": "family-and-relatives-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/family-and-relatives-a1-english-vocabulary/",
+    "title": "Family and relatives",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a1",
+    "slug": "opposite-adjectives-for-describing-people-and-things-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/opposite-adjectives-for-describing-people-and-things-a1-english-vocabulary/",
+    "title": "Opposite adjectives for describing people and things",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a1",
+    "slug": "clothes-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/clothes-a1-english-vocabulary/",
+    "title": "Clothes",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
   },
   {
     "category": "listening",
@@ -1889,6 +2153,14 @@ const EXERCISES_DATA = [
     "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
   },
   {
+    "category": "listening",
+    "level": "a1",
+    "slug": "giving-personal-information-a1-english-listening-test",
+    "link": "https://test-english.com/listening/a1/giving-personal-information-a1-english-listening-test/",
+    "title": "Giving personal information",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+  },
+  {
     "category": "reading",
     "level": "a1",
     "slug": "about-my-family",
@@ -1897,27 +2169,11 @@ const EXERCISES_DATA = [
     "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
   },
   {
-    "category": "vocabulary",
+    "category": "reading",
     "level": "a1",
-    "slug": "family-and-relatives-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/family-and-relatives-a1-english-vocabulary/",
-    "title": "Family and relatives",
-    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a1",
-    "slug": "opposite-adjectives-for-describing-people-and-things-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/opposite-adjectives-for-describing-people-and-things-a1-english-vocabulary/",
-    "title": "Opposite adjectives for describing people and things",
-    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a1",
-    "slug": "clothes-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/clothes-a1-english-vocabulary/",
-    "title": "Clothes",
+    "slug": "guess-who-a1-english-reading-test",
+    "link": "https://test-english.com/reading/a1/guess-who-a1-english-reading-test/",
+    "title": "Guess who?",
     "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
   },
   {
@@ -1934,30 +2190,6 @@ const EXERCISES_DATA = [
     "slug": "describing-a-photograph-a1-english-writing",
     "link": "https://test-english.com/writing/a1/describing-a-photograph-a1-english-writing/",
     "title": "Describing a photograph",
-    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
-  },
-  {
-    "category": "listening",
-    "level": "a2",
-    "slug": "my-friends-listening-test",
-    "link": "https://test-english.com/listening/a2/my-friends-listening-test/",
-    "title": "My friends",
-    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
-  },
-  {
-    "category": "listening",
-    "level": "a2",
-    "slug": "elisas-family-listening-test",
-    "link": "https://test-english.com/listening/a2/elisas-family-listening-test/",
-    "title": "Elisa's family",
-    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
-  },
-  {
-    "category": "reading",
-    "level": "a2",
-    "slug": "man-with-most-world-records-reading-test",
-    "link": "https://test-english.com/reading/a2/man-with-most-world-records-reading-test/",
-    "title": "The man with the most world records",
     "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
   },
   {
@@ -1985,11 +2217,51 @@ const EXERCISES_DATA = [
     "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
   },
   {
+    "category": "listening",
+    "level": "a2",
+    "slug": "my-friends-listening-test",
+    "link": "https://test-english.com/listening/a2/my-friends-listening-test/",
+    "title": "My friends",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+  },
+  {
+    "category": "listening",
+    "level": "a2",
+    "slug": "elisas-family-listening-test",
+    "link": "https://test-english.com/listening/a2/elisas-family-listening-test/",
+    "title": "Elisa's family",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+  },
+  {
+    "category": "reading",
+    "level": "a2",
+    "slug": "man-with-most-world-records-reading-test",
+    "link": "https://test-english.com/reading/a2/man-with-most-world-records-reading-test/",
+    "title": "The man with the most world records",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+  },
+  {
+    "category": "reading",
+    "level": "a2",
+    "slug": "frogs-in-love-romeo-and-juliet-reading-test",
+    "link": "https://test-english.com/reading/a2/frogs-in-love-romeo-and-juliet-reading-test/",
+    "title": "Frogs in love: Romeo and Juliet",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+  },
+  {
     "category": "writing",
     "level": "a2",
     "slug": "a-biography-of-someone-you-know-a2-english-writing",
     "link": "https://test-english.com/writing/a2/a-biography-of-someone-you-know-a2-english-writing/",
     "title": "A biography of someone you know",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1",
+    "slug": "relationships-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1/relationships-b1-english-vocabulary/",
+    "title": "Relationships",
     "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
   },
   {
@@ -2050,22 +2322,6 @@ const EXERCISES_DATA = [
   },
   {
     "category": "vocabulary",
-    "level": "b1",
-    "slug": "relationships-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1/relationships-b1-english-vocabulary/",
-    "title": "Relationships",
-    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
-  },
-  {
-    "category": "listening",
-    "level": "b1-b2",
-    "slug": "fears-and-phobias-b1-english-listening-test",
-    "link": "https://test-english.com/listening/b1-b2/fears-and-phobias-b1-english-listening-test/",
-    "title": "Fears and Phobias",
-    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
-  },
-  {
-    "category": "vocabulary",
     "level": "b1-b2",
     "slug": "clothes-b1-b2-english-vocabulary",
     "link": "https://test-english.com/vocabulary/b1-b2/clothes-b1-b2-english-vocabulary/",
@@ -2089,11 +2345,51 @@ const EXERCISES_DATA = [
     "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
   },
   {
+    "category": "listening",
+    "level": "b1-b2",
+    "slug": "fears-and-phobias-b1-english-listening-test",
+    "link": "https://test-english.com/listening/b1-b2/fears-and-phobias-b1-english-listening-test/",
+    "title": "Fears and Phobias",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+  },
+  {
+    "category": "listening",
+    "level": "b1-b2",
+    "slug": "my-husband-is-annoying-b1-b2-listening-test",
+    "link": "https://test-english.com/listening/b1-b2/my-husband-is-annoying-b1-b2-listening-test/",
+    "title": "My Husband is Annoying",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+  },
+  {
+    "category": "reading",
+    "level": "b1-b2",
+    "slug": "should-motherhood-define-me",
+    "link": "https://test-english.com/reading/b1-b2/should-motherhood-define-me/",
+    "title": "Should motherhood define me?",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+  },
+  {
     "category": "writing",
     "level": "b1-b2",
     "slug": "describing-a-photo-b1-english-writing",
     "link": "https://test-english.com/writing/b1-b2/describing-a-photo-b1-english-writing/",
     "title": "Describing a photo",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b2",
+    "slug": "relationships-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/relationships-b2-english-vocabulary/",
+    "title": "Relationships",
+    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b2",
+    "slug": "feelings-and-emotions-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/feelings-and-emotions-b2-english-vocabulary/",
+    "title": "Feelings and emotions",
     "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
   },
   {
@@ -2137,19 +2433,11 @@ const EXERCISES_DATA = [
     "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
   },
   {
-    "category": "vocabulary",
+    "category": "reading",
     "level": "b2",
-    "slug": "relationships-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/relationships-b2-english-vocabulary/",
-    "title": "Relationships",
-    "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "b2",
-    "slug": "feelings-and-emotions-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/feelings-and-emotions-b2-english-vocabulary/",
-    "title": "Feelings and emotions",
+    "slug": "weak-ties-unveiling-the-power-of-acquaintances-b2-english-reading-test",
+    "link": "https://test-english.com/reading/b2/weak-ties-unveiling-the-power-of-acquaintances-b2-english-reading-test/",
+    "title": "Weak ties: The power of acquaintances",
     "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
   },
   {
@@ -2167,14 +2455,6 @@ const EXERCISES_DATA = [
     "link": "https://test-english.com/writing/c1/describing-visual-data-c1-english-writing/",
     "title": "Describing visual data",
     "group": "Family, Relationships & People (Família, Relacionamentos e Pessoas)"
-  },
-  {
-    "category": "listening",
-    "level": "a1",
-    "slug": "ordering-at-the-restaurant-a1-listening-test",
-    "link": "https://test-english.com/listening/a1/ordering-at-the-restaurant-a1-listening-test/",
-    "title": "Ordering at the restaurant",
-    "group": "Food, Drink & Eating Out (Comida, Bebida e Restaurante)"
   },
   {
     "category": "vocabulary",
@@ -2202,10 +2482,34 @@ const EXERCISES_DATA = [
   },
   {
     "category": "listening",
+    "level": "a1",
+    "slug": "ordering-at-the-restaurant-a1-listening-test",
+    "link": "https://test-english.com/listening/a1/ordering-at-the-restaurant-a1-listening-test/",
+    "title": "Ordering at the restaurant",
+    "group": "Food, Drink & Eating Out (Comida, Bebida e Restaurante)"
+  },
+  {
+    "category": "listening",
     "level": "a2",
     "slug": "english-pubs-a2-listening",
     "link": "https://test-english.com/listening/a2/english-pubs-a2-listening/",
     "title": "English pubs",
+    "group": "Food, Drink & Eating Out (Comida, Bebida e Restaurante)"
+  },
+  {
+    "category": "reading",
+    "level": "a2",
+    "slug": "benefits-of-nuts",
+    "link": "https://test-english.com/reading/a2/benefits-of-nuts/",
+    "title": "The benefits of nuts",
+    "group": "Food, Drink & Eating Out (Comida, Bebida e Restaurante)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1",
+    "slug": "food-and-cooking-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1/food-and-cooking-b1-english-vocabulary/",
+    "title": "Food and cooking",
     "group": "Food, Drink & Eating Out (Comida, Bebida e Restaurante)"
   },
   {
@@ -2225,19 +2529,19 @@ const EXERCISES_DATA = [
     "group": "Food, Drink & Eating Out (Comida, Bebida e Restaurante)"
   },
   {
-    "category": "vocabulary",
-    "level": "b1",
-    "slug": "food-and-cooking-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1/food-and-cooking-b1-english-vocabulary/",
-    "title": "Food and cooking",
-    "group": "Food, Drink & Eating Out (Comida, Bebida e Restaurante)"
-  },
-  {
     "category": "reading",
     "level": "b1-b2",
     "slug": "is-buying-local-food-always-better-reading-test",
     "link": "https://test-english.com/reading/b1-b2/is-buying-local-food-always-better-reading-test/",
     "title": "Food miles: Is buying local food always better?",
+    "group": "Food, Drink & Eating Out (Comida, Bebida e Restaurante)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b2",
+    "slug": "food-and-food-products-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/food-and-food-products-b2-english-vocabulary/",
+    "title": "Food and food products",
     "group": "Food, Drink & Eating Out (Comida, Bebida e Restaurante)"
   },
   {
@@ -2257,11 +2561,11 @@ const EXERCISES_DATA = [
     "group": "Food, Drink & Eating Out (Comida, Bebida e Restaurante)"
   },
   {
-    "category": "vocabulary",
+    "category": "reading",
     "level": "b2",
-    "slug": "food-and-food-products-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/food-and-food-products-b2-english-vocabulary/",
-    "title": "Food and food products",
+    "slug": "principles-new-high-protein-diet",
+    "link": "https://test-english.com/reading/b2/principles-new-high-protein-diet/",
+    "title": "The principles of the New High Protein Diet",
     "group": "Food, Drink & Eating Out (Comida, Bebida e Restaurante)"
   },
   {
@@ -2289,11 +2593,35 @@ const EXERCISES_DATA = [
     "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
   },
   {
+    "category": "reading",
+    "level": "a1",
+    "slug": "thanksgiving-reading-test",
+    "link": "https://test-english.com/reading/a1/thanksgiving-reading-test/",
+    "title": "Thanksgiving",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
+    "category": "reading",
+    "level": "a1",
+    "slug": "three-american-festivals-reading-test",
+    "link": "https://test-english.com/reading/a1/three-american-festivals-reading-test/",
+    "title": "Three American festivals",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
     "category": "writing",
     "level": "a1",
     "slug": "my-hobby-a1-english-writing",
     "link": "https://test-english.com/writing/a1/my-hobby-a1-english-writing/",
     "title": "My hobby",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a2",
+    "slug": "hobbies-and-free-time-a2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a2/hobbies-and-free-time-a2-english-vocabulary/",
+    "title": "Hobbies and free time",
     "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
   },
   {
@@ -2345,11 +2673,35 @@ const EXERCISES_DATA = [
     "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
   },
   {
-    "category": "vocabulary",
+    "category": "reading",
     "level": "a2",
-    "slug": "hobbies-and-free-time-a2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a2/hobbies-and-free-time-a2-english-vocabulary/",
-    "title": "Hobbies and free time",
+    "slug": "a-really-popular-summer-festival-in-the-uk-a2-english-reading-test",
+    "link": "https://test-english.com/reading/a2/a-really-popular-summer-festival-in-the-uk-a2-english-reading-test/",
+    "title": "A really popular summer festival in the UK",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1",
+    "slug": "sport-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1/sport-b1-english-vocabulary/",
+    "title": "Sport",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1",
+    "slug": "news-and-media-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1/news-and-media-b1-english-vocabulary/",
+    "title": "News and media",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1",
+    "slug": "types-of-movies-and-tv-shows-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1/types-of-movies-and-tv-shows-b1-english-vocabulary/",
+    "title": "Types of movies and TV shows",
     "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
   },
   {
@@ -2393,27 +2745,11 @@ const EXERCISES_DATA = [
     "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
   },
   {
-    "category": "vocabulary",
+    "category": "reading",
     "level": "b1",
-    "slug": "sport-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1/sport-b1-english-vocabulary/",
-    "title": "Sport",
-    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "b1",
-    "slug": "news-and-media-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1/news-and-media-b1-english-vocabulary/",
-    "title": "News and media",
-    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "b1",
-    "slug": "types-of-movies-and-tv-shows-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1/types-of-movies-and-tv-shows-b1-english-vocabulary/",
-    "title": "Types of movies and TV shows",
+    "slug": "actors-who-died-on-set-b1-english-reading-test",
+    "link": "https://test-english.com/reading/b1/actors-who-died-on-set-b1-english-reading-test/",
+    "title": "Actors who died on set",
     "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
   },
   {
@@ -2433,51 +2769,35 @@ const EXERCISES_DATA = [
     "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
   },
   {
+    "category": "listening",
+    "level": "b1-b2",
+    "slug": "actors-talk-acting",
+    "link": "https://test-english.com/listening/b1-b2/actors-talk-acting/",
+    "title": "Actors talk about acting",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
+    "category": "reading",
+    "level": "b1-b2",
+    "slug": "binge-watching-b1-b2-reading-test",
+    "link": "https://test-english.com/reading/b1-b2/binge-watching-b1-b2-reading-test/",
+    "title": "Binge-watching",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
+    "category": "reading",
+    "level": "b1-b2",
+    "slug": "where-are-the-harry-potter-stars-now-reading-test",
+    "link": "https://test-english.com/reading/b1-b2/where-are-the-harry-potter-stars-now-reading-test/",
+    "title": "Where are the Harry Potter Stars now?",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
     "category": "writing",
     "level": "b1-b2",
     "slug": "a-book-review-b1-english-writing",
     "link": "https://test-english.com/writing/b1-b2/a-book-review-b1-english-writing/",
     "title": "A book review",
-    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
-  },
-  {
-    "category": "listening",
-    "level": "b2",
-    "slug": "socializing-and-parties-b2-english-listening-test",
-    "link": "https://test-english.com/listening/b2/socializing-and-parties-b2-english-listening-test/",
-    "title": "Socializing and parties",
-    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
-  },
-  {
-    "category": "listening",
-    "level": "b2",
-    "slug": "discussing-news-and-media-b2-english-listening-test",
-    "link": "https://test-english.com/listening/b2/discussing-news-and-media-b2-english-listening-test/",
-    "title": "Discussing news and media",
-    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
-  },
-  {
-    "category": "listening",
-    "level": "b2",
-    "slug": "the-museum-of-your-exs-belongings-b2-english-listening-test",
-    "link": "https://test-english.com/listening/b2/the-museum-of-your-exs-belongings-b2-english-listening-test/",
-    "title": "The museum of your ex's belongings",
-    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
-  },
-  {
-    "category": "reading",
-    "level": "b2",
-    "slug": "teenage-social-media-millionaires-reading-test",
-    "link": "https://test-english.com/reading/b2/teenage-social-media-millionaires-reading-test/",
-    "title": "Teenage Social Media Millionaires",
-    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
-  },
-  {
-    "category": "reading",
-    "level": "b2",
-    "slug": "is-banning-singl-use-plastic-the-right-option_reading-test",
-    "link": "https://test-english.com/reading/b2/is-banning-singl-use-plastic-the-right-option_reading-test/",
-    "title": "Is banning single-use plastic the right option?",
     "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
   },
   {
@@ -2510,6 +2830,54 @@ const EXERCISES_DATA = [
     "slug": "talking-about-movies-b2-english-vocabulary",
     "link": "https://test-english.com/vocabulary/b2/talking-about-movies-b2-english-vocabulary/",
     "title": "Talking about movies",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
+    "category": "listening",
+    "level": "b2",
+    "slug": "socializing-and-parties-b2-english-listening-test",
+    "link": "https://test-english.com/listening/b2/socializing-and-parties-b2-english-listening-test/",
+    "title": "Socializing and parties",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
+    "category": "listening",
+    "level": "b2",
+    "slug": "discussing-news-and-media-b2-english-listening-test",
+    "link": "https://test-english.com/listening/b2/discussing-news-and-media-b2-english-listening-test/",
+    "title": "Discussing news and media",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
+    "category": "listening",
+    "level": "b2",
+    "slug": "the-museum-of-your-exs-belongings-b2-english-listening-test",
+    "link": "https://test-english.com/listening/b2/the-museum-of-your-exs-belongings-b2-english-listening-test/",
+    "title": "The museum of your ex's belongings",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
+    "category": "listening",
+    "level": "b2",
+    "slug": "behind-the-scenes-with-an-actor-b2-english-listening-test",
+    "link": "https://test-english.com/listening/b2/behind-the-scenes-with-an-actor-b2-english-listening-test/",
+    "title": "Behind the scenes with an actor",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
+    "category": "reading",
+    "level": "b2",
+    "slug": "teenage-social-media-millionaires-reading-test",
+    "link": "https://test-english.com/reading/b2/teenage-social-media-millionaires-reading-test/",
+    "title": "Teenage Social Media Millionaires",
+    "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
+  },
+  {
+    "category": "reading",
+    "level": "b2",
+    "slug": "is-banning-singl-use-plastic-the-right-option_reading-test",
+    "link": "https://test-english.com/reading/b2/is-banning-singl-use-plastic-the-right-option_reading-test/",
+    "title": "Is banning single-use plastic the right option?",
     "group": "Leisure, Sports & Media (Lazer, Esportes e Mídia)"
   },
   {
@@ -2553,14 +2921,6 @@ const EXERCISES_DATA = [
     "group": "Nature, Weather & Environment (Natureza, Clima e Meio Ambiente)"
   },
   {
-    "category": "listening",
-    "level": "b1",
-    "slug": "humans-mars-listening-test",
-    "link": "https://test-english.com/listening/b1/humans-mars-listening-test/",
-    "title": "When will humans get to Mars?",
-    "group": "Nature, Weather & Environment (Natureza, Clima e Meio Ambiente)"
-  },
-  {
     "category": "vocabulary",
     "level": "b1",
     "slug": "animals-and-their-bodies-and-sounds-b1-english-vocabulary",
@@ -2577,11 +2937,11 @@ const EXERCISES_DATA = [
     "group": "Nature, Weather & Environment (Natureza, Clima e Meio Ambiente)"
   },
   {
-    "category": "reading",
-    "level": "b1-b2",
-    "slug": "extreme-weather-b1-english-reading-test",
-    "link": "https://test-english.com/reading/b1-b2/extreme-weather-b1-english-reading-test/",
-    "title": "Extreme weather",
+    "category": "listening",
+    "level": "b1",
+    "slug": "humans-mars-listening-test",
+    "link": "https://test-english.com/listening/b1/humans-mars-listening-test/",
+    "title": "When will humans get to Mars?",
     "group": "Nature, Weather & Environment (Natureza, Clima e Meio Ambiente)"
   },
   {
@@ -2602,10 +2962,26 @@ const EXERCISES_DATA = [
   },
   {
     "category": "reading",
-    "level": "b2",
-    "slug": "climate-migrants-b2-english-reading-test",
-    "link": "https://test-english.com/reading/b2/climate-migrants-b2-english-reading-test/",
-    "title": "Climate migrants",
+    "level": "b1-b2",
+    "slug": "extreme-weather-b1-english-reading-test",
+    "link": "https://test-english.com/reading/b1-b2/extreme-weather-b1-english-reading-test/",
+    "title": "Extreme weather",
+    "group": "Nature, Weather & Environment (Natureza, Clima e Meio Ambiente)"
+  },
+  {
+    "category": "reading",
+    "level": "b1-b2",
+    "slug": "seeding-clouds-to-make-rain-b1-english-reading-test",
+    "link": "https://test-english.com/reading/b1-b2/seeding-clouds-to-make-rain-b1-english-reading-test/",
+    "title": "Seeding clouds to make rain",
+    "group": "Nature, Weather & Environment (Natureza, Clima e Meio Ambiente)"
+  },
+  {
+    "category": "reading",
+    "level": "b1-b2",
+    "slug": "eco-terrorism-b1-english-reading-test",
+    "link": "https://test-english.com/reading/b1-b2/eco-terrorism-b1-english-reading-test/",
+    "title": "Eco-terrorism",
     "group": "Nature, Weather & Environment (Natureza, Clima e Meio Ambiente)"
   },
   {
@@ -2618,34 +2994,34 @@ const EXERCISES_DATA = [
   },
   {
     "category": "listening",
+    "level": "b2",
+    "slug": "thailand-sees-brisk-trade-illegal-species",
+    "link": "https://test-english.com/listening/b2/thailand-sees-brisk-trade-illegal-species/",
+    "title": "Thailand sees brisk trade in illegal species",
+    "group": "Nature, Weather & Environment (Natureza, Clima e Meio Ambiente)"
+  },
+  {
+    "category": "reading",
+    "level": "b2",
+    "slug": "climate-migrants-b2-english-reading-test",
+    "link": "https://test-english.com/reading/b2/climate-migrants-b2-english-reading-test/",
+    "title": "Climate migrants",
+    "group": "Nature, Weather & Environment (Natureza, Clima e Meio Ambiente)"
+  },
+  {
+    "category": "vocabulary",
     "level": "a1",
-    "slug": "giving-personal-information-a1-english-listening-test",
-    "link": "https://test-english.com/listening/a1/giving-personal-information-a1-english-listening-test/",
-    "title": "Giving personal information",
+    "slug": "common-things-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/common-things-a1-english-vocabulary/",
+    "title": "Common things",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
-    "category": "listening",
+    "category": "vocabulary",
     "level": "a1",
-    "slug": "how-often-do-you-a1-english-listening-test",
-    "link": "https://test-english.com/listening/a1/how-often-do-you-a1-english-listening-test/",
-    "title": "How often do you...?",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "a1",
-    "slug": "what-are-you-doing-a1-english-listening-test",
-    "link": "https://test-english.com/listening/a1/what-are-you-doing-a1-english-listening-test/",
-    "title": "What are you doing?",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "a1",
-    "slug": "what-are-you-going-to-do-a1-english-listening-test",
-    "link": "https://test-english.com/listening/a1/what-are-you-going-to-do-a1-english-listening-test/",
-    "title": "What are you going to do?",
+    "slug": "countries-and-nationalities-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/countries-and-nationalities-a1-english-vocabulary/",
+    "title": "Countries and nationalities",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -2654,22 +3030,6 @@ const EXERCISES_DATA = [
     "slug": "countries-nationalities-and-languages-a1-english-listening-test",
     "link": "https://test-english.com/listening/a1/countries-nationalities-and-languages-a1-english-listening-test/",
     "title": "Countries, nationalities, and languages",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "a1",
-    "slug": "what-did-you-do-last-summer-listening-test",
-    "link": "https://test-english.com/listening/a1/what-did-you-do-last-summer-listening-test/",
-    "title": "What did you do last summer",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "a1",
-    "slug": "guess-who-a1-english-reading-test",
-    "link": "https://test-english.com/reading/a1/guess-who-a1-english-reading-test/",
-    "title": "Guess who?",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -2697,35 +3057,11 @@ const EXERCISES_DATA = [
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
-    "category": "reading",
+    "category": "writing",
     "level": "a1",
-    "slug": "thanksgiving-reading-test",
-    "link": "https://test-english.com/reading/a1/thanksgiving-reading-test/",
-    "title": "Thanksgiving",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "a1",
-    "slug": "future-retirement-plans-a1-english-reading-test",
-    "link": "https://test-english.com/reading/a1/future-retirement-plans-a1-english-reading-test/",
-    "title": "Future retirement plans",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "a1",
-    "slug": "three-american-festivals-reading-test",
-    "link": "https://test-english.com/reading/a1/three-american-festivals-reading-test/",
-    "title": "Three American festivals",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "a1",
-    "slug": "going-to-the-mall-reading-test",
-    "link": "https://test-english.com/reading/a1/going-to-the-mall-reading-test/",
-    "title": "Going to the mall",
+    "slug": "how-to-write-a-personal-profile-a1-english-writing",
+    "link": "https://test-english.com/writing/a1/how-to-write-a-personal-profile-a1-english-writing/",
+    "title": "How to write a personal profile",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -2817,70 +3153,6 @@ const EXERCISES_DATA = [
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
-    "category": "vocabulary",
-    "level": "a1",
-    "slug": "common-things-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/common-things-a1-english-vocabulary/",
-    "title": "Common things",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a1",
-    "slug": "common-verbs-and-verb-phrases-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/common-verbs-and-verb-phrases-a1-english-vocabulary/",
-    "title": "Common verbs and verb phrases",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a1",
-    "slug": "countries-and-nationalities-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/countries-and-nationalities-a1-english-vocabulary/",
-    "title": "Countries and nationalities",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a1",
-    "slug": "movement-verbs-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/movement-verbs-a1-english-vocabulary/",
-    "title": "Movement verbs",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a1",
-    "slug": "basic-phrasal-verbs-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/basic-phrasal-verbs-a1-english-vocabulary/",
-    "title": "Basic phrasal verbs",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "a1",
-    "slug": "essay-about-my-neighbourhood-a1-english-writing",
-    "link": "https://test-english.com/writing/a1/essay-about-my-neighbourhood-a1-english-writing/",
-    "title": "Essay about 'My Neighbourhood'",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "a1",
-    "slug": "how-to-write-a-personal-profile-a1-english-writing",
-    "link": "https://test-english.com/writing/a1/how-to-write-a-personal-profile-a1-english-writing/",
-    "title": "How to write a personal profile",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "a2",
-    "slug": "have-you-ever-experiences-a2-english-listening-test",
-    "link": "https://test-english.com/listening/a2/have-you-ever-experiences-a2-english-listening-test/",
-    "title": "Have you ever... (Experiences)",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
     "category": "listening",
     "level": "a2",
     "slug": "future-plans-listening-test",
@@ -2889,43 +3161,11 @@ const EXERCISES_DATA = [
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
-    "category": "listening",
-    "level": "a2",
-    "slug": "if-i-were-a-millionaire-second-conditional-a2-english-listening-test",
-    "link": "https://test-english.com/listening/a2/if-i-were-a-millionaire-second-conditional-a2-english-listening-test/",
-    "title": "If I were a millionaire (Second conditional)",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
     "category": "reading",
     "level": "a2",
     "slug": "what-rainbows-mean-around-the-world-a2-english-reading-test",
     "link": "https://test-english.com/reading/a2/what-rainbows-mean-around-the-world-a2-english-reading-test/",
     "title": "What rainbows mean around the world",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "a2",
-    "slug": "three-popular-inventions-from-the-1920s-reading-test",
-    "link": "https://test-english.com/reading/a2/three-popular-inventions-from-the-1920s-reading-test/",
-    "title": "Three popular inventions from the 1920s",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "a2",
-    "slug": "a-really-popular-summer-festival-in-the-uk-a2-english-reading-test",
-    "link": "https://test-english.com/reading/a2/a-really-popular-summer-festival-in-the-uk-a2-english-reading-test/",
-    "title": "A really popular summer festival in the UK",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "a2",
-    "slug": "three-experiences-i-have-had-a2-english-reading-test",
-    "link": "https://test-english.com/reading/a2/three-experiences-i-have-had-a2-english-reading-test/",
-    "title": "Three experiences I've had",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -2947,33 +3187,25 @@ const EXERCISES_DATA = [
   {
     "category": "reading",
     "level": "a2",
-    "slug": "frogs-in-love-romeo-and-juliet-reading-test",
-    "link": "https://test-english.com/reading/a2/frogs-in-love-romeo-and-juliet-reading-test/",
-    "title": "Frogs in love: Romeo and Juliet",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "a2",
-    "slug": "black-friday",
-    "link": "https://test-english.com/reading/a2/black-friday/",
-    "title": "Black Friday",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "a2",
     "slug": "archaeologists-identify-mummy-lost-egyptian-queen",
     "link": "https://test-english.com/reading/a2/archaeologists-identify-mummy-lost-egyptian-queen/",
     "title": "Mummy of a lost Egyptian queen identified",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
-    "category": "reading",
+    "category": "writing",
     "level": "a2",
-    "slug": "benefits-of-nuts",
-    "link": "https://test-english.com/reading/a2/benefits-of-nuts/",
-    "title": "The benefits of nuts",
+    "slug": "writing-a-postcard-a2-english-writing",
+    "link": "https://test-english.com/writing/a2/writing-a-postcard-a2-english-writing/",
+    "title": "Writing a postcard",
+    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
+  },
+  {
+    "category": "writing",
+    "level": "a2",
+    "slug": "how-to-write-an-opinion-essay-a2-english-writing",
+    "link": "https://test-english.com/writing/a2/how-to-write-an-opinion-essay-a2-english-writing/",
+    "title": "How to write an opinion essay",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -3065,78 +3297,6 @@ const EXERCISES_DATA = [
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
-    "category": "vocabulary",
-    "level": "a2",
-    "slug": "words-with-prepositions-a2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a2/words-with-prepositions-a2-english-vocabulary/",
-    "title": "Words with prepositions",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a2",
-    "slug": "common-phrasal-verbs-a2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a2/common-phrasal-verbs-a2-english-vocabulary/",
-    "title": "Common phrasal verbs",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a2",
-    "slug": "say-tell-speak-talk-etc-a2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a2/say-tell-speak-talk-etc-a2-english-vocabulary/",
-    "title": "Say, tell, speak, talk, etc.",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a2",
-    "slug": "containers-and-quantities-a2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a2/containers-and-quantities-a2-english-vocabulary/",
-    "title": "Containers and quantities",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a2",
-    "slug": "everyday-problems-and-solutions-a2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a2/everyday-problems-and-solutions-a2-english-vocabulary/",
-    "title": "Everyday problems and solutions",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "a2",
-    "slug": "writing-a-postcard-a2-english-writing",
-    "link": "https://test-english.com/writing/a2/writing-a-postcard-a2-english-writing/",
-    "title": "Writing a postcard",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "a2",
-    "slug": "how-to-write-an-opinion-essay-a2-english-writing",
-    "link": "https://test-english.com/writing/a2/how-to-write-an-opinion-essay-a2-english-writing/",
-    "title": "How to write an opinion essay",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "b1",
-    "slug": "weird-driving-rules-modal-verbs-b1-english-listening-test",
-    "link": "https://test-english.com/listening/b1/weird-driving-rules-modal-verbs-b1-english-listening-test/",
-    "title": "Weird driving rules (Modal verbs)",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "b1",
-    "slug": "how-to-fuel-the-future-listening-test",
-    "link": "https://test-english.com/listening/b1/how-to-fuel-the-future-listening-test/",
-    "title": "How to fuel the future",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
     "category": "listening",
     "level": "b1",
     "slug": "why-do-languages-die-listening-test",
@@ -3155,14 +3315,6 @@ const EXERCISES_DATA = [
   {
     "category": "reading",
     "level": "b1",
-    "slug": "why-your-coworkers-hate-you-b1-english-reading-test",
-    "link": "https://test-english.com/reading/b1/why-your-coworkers-hate-you-b1-english-reading-test/",
-    "title": "Why your coworkers hate you",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b1",
     "slug": "underwater-search-for-lost-love-b1-english-reading-test",
     "link": "https://test-english.com/reading/b1/underwater-search-for-lost-love-b1-english-reading-test/",
     "title": "Underwater search for lost love",
@@ -3171,25 +3323,9 @@ const EXERCISES_DATA = [
   {
     "category": "reading",
     "level": "b1",
-    "slug": "actors-who-died-on-set-b1-english-reading-test",
-    "link": "https://test-english.com/reading/b1/actors-who-died-on-set-b1-english-reading-test/",
-    "title": "Actors who died on set",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b1",
     "slug": "the-arm-of-liberty-reading-test",
     "link": "https://test-english.com/reading/b1/the-arm-of-liberty-reading-test/",
     "title": "The arm of Liberty",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b1",
-    "slug": "the-unhealthiest-places-in-the-world-b1-english-reading-test",
-    "link": "https://test-english.com/reading/b1/the-unhealthiest-places-in-the-world-b1-english-reading-test/",
-    "title": "The unhealthiest places in the world",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -3211,25 +3347,41 @@ const EXERCISES_DATA = [
   {
     "category": "reading",
     "level": "b1",
-    "slug": "ebay-tips-selling-successfully",
-    "link": "https://test-english.com/reading/b1/ebay-tips-selling-successfully/",
-    "title": "eBay tips for selling successfully",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b1",
     "slug": "ig-nobel-prizes",
     "link": "https://test-english.com/reading/b1/ig-nobel-prizes/",
     "title": "The Ig Nobel Prizes",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
-    "category": "reading",
+    "category": "writing",
     "level": "b1",
-    "slug": "curriculum-vitaes-tips-can-help",
-    "link": "https://test-english.com/reading/b1/curriculum-vitaes-tips-can-help/",
-    "title": "Curriculum Vitaes: Tips that can Help",
+    "slug": "writing-an-opinion-essay",
+    "link": "https://test-english.com/writing/b1/writing-an-opinion-essay/",
+    "title": "Writing an opinion essay – Tips, structure, examples, exercises",
+    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
+  },
+  {
+    "category": "writing",
+    "level": "b1",
+    "slug": "how-to-write-a-past-story-from-a-given-sentence",
+    "link": "https://test-english.com/writing/b1/how-to-write-a-past-story-from-a-given-sentence/",
+    "title": "How to write a past story from a given sentence",
+    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
+  },
+  {
+    "category": "writing",
+    "level": "b1",
+    "slug": "how-to-write-an-article",
+    "link": "https://test-english.com/writing/b1/how-to-write-an-article/",
+    "title": "How to write an article – B1 Preliminary (PET) Exam",
+    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
+  },
+  {
+    "category": "writing",
+    "level": "b1",
+    "slug": "a-product-review-b1-english-writing",
+    "link": "https://test-english.com/writing/b1/a-product-review-b1-english-writing/",
+    "title": "A product review",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -3321,35 +3473,11 @@ const EXERCISES_DATA = [
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
-    "category": "writing",
-    "level": "b1",
-    "slug": "writing-an-opinion-essay",
-    "link": "https://test-english.com/writing/b1/writing-an-opinion-essay/",
-    "title": "Writing an opinion essay – Tips, structure, examples, exercises",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "b1",
-    "slug": "how-to-write-a-past-story-from-a-given-sentence",
-    "link": "https://test-english.com/writing/b1/how-to-write-a-past-story-from-a-given-sentence/",
-    "title": "How to write a past story from a given sentence",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "b1",
-    "slug": "how-to-write-an-article",
-    "link": "https://test-english.com/writing/b1/how-to-write-an-article/",
-    "title": "How to write an article – B1 Preliminary (PET) Exam",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "b1",
-    "slug": "a-product-review-b1-english-writing",
-    "link": "https://test-english.com/writing/b1/a-product-review-b1-english-writing/",
-    "title": "A product review",
+    "category": "vocabulary",
+    "level": "b1-b2",
+    "slug": "word-pairs-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1-b2/word-pairs-b1-english-vocabulary/",
+    "title": "Word pairs",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -3363,33 +3491,9 @@ const EXERCISES_DATA = [
   {
     "category": "listening",
     "level": "b1-b2",
-    "slug": "will-humans-become-supermachines-b1-english-listening-test",
-    "link": "https://test-english.com/listening/b1-b2/will-humans-become-supermachines-b1-english-listening-test/",
-    "title": "Will humans become supermachines?",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "b1-b2",
     "slug": "i-should-have-b2-english-listening-test",
     "link": "https://test-english.com/listening/b1-b2/i-should-have-b2-english-listening-test/",
     "title": "I should have...",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "b1-b2",
-    "slug": "the-return-of-polio-in-the-us_b1-b2-listening-test",
-    "link": "https://test-english.com/listening/b1-b2/the-return-of-polio-in-the-us_b1-b2-listening-test/",
-    "title": "The return of Polio in the US",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "b1-b2",
-    "slug": "cyberchondria",
-    "link": "https://test-english.com/listening/b1-b2/cyberchondria/",
-    "title": "Do you suffer from cyberchondria?",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -3403,49 +3507,9 @@ const EXERCISES_DATA = [
   {
     "category": "listening",
     "level": "b1-b2",
-    "slug": "the-hyperloop",
-    "link": "https://test-english.com/listening/b1-b2/the-hyperloop/",
-    "title": "The Hyperloop: the future of transportation?",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "b1-b2",
-    "slug": "the-ecocapsule",
-    "link": "https://test-english.com/listening/b1-b2/the-ecocapsule/",
-    "title": "The Ecocapsule",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "b1-b2",
     "slug": "surviving-in-the-jungle",
     "link": "https://test-english.com/listening/b1-b2/surviving-in-the-jungle/",
     "title": "Surviving in the jungle",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "b1-b2",
-    "slug": "my-husband-is-annoying-b1-b2-listening-test",
-    "link": "https://test-english.com/listening/b1-b2/my-husband-is-annoying-b1-b2-listening-test/",
-    "title": "My Husband is Annoying",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "b1-b2",
-    "slug": "sleep-disorders-overview",
-    "link": "https://test-english.com/listening/b1-b2/sleep-disorders-overview/",
-    "title": "Sleep Disorders Overview",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "b1-b2",
-    "slug": "actors-talk-acting",
-    "link": "https://test-english.com/listening/b1-b2/actors-talk-acting/",
-    "title": "Actors talk about acting",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -3462,22 +3526,6 @@ const EXERCISES_DATA = [
     "slug": "detroit",
     "link": "https://test-english.com/listening/b1-b2/detroit/",
     "title": "Detroit",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "b1-b2",
-    "slug": "head-transplant",
-    "link": "https://test-english.com/listening/b1-b2/head-transplant/",
-    "title": "Head transplant",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b1-b2",
-    "slug": "why-we-sleep-b1-english-reading-test",
-    "link": "https://test-english.com/reading/b1-b2/why-we-sleep-b1-english-reading-test/",
-    "title": "Why we sleep",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -3507,57 +3555,9 @@ const EXERCISES_DATA = [
   {
     "category": "reading",
     "level": "b1-b2",
-    "slug": "supernova-hunters-b1-english-reading-test",
-    "link": "https://test-english.com/reading/b1-b2/supernova-hunters-b1-english-reading-test/",
-    "title": "Supernova hunters",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b1-b2",
-    "slug": "binge-watching-b1-b2-reading-test",
-    "link": "https://test-english.com/reading/b1-b2/binge-watching-b1-b2-reading-test/",
-    "title": "Binge-watching",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b1-b2",
-    "slug": "seeding-clouds-to-make-rain-b1-english-reading-test",
-    "link": "https://test-english.com/reading/b1-b2/seeding-clouds-to-make-rain-b1-english-reading-test/",
-    "title": "Seeding clouds to make rain",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b1-b2",
-    "slug": "ai-boomers-vs-ai-doomers-b1-english-reading-test",
-    "link": "https://test-english.com/reading/b1-b2/ai-boomers-vs-ai-doomers-b1-english-reading-test/",
-    "title": "AI boomers vs AI doomers",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b1-b2",
     "slug": "deadly-tiktok-challenges-reading-test",
     "link": "https://test-english.com/reading/b1-b2/deadly-tiktok-challenges-reading-test/",
     "title": "Deadly TikTok challenges",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b1-b2",
-    "slug": "world-walker-reading-test",
-    "link": "https://test-english.com/reading/b1-b2/world-walker-reading-test/",
-    "title": "World walker",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b1-b2",
-    "slug": "where-are-the-harry-potter-stars-now-reading-test",
-    "link": "https://test-english.com/reading/b1-b2/where-are-the-harry-potter-stars-now-reading-test/",
-    "title": "Where are the Harry Potter Stars now?",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -3587,33 +3587,41 @@ const EXERCISES_DATA = [
   {
     "category": "reading",
     "level": "b1-b2",
-    "slug": "eco-terrorism-b1-english-reading-test",
-    "link": "https://test-english.com/reading/b1-b2/eco-terrorism-b1-english-reading-test/",
-    "title": "Eco-terrorism",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b1-b2",
     "slug": "a-paranormal-experience",
     "link": "https://test-english.com/reading/b1-b2/a-paranormal-experience/",
     "title": "A paranormal experience?",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
-    "category": "reading",
+    "category": "writing",
     "level": "b1-b2",
-    "slug": "should-motherhood-define-me",
-    "link": "https://test-english.com/reading/b1-b2/should-motherhood-define-me/",
-    "title": "Should motherhood define me?",
+    "slug": "for-against-essay-balanced-essay",
+    "link": "https://test-english.com/writing/b1-b2/for-against-essay-balanced-essay/",
+    "title": "A for and against essay – a balanced essay",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
-    "category": "reading",
+    "category": "writing",
     "level": "b1-b2",
-    "slug": "does-cannabis-cure-cancer",
-    "link": "https://test-english.com/reading/b1-b2/does-cannabis-cure-cancer/",
-    "title": "Does cannabis cure cancer?",
+    "slug": "narrative-writing-step-by-step",
+    "link": "https://test-english.com/writing/b1-b2/narrative-writing-step-by-step/",
+    "title": "Narrative writing step by step",
+    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
+  },
+  {
+    "category": "writing",
+    "level": "b1-b2",
+    "slug": "writing-a-how-to-article-for-a-blog-or-magazine",
+    "link": "https://test-english.com/writing/b1-b2/writing-a-how-to-article-for-a-blog-or-magazine/",
+    "title": "Writing a 'how-to' article for a blog or magazine",
+    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
+  },
+  {
+    "category": "writing",
+    "level": "b1-b2",
+    "slug": "giving-your-opinion-b1-english-writing",
+    "link": "https://test-english.com/writing/b1-b2/giving-your-opinion-b1-english-writing/",
+    "title": "Giving your opinion",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -3706,74 +3714,18 @@ const EXERCISES_DATA = [
   },
   {
     "category": "vocabulary",
-    "level": "b1-b2",
-    "slug": "word-pairs-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1-b2/word-pairs-b1-english-vocabulary/",
-    "title": "Word pairs",
+    "level": "b2",
+    "slug": "war-and-peace-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/war-and-peace-b2-english-vocabulary/",
+    "title": "War and peace",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
     "category": "vocabulary",
-    "level": "b1-b2",
-    "slug": "everyday-problems-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1-b2/everyday-problems-b1-english-vocabulary/",
-    "title": "Everyday problems",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "b1-b2",
-    "slug": "for-against-essay-balanced-essay",
-    "link": "https://test-english.com/writing/b1-b2/for-against-essay-balanced-essay/",
-    "title": "A for and against essay – a balanced essay",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "b1-b2",
-    "slug": "narrative-writing-step-by-step",
-    "link": "https://test-english.com/writing/b1-b2/narrative-writing-step-by-step/",
-    "title": "Narrative writing step by step",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "b1-b2",
-    "slug": "writing-a-how-to-article-for-a-blog-or-magazine",
-    "link": "https://test-english.com/writing/b1-b2/writing-a-how-to-article-for-a-blog-or-magazine/",
-    "title": "Writing a 'how-to' article for a blog or magazine",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "b1-b2",
-    "slug": "giving-your-opinion-b1-english-writing",
-    "link": "https://test-english.com/writing/b1-b2/giving-your-opinion-b1-english-writing/",
-    "title": "Giving your opinion",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
     "level": "b2",
-    "slug": "regrets-i-wish-id-b2-english-listening-test",
-    "link": "https://test-english.com/listening/b2/regrets-i-wish-id-b2-english-listening-test/",
-    "title": "Regrets: I Wish I’d...",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "b2",
-    "slug": "behind-the-scenes-with-an-actor-b2-english-listening-test",
-    "link": "https://test-english.com/listening/b2/behind-the-scenes-with-an-actor-b2-english-listening-test/",
-    "title": "Behind the scenes with an actor",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "b2",
-    "slug": "retirement-challenges-in-the-u-s-b2-english-listening-test",
-    "link": "https://test-english.com/listening/b2/retirement-challenges-in-the-u-s-b2-english-listening-test/",
-    "title": "Retirement Challenges in the U.S.",
+    "slug": "challenges-and-achievements-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/challenges-and-achievements-b2-english-vocabulary/",
+    "title": "Challenges and achievements",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -3809,86 +3761,6 @@ const EXERCISES_DATA = [
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
-    "category": "listening",
-    "level": "b2",
-    "slug": "thailand-sees-brisk-trade-illegal-species",
-    "link": "https://test-english.com/listening/b2/thailand-sees-brisk-trade-illegal-species/",
-    "title": "Thailand sees brisk trade in illegal species",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b2",
-    "slug": "is-overtourism-pricing-locals-out-b2-english-reading-test",
-    "link": "https://test-english.com/reading/b2/is-overtourism-pricing-locals-out-b2-english-reading-test/",
-    "title": "Is overtourism pricing locals out?",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b2",
-    "slug": "using-ai-to-talk-to-the-deceased-b2-english-reading-test",
-    "link": "https://test-english.com/reading/b2/using-ai-to-talk-to-the-deceased-b2-english-reading-test/",
-    "title": "Using AI to talk to the deceased",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b2",
-    "slug": "regulating-deepfakes-b2-english-reading-test",
-    "link": "https://test-english.com/reading/b2/regulating-deepfakes-b2-english-reading-test/",
-    "title": "Regulating deepfakes",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b2",
-    "slug": "weak-ties-unveiling-the-power-of-acquaintances-b2-english-reading-test",
-    "link": "https://test-english.com/reading/b2/weak-ties-unveiling-the-power-of-acquaintances-b2-english-reading-test/",
-    "title": "Weak ties: The power of acquaintances",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b2",
-    "slug": "the-most-sought-after-company-benefits-b2-english-reading-test",
-    "link": "https://test-english.com/reading/b2/the-most-sought-after-company-benefits-b2-english-reading-test/",
-    "title": "The most sought-after company benefits",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b2",
-    "slug": "finding-calm-in-cities-b2-english-reading-test",
-    "link": "https://test-english.com/reading/b2/finding-calm-in-cities-b2-english-reading-test/",
-    "title": "Finding calm in cities",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b2",
-    "slug": "second-hand-fashion-b2-english-reading-test",
-    "link": "https://test-english.com/reading/b2/second-hand-fashion-b2-english-reading-test/",
-    "title": "Second-hand fashion",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b2",
-    "slug": "fatphobia-the-stigma-of-being-fat-b2-english-reading-test",
-    "link": "https://test-english.com/reading/b2/fatphobia-the-stigma-of-being-fat-b2-english-reading-test/",
-    "title": "Fatphobia: The stigma of being fat",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "reading",
-    "level": "b2",
-    "slug": "crypto-addicts-b2-reading-test",
-    "link": "https://test-english.com/reading/b2/crypto-addicts-b2-reading-test/",
-    "title": "Crypto addicts",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
     "category": "reading",
     "level": "b2",
     "slug": "have-we-taken-security-too-far",
@@ -3897,11 +3769,43 @@ const EXERCISES_DATA = [
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
-    "category": "reading",
+    "category": "writing",
     "level": "b2",
-    "slug": "principles-new-high-protein-diet",
-    "link": "https://test-english.com/reading/b2/principles-new-high-protein-diet/",
-    "title": "The principles of the New High Protein Diet",
+    "slug": "a-formal-letter-of-complaint-tips-examples-exercises",
+    "link": "https://test-english.com/writing/b2/a-formal-letter-of-complaint-tips-examples-exercises/",
+    "title": "Writing formal letter of complaint – Tips, examples and exercises",
+    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
+  },
+  {
+    "category": "writing",
+    "level": "b2",
+    "slug": "writing-a-discussion-essay-discuss-two-views-and-give-your-opinion",
+    "link": "https://test-english.com/writing/b2/writing-a-discussion-essay-discuss-two-views-and-give-your-opinion/",
+    "title": "Writing a discussion essay: Discuss two views and give your opinion",
+    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
+  },
+  {
+    "category": "writing",
+    "level": "b2",
+    "slug": "opinion-essay-agree-or-disagree-with-a-statement",
+    "link": "https://test-english.com/writing/b2/opinion-essay-agree-or-disagree-with-a-statement/",
+    "title": "Opinion essay – agree or disagree with a statement",
+    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
+  },
+  {
+    "category": "writing",
+    "level": "b2",
+    "slug": "a-formal-letter-of-apology-b2-english-writing",
+    "link": "https://test-english.com/writing/b2/a-formal-letter-of-apology-b2-english-writing/",
+    "title": "A formal letter of apology",
+    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
+  },
+  {
+    "category": "writing",
+    "level": "b2",
+    "slug": "a-report-b2-english-writing",
+    "link": "https://test-english.com/writing/b2/a-report-b2-english-writing/",
+    "title": "A report",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -3994,74 +3898,18 @@ const EXERCISES_DATA = [
   },
   {
     "category": "vocabulary",
-    "level": "b2",
-    "slug": "war-and-peace-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/war-and-peace-b2-english-vocabulary/",
-    "title": "War and peace",
+    "level": "c1",
+    "slug": "ways-of-walking-c1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/c1/ways-of-walking-c1-english-vocabulary/",
+    "title": "Ways of walking",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
     "category": "vocabulary",
-    "level": "b2",
-    "slug": "challenges-and-achievements-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/challenges-and-achievements-b2-english-vocabulary/",
-    "title": "Challenges and achievements",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "b2",
-    "slug": "phrasal-verbs-i-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/phrasal-verbs-i-b2-english-vocabulary/",
-    "title": "Phrasal verbs I",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "b2",
-    "slug": "phrasal-verbs-ii-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/phrasal-verbs-ii-b2-english-vocabulary/",
-    "title": "Phrasal verbs II",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "b2",
-    "slug": "a-formal-letter-of-complaint-tips-examples-exercises",
-    "link": "https://test-english.com/writing/b2/a-formal-letter-of-complaint-tips-examples-exercises/",
-    "title": "Writing formal letter of complaint – Tips, examples and exercises",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "b2",
-    "slug": "writing-a-discussion-essay-discuss-two-views-and-give-your-opinion",
-    "link": "https://test-english.com/writing/b2/writing-a-discussion-essay-discuss-two-views-and-give-your-opinion/",
-    "title": "Writing a discussion essay: Discuss two views and give your opinion",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "b2",
-    "slug": "opinion-essay-agree-or-disagree-with-a-statement",
-    "link": "https://test-english.com/writing/b2/opinion-essay-agree-or-disagree-with-a-statement/",
-    "title": "Opinion essay – agree or disagree with a statement",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "b2",
-    "slug": "a-formal-letter-of-apology-b2-english-writing",
-    "link": "https://test-english.com/writing/b2/a-formal-letter-of-apology-b2-english-writing/",
-    "title": "A formal letter of apology",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "writing",
-    "level": "b2",
-    "slug": "a-report-b2-english-writing",
-    "link": "https://test-english.com/writing/b2/a-report-b2-english-writing/",
-    "title": "A report",
+    "level": "c1",
+    "slug": "vague-language-imprecision-c1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/c1/vague-language-imprecision-c1-english-vocabulary/",
+    "title": "Vague language: imprecision",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -4070,14 +3918,6 @@ const EXERCISES_DATA = [
     "slug": "when-i-completely-embarrassed-myself-c1-english-listening-test",
     "link": "https://test-english.com/listening/c1/when-i-completely-embarrassed-myself-c1-english-listening-test/",
     "title": "When I completely embarrassed myself",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "listening",
-    "level": "c1",
-    "slug": "why-is-walking-humans-superpower-c1-english-listening-test",
-    "link": "https://test-english.com/listening/c1/why-is-walking-humans-superpower-c1-english-listening-test/",
-    "title": "Why is walking humans' superpower?",
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
@@ -4105,30 +3945,6 @@ const EXERCISES_DATA = [
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
-    "category": "vocabulary",
-    "level": "c1",
-    "slug": "ways-of-walking-c1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/c1/ways-of-walking-c1-english-vocabulary/",
-    "title": "Ways of walking",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "c1",
-    "slug": "vague-language-imprecision-c1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/c1/vague-language-imprecision-c1-english-vocabulary/",
-    "title": "Vague language: imprecision",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "c1",
-    "slug": "idiomatic-infinitive-phrases-c1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/c1/idiomatic-infinitive-phrases-c1-english-vocabulary/",
-    "title": "Idiomatic infinitive phrases",
-    "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
-  },
-  {
     "category": "writing",
     "level": "c1",
     "slug": "a-problem-solution-essay-c1-english-writing",
@@ -4153,11 +3969,27 @@ const EXERCISES_DATA = [
     "group": "Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)"
   },
   {
+    "category": "vocabulary",
+    "level": "a1",
+    "slug": "shops-and-shopping-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/shops-and-shopping-a1-english-vocabulary/",
+    "title": "Shops and shopping",
+    "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
+  },
+  {
     "category": "listening",
     "level": "a1",
     "slug": "shopping-habits-listening-test",
     "link": "https://test-english.com/listening/a1/shopping-habits-listening-test/",
     "title": "Shopping habits",
+    "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
+  },
+  {
+    "category": "reading",
+    "level": "a1",
+    "slug": "going-to-the-mall-reading-test",
+    "link": "https://test-english.com/reading/a1/going-to-the-mall-reading-test/",
+    "title": "Going to the mall",
     "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
   },
   {
@@ -4178,9 +4010,9 @@ const EXERCISES_DATA = [
   },
   {
     "category": "vocabulary",
-    "level": "a1",
-    "slug": "shops-and-shopping-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/shops-and-shopping-a1-english-vocabulary/",
+    "level": "a2",
+    "slug": "shops-and-shopping-a2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a2/shops-and-shopping-a2-english-vocabulary/",
     "title": "Shops and shopping",
     "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
   },
@@ -4190,6 +4022,14 @@ const EXERCISES_DATA = [
     "slug": "shopping-for-clothes-a2-english-listening-test",
     "link": "https://test-english.com/listening/a2/shopping-for-clothes-a2-english-listening-test/",
     "title": "Shopping for clothes",
+    "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
+  },
+  {
+    "category": "reading",
+    "level": "a2",
+    "slug": "black-friday",
+    "link": "https://test-english.com/reading/a2/black-friday/",
+    "title": "Black Friday",
     "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
   },
   {
@@ -4218,10 +4058,10 @@ const EXERCISES_DATA = [
   },
   {
     "category": "vocabulary",
-    "level": "a2",
-    "slug": "shops-and-shopping-a2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a2/shops-and-shopping-a2-english-vocabulary/",
-    "title": "Shops and shopping",
+    "level": "b1",
+    "slug": "money-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1/money-b1-english-vocabulary/",
+    "title": "Money",
     "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
   },
   {
@@ -4243,6 +4083,14 @@ const EXERCISES_DATA = [
   {
     "category": "reading",
     "level": "b1",
+    "slug": "ebay-tips-selling-successfully",
+    "link": "https://test-english.com/reading/b1/ebay-tips-selling-successfully/",
+    "title": "eBay tips for selling successfully",
+    "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
+  },
+  {
+    "category": "reading",
+    "level": "b1",
     "slug": "travel-around-europe-in-5-stops-b1-english-reading-test",
     "link": "https://test-english.com/reading/b1/travel-around-europe-in-5-stops-b1-english-reading-test/",
     "title": "Travel around Europe in 5 stops",
@@ -4258,10 +4106,26 @@ const EXERCISES_DATA = [
   },
   {
     "category": "vocabulary",
-    "level": "b1",
-    "slug": "money-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1/money-b1-english-vocabulary/",
-    "title": "Money",
+    "level": "b1-b2",
+    "slug": "crime-and-punishment-b1-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1-b2/crime-and-punishment-b1-b2-english-vocabulary/",
+    "title": "Crime and punishment",
+    "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1-b2",
+    "slug": "types-of-crime-and-offenders-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1-b2/types-of-crime-and-offenders-b1-english-vocabulary/",
+    "title": "Types of crime and offenders",
+    "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1-b2",
+    "slug": "business-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1-b2/business-b1-english-vocabulary/",
+    "title": "Business",
     "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
   },
   {
@@ -4298,26 +4162,26 @@ const EXERCISES_DATA = [
   },
   {
     "category": "vocabulary",
-    "level": "b1-b2",
-    "slug": "crime-and-punishment-b1-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1-b2/crime-and-punishment-b1-b2-english-vocabulary/",
-    "title": "Crime and punishment",
+    "level": "b2",
+    "slug": "money-and-finance-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/money-and-finance-b2-english-vocabulary/",
+    "title": "Money and finance",
     "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
   },
   {
-    "category": "vocabulary",
-    "level": "b1-b2",
-    "slug": "types-of-crime-and-offenders-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1-b2/types-of-crime-and-offenders-b1-english-vocabulary/",
-    "title": "Types of crime and offenders",
+    "category": "reading",
+    "level": "b2",
+    "slug": "second-hand-fashion-b2-english-reading-test",
+    "link": "https://test-english.com/reading/b2/second-hand-fashion-b2-english-reading-test/",
+    "title": "Second-hand fashion",
     "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
   },
   {
-    "category": "vocabulary",
-    "level": "b1-b2",
-    "slug": "business-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1-b2/business-b1-english-vocabulary/",
-    "title": "Business",
+    "category": "reading",
+    "level": "b2",
+    "slug": "crypto-addicts-b2-reading-test",
+    "link": "https://test-english.com/reading/b2/crypto-addicts-b2-reading-test/",
+    "title": "Crypto addicts",
     "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
   },
   {
@@ -4326,14 +4190,6 @@ const EXERCISES_DATA = [
     "slug": "do-we-need-cash-anymore-b2-reading-test",
     "link": "https://test-english.com/reading/b2/do-we-need-cash-anymore-b2-reading-test/",
     "title": "Do we really need cash anymore?",
-    "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "b2",
-    "slug": "money-and-finance-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/money-and-finance-b2-english-vocabulary/",
-    "title": "Money and finance",
     "group": "Shopping, Money & Business (Compras, Dinheiro e Negócios)"
   },
   {
@@ -4369,6 +4225,14 @@ const EXERCISES_DATA = [
     "group": "Technology & Science (Tecnologia e Ciência)"
   },
   {
+    "category": "reading",
+    "level": "a2",
+    "slug": "three-popular-inventions-from-the-1920s-reading-test",
+    "link": "https://test-english.com/reading/a2/three-popular-inventions-from-the-1920s-reading-test/",
+    "title": "Three popular inventions from the 1920s",
+    "group": "Technology & Science (Tecnologia e Ciência)"
+  },
+  {
     "category": "writing",
     "level": "a2",
     "slug": "writing-and-responding-to-an-informal-email-invitation",
@@ -4390,6 +4254,14 @@ const EXERCISES_DATA = [
     "slug": "phone-talk-b1-english-vocabulary",
     "link": "https://test-english.com/vocabulary/b1/phone-talk-b1-english-vocabulary/",
     "title": "Phone Talk",
+    "group": "Technology & Science (Tecnologia e Ciência)"
+  },
+  {
+    "category": "listening",
+    "level": "b1",
+    "slug": "how-to-fuel-the-future-listening-test",
+    "link": "https://test-english.com/listening/b1/how-to-fuel-the-future-listening-test/",
+    "title": "How to fuel the future",
     "group": "Technology & Science (Tecnologia e Ciência)"
   },
   {
@@ -4417,6 +4289,38 @@ const EXERCISES_DATA = [
     "group": "Technology & Science (Tecnologia e Ciência)"
   },
   {
+    "category": "listening",
+    "level": "b1-b2",
+    "slug": "will-humans-become-supermachines-b1-english-listening-test",
+    "link": "https://test-english.com/listening/b1-b2/will-humans-become-supermachines-b1-english-listening-test/",
+    "title": "Will humans become supermachines?",
+    "group": "Technology & Science (Tecnologia e Ciência)"
+  },
+  {
+    "category": "listening",
+    "level": "b1-b2",
+    "slug": "the-ecocapsule",
+    "link": "https://test-english.com/listening/b1-b2/the-ecocapsule/",
+    "title": "The Ecocapsule",
+    "group": "Technology & Science (Tecnologia e Ciência)"
+  },
+  {
+    "category": "reading",
+    "level": "b1-b2",
+    "slug": "supernova-hunters-b1-english-reading-test",
+    "link": "https://test-english.com/reading/b1-b2/supernova-hunters-b1-english-reading-test/",
+    "title": "Supernova hunters",
+    "group": "Technology & Science (Tecnologia e Ciência)"
+  },
+  {
+    "category": "reading",
+    "level": "b1-b2",
+    "slug": "ai-boomers-vs-ai-doomers-b1-english-reading-test",
+    "link": "https://test-english.com/reading/b1-b2/ai-boomers-vs-ai-doomers-b1-english-reading-test/",
+    "title": "AI boomers vs AI doomers",
+    "group": "Technology & Science (Tecnologia e Ciência)"
+  },
+  {
     "category": "writing",
     "level": "b1-b2",
     "slug": "an-informal-email-advice",
@@ -4441,6 +4345,14 @@ const EXERCISES_DATA = [
     "group": "Technology & Science (Tecnologia e Ciência)"
   },
   {
+    "category": "vocabulary",
+    "level": "b2",
+    "slug": "technology-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/technology-b2-english-vocabulary/",
+    "title": "Technology: Managing your devices",
+    "group": "Technology & Science (Tecnologia e Ciência)"
+  },
+  {
     "category": "listening",
     "level": "b2",
     "slug": "life-without-cell-phone",
@@ -4457,11 +4369,19 @@ const EXERCISES_DATA = [
     "group": "Technology & Science (Tecnologia e Ciência)"
   },
   {
-    "category": "vocabulary",
+    "category": "reading",
     "level": "b2",
-    "slug": "technology-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/technology-b2-english-vocabulary/",
-    "title": "Technology: Managing your devices",
+    "slug": "using-ai-to-talk-to-the-deceased-b2-english-reading-test",
+    "link": "https://test-english.com/reading/b2/using-ai-to-talk-to-the-deceased-b2-english-reading-test/",
+    "title": "Using AI to talk to the deceased",
+    "group": "Technology & Science (Tecnologia e Ciência)"
+  },
+  {
+    "category": "reading",
+    "level": "b2",
+    "slug": "regulating-deepfakes-b2-english-reading-test",
+    "link": "https://test-english.com/reading/b2/regulating-deepfakes-b2-english-reading-test/",
+    "title": "Regulating deepfakes",
     "group": "Technology & Science (Tecnologia e Ciência)"
   },
   {
@@ -4487,6 +4407,22 @@ const EXERCISES_DATA = [
     "link": "https://test-english.com/reading/c1/kidfluencers-growing-up-online-c1-english-reading/",
     "title": "Kidfluencers: Growing up online",
     "group": "Technology & Science (Tecnologia e Ciência)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a1",
+    "slug": "the-house-rooms-parts-and-things-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/the-house-rooms-parts-and-things-a1-english-vocabulary/",
+    "title": "The house: rooms, parts, and things",
+    "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a1",
+    "slug": "in-the-town-a1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a1/in-the-town-a1-english-vocabulary/",
+    "title": "Places in a town",
+    "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
   },
   {
     "category": "listening",
@@ -4537,19 +4473,11 @@ const EXERCISES_DATA = [
     "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
   },
   {
-    "category": "vocabulary",
+    "category": "writing",
     "level": "a1",
-    "slug": "the-house-rooms-parts-and-things-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/the-house-rooms-parts-and-things-a1-english-vocabulary/",
-    "title": "The house: rooms, parts, and things",
-    "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a1",
-    "slug": "in-the-town-a1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a1/in-the-town-a1-english-vocabulary/",
-    "title": "Places in a town",
+    "slug": "essay-about-my-neighbourhood-a1-english-writing",
+    "link": "https://test-english.com/writing/a1/essay-about-my-neighbourhood-a1-english-writing/",
+    "title": "Essay about 'My Neighbourhood'",
     "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
   },
   {
@@ -4558,6 +4486,22 @@ const EXERCISES_DATA = [
     "slug": "a-description-of-my-house-a1-english-writing",
     "link": "https://test-english.com/writing/a1/a-description-of-my-house-a1-english-writing/",
     "title": "A description of my house",
+    "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a2",
+    "slug": "housework-a2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a2/housework-a2-english-vocabulary/",
+    "title": "Housework",
+    "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a2",
+    "slug": "towns-and-cities-a2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a2/towns-and-cities-a2-english-vocabulary/",
+    "title": "Towns and cities",
     "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
   },
   {
@@ -4618,18 +4562,10 @@ const EXERCISES_DATA = [
   },
   {
     "category": "vocabulary",
-    "level": "a2",
-    "slug": "housework-a2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a2/housework-a2-english-vocabulary/",
-    "title": "Housework",
-    "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a2",
-    "slug": "towns-and-cities-a2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a2/towns-and-cities-a2-english-vocabulary/",
-    "title": "Towns and cities",
+    "level": "b1",
+    "slug": "houses-and-buildings-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1/houses-and-buildings-b1-english-vocabulary/",
+    "title": "Houses",
     "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
   },
   {
@@ -4681,14 +4617,6 @@ const EXERCISES_DATA = [
     "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
   },
   {
-    "category": "vocabulary",
-    "level": "b1",
-    "slug": "houses-and-buildings-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1/houses-and-buildings-b1-english-vocabulary/",
-    "title": "Houses",
-    "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
-  },
-  {
     "category": "writing",
     "level": "b1",
     "slug": "describing-your-home-b1-english-writing",
@@ -4697,19 +4625,19 @@ const EXERCISES_DATA = [
     "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
   },
   {
-    "category": "listening",
-    "level": "b1-b2",
-    "slug": "haunted-house-pennsylvania",
-    "link": "https://test-english.com/listening/b1-b2/haunted-house-pennsylvania/",
-    "title": "Haunted house in Pennsylvania",
-    "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
-  },
-  {
     "category": "vocabulary",
     "level": "b1-b2",
     "slug": "houses-and-home-words-b1-english-vocabulary",
     "link": "https://test-english.com/vocabulary/b1-b2/houses-and-home-words-b1-english-vocabulary/",
     "title": "Houses and home words",
+    "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
+  },
+  {
+    "category": "listening",
+    "level": "b1-b2",
+    "slug": "haunted-house-pennsylvania",
+    "link": "https://test-english.com/listening/b1-b2/haunted-house-pennsylvania/",
+    "title": "Haunted house in Pennsylvania",
     "group": "Town, Housing & City Life (Cidade, Moradia e Vida Urbana)"
   },
   {
@@ -4758,6 +4686,30 @@ const EXERCISES_DATA = [
     "slug": "tips-travelling-alone",
     "link": "https://test-english.com/reading/a1/tips-travelling-alone/",
     "title": "Tips for travelling alone",
+    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a2",
+    "slug": "in-a-hotel-a2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a2/in-a-hotel-a2-english-vocabulary/",
+    "title": "In a hotel",
+    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a2",
+    "slug": "giving-directions-a2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a2/giving-directions-a2-english-vocabulary/",
+    "title": "Giving directions",
+    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "a2",
+    "slug": "holidays-a2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/a2/holidays-a2-english-vocabulary/",
+    "title": "Holidays",
     "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
   },
   {
@@ -4849,30 +4801,6 @@ const EXERCISES_DATA = [
     "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
   },
   {
-    "category": "vocabulary",
-    "level": "a2",
-    "slug": "in-a-hotel-a2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a2/in-a-hotel-a2-english-vocabulary/",
-    "title": "In a hotel",
-    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a2",
-    "slug": "giving-directions-a2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a2/giving-directions-a2-english-vocabulary/",
-    "title": "Giving directions",
-    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "a2",
-    "slug": "holidays-a2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/a2/holidays-a2-english-vocabulary/",
-    "title": "Holidays",
-    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
-  },
-  {
     "category": "writing",
     "level": "a2",
     "slug": "my-last-holiday-writing",
@@ -4886,6 +4814,22 @@ const EXERCISES_DATA = [
     "slug": "how-to-write-an-email-to-book-a-hotel-room",
     "link": "https://test-english.com/writing/a2/how-to-write-an-email-to-book-a-hotel-room/",
     "title": "How to write an email to book a hotel room",
+    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1",
+    "slug": "hotels-and-accommodation-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1/hotels-and-accommodation-b1-english-vocabulary/",
+    "title": "Hotels and accommodation",
+    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1",
+    "slug": "transport-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1/transport-b1-english-vocabulary/",
+    "title": "Transport",
     "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
   },
   {
@@ -4945,22 +4889,6 @@ const EXERCISES_DATA = [
     "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
   },
   {
-    "category": "vocabulary",
-    "level": "b1",
-    "slug": "hotels-and-accommodation-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1/hotels-and-accommodation-b1-english-vocabulary/",
-    "title": "Hotels and accommodation",
-    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "b1",
-    "slug": "transport-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1/transport-b1-english-vocabulary/",
-    "title": "Transport",
-    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
-  },
-  {
     "category": "writing",
     "level": "b1",
     "slug": "how-to-write-a-hotel-review-after-a-stay",
@@ -4974,6 +4902,30 @@ const EXERCISES_DATA = [
     "slug": "email-making-plans-for-visit-b1-writing",
     "link": "https://test-english.com/writing/b1/email-making-plans-for-visit-b1-writing/",
     "title": "Email making plans for visit",
+    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1-b2",
+    "slug": "air-travel-b1-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1-b2/air-travel-b1-b2-english-vocabulary/",
+    "title": "Air travel",
+    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1-b2",
+    "slug": "travel-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1-b2/travel-b1-english-vocabulary/",
+    "title": "Travel",
+    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
+  },
+  {
+    "category": "listening",
+    "level": "b1-b2",
+    "slug": "the-hyperloop",
+    "link": "https://test-english.com/listening/b1-b2/the-hyperloop/",
+    "title": "The Hyperloop: the future of transportation?",
     "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
   },
   {
@@ -5019,6 +4971,14 @@ const EXERCISES_DATA = [
   {
     "category": "reading",
     "level": "b1-b2",
+    "slug": "world-walker-reading-test",
+    "link": "https://test-english.com/reading/b1-b2/world-walker-reading-test/",
+    "title": "World walker",
+    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
+  },
+  {
+    "category": "reading",
+    "level": "b1-b2",
     "slug": "can-you-stay-friends-after-divorce",
     "link": "https://test-english.com/reading/b1-b2/can-you-stay-friends-after-divorce/",
     "title": "Can you stay friends after divorce?",
@@ -5034,18 +4994,18 @@ const EXERCISES_DATA = [
   },
   {
     "category": "vocabulary",
-    "level": "b1-b2",
-    "slug": "air-travel-b1-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1-b2/air-travel-b1-b2-english-vocabulary/",
-    "title": "Air travel",
+    "level": "b2",
+    "slug": "tourism-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/tourism-b2-english-vocabulary/",
+    "title": "Tourism",
     "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
   },
   {
     "category": "vocabulary",
-    "level": "b1-b2",
-    "slug": "travel-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1-b2/travel-b1-english-vocabulary/",
-    "title": "Travel",
+    "level": "b2",
+    "slug": "car-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/car-b2-english-vocabulary/",
+    "title": "Cars, roads and traffic",
     "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
   },
   {
@@ -5075,6 +5035,14 @@ const EXERCISES_DATA = [
   {
     "category": "reading",
     "level": "b2",
+    "slug": "is-overtourism-pricing-locals-out-b2-english-reading-test",
+    "link": "https://test-english.com/reading/b2/is-overtourism-pricing-locals-out-b2-english-reading-test/",
+    "title": "Is overtourism pricing locals out?",
+    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
+  },
+  {
+    "category": "reading",
+    "level": "b2",
     "slug": "coolcationing-a-new-travel-trend-b2-english-reading-test",
     "link": "https://test-english.com/reading/b2/coolcationing-a-new-travel-trend-b2-english-reading-test/",
     "title": "Coolcationing: A new travel trend",
@@ -5097,19 +5065,11 @@ const EXERCISES_DATA = [
     "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
   },
   {
-    "category": "vocabulary",
-    "level": "b2",
-    "slug": "tourism-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/tourism-b2-english-vocabulary/",
-    "title": "Tourism",
-    "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "b2",
-    "slug": "car-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/car-b2-english-vocabulary/",
-    "title": "Cars, roads and traffic",
+    "category": "listening",
+    "level": "c1",
+    "slug": "why-is-walking-humans-superpower-c1-english-listening-test",
+    "link": "https://test-english.com/listening/c1/why-is-walking-humans-superpower-c1-english-listening-test/",
+    "title": "Why is walking humans' superpower?",
     "group": "Travel, Transport & Tourism (Viagem, Transporte e Turismo)"
   },
   {
@@ -5142,6 +5102,14 @@ const EXERCISES_DATA = [
     "slug": "schools-in-britain-listening-test",
     "link": "https://test-english.com/listening/a1/schools-in-britain-listening-test/",
     "title": "Schools in Britain",
+    "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
+  },
+  {
+    "category": "reading",
+    "level": "a1",
+    "slug": "future-retirement-plans-a1-english-reading-test",
+    "link": "https://test-english.com/reading/a1/future-retirement-plans-a1-english-reading-test/",
+    "title": "Future retirement plans",
     "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
   },
   {
@@ -5209,6 +5177,22 @@ const EXERCISES_DATA = [
     "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
   },
   {
+    "category": "vocabulary",
+    "level": "b1",
+    "slug": "education-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1/education-b1-english-vocabulary/",
+    "title": "Education",
+    "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b1",
+    "slug": "work-b1-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b1/work-b1-english-vocabulary/",
+    "title": "Work",
+    "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
+  },
+  {
     "category": "listening",
     "level": "b1",
     "slug": "stories-of-school-and-education-b1-english-listening-test",
@@ -5235,6 +5219,22 @@ const EXERCISES_DATA = [
   {
     "category": "reading",
     "level": "b1",
+    "slug": "why-your-coworkers-hate-you-b1-english-reading-test",
+    "link": "https://test-english.com/reading/b1/why-your-coworkers-hate-you-b1-english-reading-test/",
+    "title": "Why your coworkers hate you",
+    "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
+  },
+  {
+    "category": "reading",
+    "level": "b1",
+    "slug": "curriculum-vitaes-tips-can-help",
+    "link": "https://test-english.com/reading/b1/curriculum-vitaes-tips-can-help/",
+    "title": "Curriculum Vitaes: Tips that can Help",
+    "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
+  },
+  {
+    "category": "reading",
+    "level": "b1",
     "slug": "unusual-and-wonderful-jobs-b1-english-reading-test",
     "link": "https://test-english.com/reading/b1/unusual-and-wonderful-jobs-b1-english-reading-test/",
     "title": "Unusual and wonderful jobs",
@@ -5254,22 +5254,6 @@ const EXERCISES_DATA = [
     "slug": "learning-english-forum-your-answer-reading-test",
     "link": "https://test-english.com/reading/b1/learning-english-forum-your-answer-reading-test/",
     "title": "Learning English Forum. Your answer!",
-    "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "b1",
-    "slug": "education-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1/education-b1-english-vocabulary/",
-    "title": "Education",
-    "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "b1",
-    "slug": "work-b1-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b1/work-b1-english-vocabulary/",
-    "title": "Work",
     "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
   },
   {
@@ -5302,6 +5286,30 @@ const EXERCISES_DATA = [
     "slug": "interview-victim-domestic-abuse",
     "link": "https://test-english.com/listening/b1-b2/interview-victim-domestic-abuse/",
     "title": "Interview with a victim of domestic abuse",
+    "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b2",
+    "slug": "work-and-jobs-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/work-and-jobs-b2-english-vocabulary/",
+    "title": "Work and jobs",
+    "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
+  },
+  {
+    "category": "vocabulary",
+    "level": "b2",
+    "slug": "education-b2-english-vocabulary",
+    "link": "https://test-english.com/vocabulary/b2/education-b2-english-vocabulary/",
+    "title": "Education",
+    "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
+  },
+  {
+    "category": "listening",
+    "level": "b2",
+    "slug": "retirement-challenges-in-the-u-s-b2-english-listening-test",
+    "link": "https://test-english.com/listening/b2/retirement-challenges-in-the-u-s-b2-english-listening-test/",
+    "title": "Retirement Challenges in the U.S.",
     "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
   },
   {
@@ -5363,6 +5371,14 @@ const EXERCISES_DATA = [
   {
     "category": "reading",
     "level": "b2",
+    "slug": "the-most-sought-after-company-benefits-b2-english-reading-test",
+    "link": "https://test-english.com/reading/b2/the-most-sought-after-company-benefits-b2-english-reading-test/",
+    "title": "The most sought-after company benefits",
+    "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
+  },
+  {
+    "category": "reading",
+    "level": "b2",
     "slug": "uk-students-protest-covid-19-measures-reading-test",
     "link": "https://test-english.com/reading/b2/uk-students-protest-covid-19-measures-reading-test/",
     "title": "UK students protest Covid-19 measures",
@@ -5382,22 +5398,6 @@ const EXERCISES_DATA = [
     "slug": "10-things-never-starting-new-job",
     "link": "https://test-english.com/reading/b2/10-things-never-starting-new-job/",
     "title": "10 things you should never do when starting a new job",
-    "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "b2",
-    "slug": "work-and-jobs-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/work-and-jobs-b2-english-vocabulary/",
-    "title": "Work and jobs",
-    "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
-  },
-  {
-    "category": "vocabulary",
-    "level": "b2",
-    "slug": "education-b2-english-vocabulary",
-    "link": "https://test-english.com/vocabulary/b2/education-b2-english-vocabulary/",
-    "title": "Education",
     "group": "Work, Jobs & Education (Trabalho, Profissões e Educação)"
   },
   {

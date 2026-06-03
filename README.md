@@ -61,6 +61,7 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 - [Comparative adjectives: Older than, more important than, etc.](https://test-english.com/grammar-points/a1/comparative-adjectives/)
 - [Superlative adjectives: The oldest, the most important, etc.](https://test-english.com/grammar-points/a1/superlative-adjectives/)
 - [Adverbs of manner (slowly) or adjectives (slow)?](https://test-english.com/grammar-points/a1/adverbs-manner/)
+- [How often do you...?](https://test-english.com/listening/a1/how-often-do-you-a1-english-listening-test/)
 
 #### 📶 A2 (Elementary)
 
@@ -109,11 +110,17 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 
 ### Common Verbs & Confusions (Verbos Comuns e Confusões)
 
+#### 📶 A1 (Beginner)
+
+- [Common verbs and verb phrases](https://test-english.com/vocabulary/a1/common-verbs-and-verb-phrases-a1-english-vocabulary/)
+- [Movement verbs](https://test-english.com/vocabulary/a1/movement-verbs-a1-english-vocabulary/)
+
 #### 📶 A2 (Elementary)
 
 - [How to use the verb 'go' in English](https://test-english.com/grammar-points/a2/use-verb-go-english/)
 - [The different uses of the verb 'get'](https://test-english.com/grammar-points/a2/the-different-uses-of-the-verb-get/)
 - [Do vs Make: What's the difference?](https://test-english.com/grammar-points/a2/do-vs-make-difference/)
+- [Say, tell, speak, talk, etc.](https://test-english.com/vocabulary/a2/say-tell-speak-talk-etc-a2-english-vocabulary/)
 
 ### Conditionals & Wish (Condicionais)
 
@@ -121,6 +128,7 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 
 - [First conditional and future time clauses](https://test-english.com/grammar-points/a2/first-conditional-future-time-clauses/)
 - [Second conditional](https://test-english.com/grammar-points/a2/second-conditional/)
+- [If I were a millionaire (Second conditional)](https://test-english.com/listening/a2/if-i-were-a-millionaire-second-conditional-a2-english-listening-test/)
 
 #### 📶 B1 (Intermediate)
 
@@ -140,6 +148,7 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 - [Unless, even if, provided, as long as, etc.: Other expressions in conditionals](https://test-english.com/grammar-points/b2/unless-even-if-provided-as-long-conditionals/)
 - [All conditionals: Mixed conditionals, alternatives to 'if', inversion](https://test-english.com/grammar-points/b2/all-conditionals-mixed-conditionals-alternatives-if-inversion/)
 - [Mixed conditionals: If I were you, I wouldn't have done it](https://test-english.com/grammar-points/b2/mixed-conditionals/)
+- [Regrets: I Wish I’d...](https://test-english.com/listening/b2/regrets-i-wish-id-b2-english-listening-test/)
 
 ### Future Tenses (Tempos Futuros)
 
@@ -147,6 +156,7 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 
 - ['Will' and 'shall': Future](https://test-english.com/grammar-points/a1/will-and-shall/)
 - [Be going to: Plans and predictions](https://test-english.com/grammar-points/a1/be-going-to-plans-predictions/)
+- [What are you going to do?](https://test-english.com/listening/a1/what-are-you-going-to-do-a1-english-listening-test/)
 
 #### 📶 A2 (Elementary)
 
@@ -192,6 +202,10 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 - [Gerunds and infinitives: Complex forms](https://test-english.com/grammar-points/b2/gerunds-infinitives-complex-forms/)
 - [Reduced infinitives: Omitting the infinitive phrase after 'to'](https://test-english.com/grammar-points/b2/reduced-infinitives-omitting-the-infinitive-phrase-after-to/)
 
+#### 📶 C1/C2 (Advanced)
+
+- [Idiomatic infinitive phrases](https://test-english.com/vocabulary/c1/idiomatic-infinitive-phrases-c1-english-vocabulary/)
+
 ### Modal Verbs (Verbos Modais)
 
 #### 📶 A1 (Beginner)
@@ -209,6 +223,7 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 - [Have to, must, should: Obligation, prohibition, necessity, advice](https://test-english.com/grammar-points/b1/have-to-must-should/)
 - [Modal verbs of deduction: Must, may, might, could, can't](https://test-english.com/grammar-points/b1/modal-verbs-of-deduction/)
 - [Had better... It's time...](https://test-english.com/grammar-points/b1/had-better-its-time/)
+- [Weird driving rules (Modal verbs)](https://test-english.com/listening/b1/weird-driving-rules-modal-verbs-b1-english-listening-test/)
 
 #### 📶 B1-B2 (Pre-Upper-Intermediate)
 
@@ -236,6 +251,7 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 #### 📶 A2 (Elementary)
 
 - [Much, many, little, few, some, any: Quantifiers](https://test-english.com/grammar-points/a2/much-many-little-few-some-any/)
+- [Containers and quantities](https://test-english.com/vocabulary/a2/containers-and-quantities-a2-english-vocabulary/)
 
 #### 📶 B1 (Intermediate)
 
@@ -340,6 +356,7 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 - [Was/were: Past simple of 'be'](https://test-english.com/grammar-points/a1/was-were/)
 - [Past simple: Regular/irregular verbs](https://test-english.com/grammar-points/a1/past-simple-regular-irregular/)
 - [Past simple: Negatives and questions](https://test-english.com/grammar-points/a1/past-simple-negatives-questions/)
+- [What did you do last summer](https://test-english.com/listening/a1/what-did-you-do-last-summer-listening-test/)
 
 #### 📶 A2 (Elementary)
 
@@ -352,15 +369,25 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 
 ### Phrasal Verbs (Verbos Frasais)
 
+#### 📶 A1 (Beginner)
+
+- [Basic phrasal verbs](https://test-english.com/vocabulary/a1/basic-phrasal-verbs-a1-english-vocabulary/)
+
 #### 📶 A2 (Elementary)
 
 - [Phrasal verbs: Transitive / intransitive, separable / inseparable](https://test-english.com/grammar-points/a2/phrasal-verbs-transitive-and-intransitive-separable-and-inseparable/)
+- [Common phrasal verbs](https://test-english.com/vocabulary/a2/common-phrasal-verbs-a2-english-vocabulary/)
 
 #### 📶 B1 (Intermediate)
 
 - [B1 Phrasal verbs 1: Exercises and explanation](https://test-english.com/grammar-points/b1/b1-phrasal-verbs-1-exercises-explanation/)
 - [B1 Phrasal verbs 2: Exercises and explanation](https://test-english.com/grammar-points/b1/b1-phrasal-verbs-2-exercises-and-explanation/)
 - [B1 Phrasal verbs 3: Exercises and explanation](https://test-english.com/grammar-points/b1/b1-phrasal-verbs-3-exercises-and-explanation/)
+
+#### 📶 B2 (Upper-Intermediate)
+
+- [Phrasal verbs I](https://test-english.com/vocabulary/b2/phrasal-verbs-i-b2-english-vocabulary/)
+- [Phrasal verbs II](https://test-english.com/vocabulary/b2/phrasal-verbs-ii-b2-english-vocabulary/)
 
 ### Prepositions (Preposições)
 
@@ -373,6 +400,7 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 
 - [Subject questions, questions with preposition](https://test-english.com/grammar-points/a2/subject-questions-questions-preposition/)
 - [Prepositions of movement: Along, across, over, etc.](https://test-english.com/grammar-points/a2/prepositions-of-movement/)
+- [Words with prepositions](https://test-english.com/vocabulary/a2/words-with-prepositions-a2-english-vocabulary/)
 
 #### 📶 B1 (Intermediate)
 
@@ -389,6 +417,8 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 
 - [Present perfect: Form and use](https://test-english.com/grammar-points/a2/present-perfect/)
 - [Present perfect or past simple?](https://test-english.com/grammar-points/a2/present-perfect-or-past-simple/)
+- [Have you ever... (Experiences)](https://test-english.com/listening/a2/have-you-ever-experiences-a2-english-listening-test/)
+- [Three experiences I've had](https://test-english.com/reading/a2/three-experiences-i-have-had-a2-english-reading-test/)
 
 #### 📶 B1 (Intermediate)
 
@@ -409,6 +439,7 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 - [Present simple or present continuous?](https://test-english.com/grammar-points/a1/present-simple-present-continuous/)
 - [The imperative: Sit down! Don’t talk!](https://test-english.com/grammar-points/a1/imperative-sit-dont-talk/)
 - [Have got](https://test-english.com/grammar-points/a1/have-got/)
+- [What are you doing?](https://test-english.com/listening/a1/what-are-you-doing-a1-english-listening-test/)
 
 #### 📶 A2 (Elementary)
 
@@ -525,12 +556,9 @@ Exercícios focados em regras de gramática, tempos verbais, estruturas e uso co
 
 - [Narrative tenses, used to, would](https://test-english.com/grammar-points/b2/narrative-tenses-used-to-would/)
 
-
----
-
 ## 🗣️ Tópicos Situacionais (Vocab, Listening, Reading, etc.)
 
-Exercícios práticos contextualizados por tópicos da vida real (diálogos, textos de leitura, vocabulário temático e escrita).
+Exercícios práticos organizados por temas do mundo real para expandir seu vocabulário e treinar audição e leitura.
 
 ### Body, Health & Medicine (Corpo, Saúde e Medicina)
 
@@ -541,24 +569,36 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 #### 📶 B1 (Intermediate)
 
-**Listening (Audição):**
-- [How do you keep fit?](https://test-english.com/listening/b1/how-do-you-keep-fit-b1-english-listening-test/)
-
 **Vocabulary (Vocabulário):**
 - [The body: parts and actions](https://test-english.com/vocabulary/b1/the-body-parts-and-actions-b1-english-vocabulary/)
 
-#### 📶 B1-B2 (Pre-Upper-Intermediate)
-
 **Listening (Audição):**
-- [Health problems](https://test-english.com/listening/b1-b2/health-problems-b1-b2-english-listening-test/)
+- [How do you keep fit?](https://test-english.com/listening/b1/how-do-you-keep-fit-b1-english-listening-test/)
 
 **Reading (Leitura):**
-- [Your mental health starts in your gut](https://test-english.com/reading/b1-b2/your-mental-health-starts-in-your-gut-b1-english-reading/)
+- [The unhealthiest places in the world](https://test-english.com/reading/b1/the-unhealthiest-places-in-the-world-b1-english-reading-test/)
+
+#### 📶 B1-B2 (Pre-Upper-Intermediate)
 
 **Vocabulary (Vocabulário):**
 - [Health problems and injuries](https://test-english.com/vocabulary/b1-b2/health-problems-and-injuries-b1-b2-english-vocabulary/)
 
+**Listening (Audição):**
+- [Health problems](https://test-english.com/listening/b1-b2/health-problems-b1-b2-english-listening-test/)
+- [The return of Polio in the US](https://test-english.com/listening/b1-b2/the-return-of-polio-in-the-us_b1-b2-listening-test/)
+- [Do you suffer from cyberchondria?](https://test-english.com/listening/b1-b2/cyberchondria/)
+- [Sleep Disorders Overview](https://test-english.com/listening/b1-b2/sleep-disorders-overview/)
+- [Head transplant](https://test-english.com/listening/b1-b2/head-transplant/)
+
+**Reading (Leitura):**
+- [Your mental health starts in your gut](https://test-english.com/reading/b1-b2/your-mental-health-starts-in-your-gut-b1-english-reading/)
+- [Why we sleep](https://test-english.com/reading/b1-b2/why-we-sleep-b1-english-reading-test/)
+- [Does cannabis cure cancer?](https://test-english.com/reading/b1-b2/does-cannabis-cure-cancer/)
+
 #### 📶 B2 (Upper-Intermediate)
+
+**Vocabulary (Vocabulário):**
+- [Health and sickness](https://test-english.com/vocabulary/b2/health-and-sickness-b2-english-vocabulary/)
 
 **Listening (Audição):**
 - [Can music be medicine?](https://test-english.com/listening/b2/can-music-be-medicine-b2-english-listening-test/)
@@ -567,13 +607,17 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 **Reading (Leitura):**
 - [Personality and health](https://test-english.com/reading/b2/personality-and-health-reading-test/)
 - [How to stay fit, happy and healthy](https://test-english.com/reading/b2/stay-fit-happy-healthy/)
-
-**Vocabulary (Vocabulário):**
-- [Health and sickness](https://test-english.com/vocabulary/b2/health-and-sickness-b2-english-vocabulary/)
+- [Finding calm in cities](https://test-english.com/reading/b2/finding-calm-in-cities-b2-english-reading-test/)
+- [Fatphobia: The stigma of being fat](https://test-english.com/reading/b2/fatphobia-the-stigma-of-being-fat-b2-english-reading-test/)
 
 ### Daily Life & Routines (Vida Diária e Rotinas)
 
 #### 📶 A1 (Beginner)
+
+**Vocabulary (Vocabulário):**
+- [Daily routines](https://test-english.com/vocabulary/a1/daily-routines-a1-english-vocabulary/)
+- [Days, months and seasons](https://test-english.com/vocabulary/a1/days-months-seasons-a1-english-vocabulary/)
+- [Time words](https://test-english.com/vocabulary/a1/time-words-a1-english-vocabulary/)
 
 **Listening (Audição):**
 - [Tell me about your life](https://test-english.com/listening/a1/tell-me-about-your-life-a1-english-listening-test/)
@@ -590,15 +634,13 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [What do you do with your free time?](https://test-english.com/reading/a1/what-do-you-do-with-free-time/)
 - [Pancake Day (British traditions)](https://test-english.com/reading/a1/pancake-day-a1-english-reading-test/)
 
-**Vocabulary (Vocabulário):**
-- [Daily routines](https://test-english.com/vocabulary/a1/daily-routines-a1-english-vocabulary/)
-- [Days, months and seasons](https://test-english.com/vocabulary/a1/days-months-seasons-a1-english-vocabulary/)
-- [Time words](https://test-english.com/vocabulary/a1/time-words-a1-english-vocabulary/)
-
 **Writing (Escrita):**
 - [Writing about my daily routine](https://test-english.com/writing/a1/writing-about-my-daily-routine/)
 
 #### 📶 A2 (Elementary)
+
+**Vocabulary (Vocabulário):**
+- [Everyday problems and solutions](https://test-english.com/vocabulary/a2/everyday-problems-and-solutions-a2-english-vocabulary/)
 
 **Listening (Audição):**
 - [New Year's resolutions (Be going to)](https://test-english.com/listening/a2/new-years-resolutions-a2-english-listening-test/)
@@ -612,16 +654,19 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 #### 📶 B1 (Intermediate)
 
-**Listening (Audição):**
-- [Living with your ex after a break-up](https://test-english.com/listening/b1/living-with-your-ex-after-a-break-up-b1-english-listening-test/)
-- [Why Saint Patrick’s day went global](https://test-english.com/listening/b1/why-saint-patricks-day-went-global-b1-listening-test/)
-
 **Vocabulary (Vocabulário):**
 - [More daily routines](https://test-english.com/vocabulary/b1/more-daily-routines-b1-english-vocabulary/)
 - [Free time activities](https://test-english.com/vocabulary/b1/free-time-activities-b1-english-vocabulary/)
 - [Age and life stages](https://test-english.com/vocabulary/b1/age-and-life-stages-b1-english-vocabulary/)
 
+**Listening (Audição):**
+- [Living with your ex after a break-up](https://test-english.com/listening/b1/living-with-your-ex-after-a-break-up-b1-english-listening-test/)
+- [Why Saint Patrick’s day went global](https://test-english.com/listening/b1/why-saint-patricks-day-went-global-b1-listening-test/)
+
 #### 📶 B1-B2 (Pre-Upper-Intermediate)
+
+**Vocabulary (Vocabulário):**
+- [Everyday problems](https://test-english.com/vocabulary/b1-b2/everyday-problems-b1-english-vocabulary/)
 
 **Listening (Audição):**
 - [Culture shock: Living abroad](https://test-english.com/listening/b1-b2/culture-shock-living-abroad-b1-english-listening-test/)
@@ -633,20 +678,22 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 #### 📶 A1 (Beginner)
 
+**Vocabulary (Vocabulário):**
+- [Family and relatives](https://test-english.com/vocabulary/a1/family-and-relatives-a1-english-vocabulary/)
+- [Opposite adjectives for describing people and things](https://test-english.com/vocabulary/a1/opposite-adjectives-for-describing-people-and-things-a1-english-vocabulary/)
+- [Clothes](https://test-english.com/vocabulary/a1/clothes-a1-english-vocabulary/)
+
 **Listening (Audição):**
 - [Comparing things and people](https://test-english.com/listening/a1/comparing-things-and-people-a1-english-listening-test/)
 - [Describing people](https://test-english.com/listening/a1/describing-people-a1-english-listening-test/)
 - [Looking for a man](https://test-english.com/listening/a1/looking-for-a-man-a1-english-listening-test/)
 - [My family](https://test-english.com/listening/a1/my-family-listening-test/)
 - [What are they wearing? Clothes](https://test-english.com/listening/a1/what-are-they-wearing-clothes-listening-test/)
+- [Giving personal information](https://test-english.com/listening/a1/giving-personal-information-a1-english-listening-test/)
 
 **Reading (Leitura):**
 - [About my family (Describing people)](https://test-english.com/reading/a1/about-my-family/)
-
-**Vocabulary (Vocabulário):**
-- [Family and relatives](https://test-english.com/vocabulary/a1/family-and-relatives-a1-english-vocabulary/)
-- [Opposite adjectives for describing people and things](https://test-english.com/vocabulary/a1/opposite-adjectives-for-describing-people-and-things-a1-english-vocabulary/)
-- [Clothes](https://test-english.com/vocabulary/a1/clothes-a1-english-vocabulary/)
+- [Guess who?](https://test-english.com/reading/a1/guess-who-a1-english-reading-test/)
 
 **Writing (Escrita):**
 - [Writing about my family](https://test-english.com/writing/a1/writing-about-my-family/)
@@ -654,22 +701,26 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 #### 📶 A2 (Elementary)
 
+**Vocabulary (Vocabulário):**
+- [Describing people's appearance](https://test-english.com/vocabulary/a2/describing-peoples-appearance-a2-english-vocabulary/)
+- [Describing people's personality](https://test-english.com/vocabulary/a2/describing-peoples-personality-a2-english-vocabulary/)
+- [Clothes](https://test-english.com/vocabulary/a2/clothes-a2-english-vocabulary/)
+
 **Listening (Audição):**
 - [My friends](https://test-english.com/listening/a2/my-friends-listening-test/)
 - [Elisa's family](https://test-english.com/listening/a2/elisas-family-listening-test/)
 
 **Reading (Leitura):**
 - [The man with the most world records](https://test-english.com/reading/a2/man-with-most-world-records-reading-test/)
-
-**Vocabulary (Vocabulário):**
-- [Describing people's appearance](https://test-english.com/vocabulary/a2/describing-peoples-appearance-a2-english-vocabulary/)
-- [Describing people's personality](https://test-english.com/vocabulary/a2/describing-peoples-personality-a2-english-vocabulary/)
-- [Clothes](https://test-english.com/vocabulary/a2/clothes-a2-english-vocabulary/)
+- [Frogs in love: Romeo and Juliet](https://test-english.com/reading/a2/frogs-in-love-romeo-and-juliet-reading-test/)
 
 **Writing (Escrita):**
 - [A biography of someone you know](https://test-english.com/writing/a2/a-biography-of-someone-you-know-a2-english-writing/)
 
 #### 📶 B1 (Intermediate)
+
+**Vocabulary (Vocabulário):**
+- [Relationships](https://test-english.com/vocabulary/b1/relationships-b1-english-vocabulary/)
 
 **Listening (Audição):**
 - [Stories of relationships](https://test-english.com/listening/b1/stories-of-relationships-b1-english-listening-test/)
@@ -682,23 +733,28 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [Adopting a child](https://test-english.com/reading/b1/adopting-a-child-b1-english-reading-test/)
 - [Child marriage in Nepal](https://test-english.com/reading/b1/child-marriage-nepal/)
 
-**Vocabulary (Vocabulário):**
-- [Relationships](https://test-english.com/vocabulary/b1/relationships-b1-english-vocabulary/)
-
 #### 📶 B1-B2 (Pre-Upper-Intermediate)
-
-**Listening (Audição):**
-- [Fears and Phobias](https://test-english.com/listening/b1-b2/fears-and-phobias-b1-english-listening-test/)
 
 **Vocabulary (Vocabulário):**
 - [Clothes](https://test-english.com/vocabulary/b1-b2/clothes-b1-b2-english-vocabulary/)
 - [Personality](https://test-english.com/vocabulary/b1-b2/personality-b1-english-vocabulary/)
 - [Fears and phobias](https://test-english.com/vocabulary/b1-b2/fears-and-phobias-b1-english-vocabulary/)
 
+**Listening (Audição):**
+- [Fears and Phobias](https://test-english.com/listening/b1-b2/fears-and-phobias-b1-english-listening-test/)
+- [My Husband is Annoying](https://test-english.com/listening/b1-b2/my-husband-is-annoying-b1-b2-listening-test/)
+
+**Reading (Leitura):**
+- [Should motherhood define me?](https://test-english.com/reading/b1-b2/should-motherhood-define-me/)
+
 **Writing (Escrita):**
 - [Describing a photo](https://test-english.com/writing/b1-b2/describing-a-photo-b1-english-writing/)
 
 #### 📶 B2 (Upper-Intermediate)
+
+**Vocabulary (Vocabulário):**
+- [Relationships](https://test-english.com/vocabulary/b2/relationships-b2-english-vocabulary/)
+- [Feelings and emotions](https://test-english.com/vocabulary/b2/feelings-and-emotions-b2-english-vocabulary/)
 
 **Listening (Audição):**
 - [Relationship dilemmas](https://test-english.com/listening/b2/relationship-dilemmas-b2-english-listening-test/)
@@ -708,10 +764,7 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 **Reading (Leitura):**
 - [Am I in a toxic relationship?](https://test-english.com/reading/b2/am-i-in-a-toxic-relationship-b2-english-reading-test/)
 - [Why are so many men secret dieters?](https://test-english.com/reading/b2/why-are-so-many-men-secret-dieters/)
-
-**Vocabulary (Vocabulário):**
-- [Relationships](https://test-english.com/vocabulary/b2/relationships-b2-english-vocabulary/)
-- [Feelings and emotions](https://test-english.com/vocabulary/b2/feelings-and-emotions-b2-english-vocabulary/)
+- [Weak ties: The power of acquaintances](https://test-english.com/reading/b2/weak-ties-unveiling-the-power-of-acquaintances-b2-english-reading-test/)
 
 #### 📶 C1/C2 (Advanced)
 
@@ -725,29 +778,32 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 #### 📶 A1 (Beginner)
 
-**Listening (Audição):**
-- [Ordering at the restaurant](https://test-english.com/listening/a1/ordering-at-the-restaurant-a1-listening-test/)
-
 **Vocabulary (Vocabulário):**
 - [Food and meals](https://test-english.com/vocabulary/a1/food-and-meals-a1-english-vocabulary/)
 - [At the restaurant](https://test-english.com/vocabulary/a1/at-the-restaurant-a1-english-vocabulary/)
 - [Eating and drinking utensils](https://test-english.com/vocabulary/a1/eating-and-drinking-utensils-a1-english-vocabulary/)
+
+**Listening (Audição):**
+- [Ordering at the restaurant](https://test-english.com/listening/a1/ordering-at-the-restaurant-a1-listening-test/)
 
 #### 📶 A2 (Elementary)
 
 **Listening (Audição):**
 - [English pubs](https://test-english.com/listening/a2/english-pubs-a2-listening/)
 
+**Reading (Leitura):**
+- [The benefits of nuts](https://test-english.com/reading/a2/benefits-of-nuts/)
+
 #### 📶 B1 (Intermediate)
+
+**Vocabulary (Vocabulário):**
+- [Food and cooking](https://test-english.com/vocabulary/b1/food-and-cooking-b1-english-vocabulary/)
 
 **Listening (Audição):**
 - [Burgers made of insects](https://test-english.com/listening/b1/burgers-made-of-insects-listening-test/)
 
 **Reading (Leitura):**
 - [Five restaurant reviews](https://test-english.com/reading/b1/five-restaurant-reviews-reading-test/)
-
-**Vocabulary (Vocabulário):**
-- [Food and cooking](https://test-english.com/vocabulary/b1/food-and-cooking-b1-english-vocabulary/)
 
 #### 📶 B1-B2 (Pre-Upper-Intermediate)
 
@@ -756,12 +812,15 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 #### 📶 B2 (Upper-Intermediate)
 
+**Vocabulary (Vocabulário):**
+- [Food and food products](https://test-english.com/vocabulary/b2/food-and-food-products-b2-english-vocabulary/)
+
 **Listening (Audição):**
 - [The truth about](https://test-english.com/listening/b2/the-truth-about-expired-food-b2-english-listening-test/)
 - [The chef who can’t eat what she cooks](https://test-english.com/listening/b2/the-chef-who-cant-eat-what-she-cooks-b2-english-listening-test/)
 
-**Vocabulary (Vocabulário):**
-- [Food and food products](https://test-english.com/vocabulary/b2/food-and-food-products-b2-english-vocabulary/)
+**Reading (Leitura):**
+- [The principles of the New High Protein Diet](https://test-english.com/reading/b2/principles-new-high-protein-diet/)
 
 ### Leisure, Sports & Media (Lazer, Esportes e Mídia)
 
@@ -772,10 +831,17 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [Sports and exercise](https://test-english.com/listening/a1/sports-and-exercise-listening-test/)
 - [Cinema and Theatre in London](https://test-english.com/listening/a1/cinema-theatre-listening-test/)
 
+**Reading (Leitura):**
+- [Thanksgiving](https://test-english.com/reading/a1/thanksgiving-reading-test/)
+- [Three American festivals](https://test-english.com/reading/a1/three-american-festivals-reading-test/)
+
 **Writing (Escrita):**
 - [My hobby](https://test-english.com/writing/a1/my-hobby-a1-english-writing/)
 
 #### 📶 A2 (Elementary)
+
+**Vocabulary (Vocabulário):**
+- [Hobbies and free time](https://test-english.com/vocabulary/a2/hobbies-and-free-time-a2-english-vocabulary/)
 
 **Listening (Audição):**
 - [Party experiences](https://test-english.com/listening/a2/party-experiences-a2-english-listening-test/)
@@ -786,11 +852,14 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 **Reading (Leitura):**
 - [Hobbies: Why do people collect?](https://test-english.com/reading/a2/hobbies-people-collect-reading-test/)
 - [It's in the news](https://test-english.com/reading/a2/its-in-the-news/)
-
-**Vocabulary (Vocabulário):**
-- [Hobbies and free time](https://test-english.com/vocabulary/a2/hobbies-and-free-time-a2-english-vocabulary/)
+- [A really popular summer festival in the UK](https://test-english.com/reading/a2/a-really-popular-summer-festival-in-the-uk-a2-english-reading-test/)
 
 #### 📶 B1 (Intermediate)
+
+**Vocabulary (Vocabulário):**
+- [Sport](https://test-english.com/vocabulary/b1/sport-b1-english-vocabulary/)
+- [News and media](https://test-english.com/vocabulary/b1/news-and-media-b1-english-vocabulary/)
+- [Types of movies and TV shows](https://test-english.com/vocabulary/b1/types-of-movies-and-tv-shows-b1-english-vocabulary/)
 
 **Listening (Audição):**
 - [Famous sports cheating scandals](https://test-english.com/listening/b1/famous-sports-cheating-scandals-b1-english-listening-test/)
@@ -800,11 +869,7 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 **Reading (Leitura):**
 - [Cheating in sports](https://test-english.com/reading/b1/cheating-in-sports-b1-english-reading-test/)
-
-**Vocabulary (Vocabulário):**
-- [Sport](https://test-english.com/vocabulary/b1/sport-b1-english-vocabulary/)
-- [News and media](https://test-english.com/vocabulary/b1/news-and-media-b1-english-vocabulary/)
-- [Types of movies and TV shows](https://test-english.com/vocabulary/b1/types-of-movies-and-tv-shows-b1-english-vocabulary/)
+- [Actors who died on set](https://test-english.com/reading/b1/actors-who-died-on-set-b1-english-reading-test/)
 
 #### 📶 B1-B2 (Pre-Upper-Intermediate)
 
@@ -812,25 +877,33 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [Describing books](https://test-english.com/vocabulary/b1-b2/describing-books-b1-english-vocabulary/)
 - [Social media actions](https://test-english.com/vocabulary/b1-b2/social-media-actions-b1-english-vocabulary/)
 
+**Listening (Audição):**
+- [Actors talk about acting](https://test-english.com/listening/b1-b2/actors-talk-acting/)
+
+**Reading (Leitura):**
+- [Binge-watching](https://test-english.com/reading/b1-b2/binge-watching-b1-b2-reading-test/)
+- [Where are the Harry Potter Stars now?](https://test-english.com/reading/b1-b2/where-are-the-harry-potter-stars-now-reading-test/)
+
 **Writing (Escrita):**
 - [A book review](https://test-english.com/writing/b1-b2/a-book-review-b1-english-writing/)
 
 #### 📶 B2 (Upper-Intermediate)
-
-**Listening (Audição):**
-- [Socializing and parties](https://test-english.com/listening/b2/socializing-and-parties-b2-english-listening-test/)
-- [Discussing news and media](https://test-english.com/listening/b2/discussing-news-and-media-b2-english-listening-test/)
-- [The museum of your ex's belongings](https://test-english.com/listening/b2/the-museum-of-your-exs-belongings-b2-english-listening-test/)
-
-**Reading (Leitura):**
-- [Teenage Social Media Millionaires](https://test-english.com/reading/b2/teenage-social-media-millionaires-reading-test/)
-- [Is banning single-use plastic the right option?](https://test-english.com/reading/b2/is-banning-singl-use-plastic-the-right-option_reading-test/)
 
 **Vocabulary (Vocabulário):**
 - [News and media](https://test-english.com/vocabulary/b2/the-news-and-media-b2-english-vocabulary/)
 - [The human voice and other sounds](https://test-english.com/vocabulary/b2/the-human-voice-and-other-sounds-b2-english-vocabulary/)
 - [Socializing and social events](https://test-english.com/vocabulary/b2/socializing-and-social-events-b2-english-vocabulary/)
 - [Talking about movies](https://test-english.com/vocabulary/b2/talking-about-movies-b2-english-vocabulary/)
+
+**Listening (Audição):**
+- [Socializing and parties](https://test-english.com/listening/b2/socializing-and-parties-b2-english-listening-test/)
+- [Discussing news and media](https://test-english.com/listening/b2/discussing-news-and-media-b2-english-listening-test/)
+- [The museum of your ex's belongings](https://test-english.com/listening/b2/the-museum-of-your-exs-belongings-b2-english-listening-test/)
+- [Behind the scenes with an actor](https://test-english.com/listening/b2/behind-the-scenes-with-an-actor-b2-english-listening-test/)
+
+**Reading (Leitura):**
+- [Teenage Social Media Millionaires](https://test-english.com/reading/b2/teenage-social-media-millionaires-reading-test/)
+- [Is banning single-use plastic the right option?](https://test-english.com/reading/b2/is-banning-singl-use-plastic-the-right-option_reading-test/)
 
 **Writing (Escrita):**
 - [A film review](https://test-english.com/writing/b2/a-film-review-b2-english-writing/)
@@ -853,51 +926,53 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 #### 📶 B1 (Intermediate)
 
-**Listening (Audição):**
-- [When will humans get to Mars?](https://test-english.com/listening/b1/humans-mars-listening-test/)
-
 **Vocabulary (Vocabulário):**
 - [Animals and their bodies and sounds](https://test-english.com/vocabulary/b1/animals-and-their-bodies-and-sounds-b1-english-vocabulary/)
 - [Pollution and how to stop it](https://test-english.com/vocabulary/b1/pollution-and-how-to-stop-it-b1-english-vocabulary/)
 
-#### 📶 B1-B2 (Pre-Upper-Intermediate)
+**Listening (Audição):**
+- [When will humans get to Mars?](https://test-english.com/listening/b1/humans-mars-listening-test/)
 
-**Reading (Leitura):**
-- [Extreme weather](https://test-english.com/reading/b1-b2/extreme-weather-b1-english-reading-test/)
+#### 📶 B1-B2 (Pre-Upper-Intermediate)
 
 **Vocabulary (Vocabulário):**
 - [The weather and natural disasters](https://test-english.com/vocabulary/b1-b2/the-weather-and-natural-disasters-b1-b2-english-vocabulary/)
 - [The animal world](https://test-english.com/vocabulary/b1-b2/animal-world-b1-english-vocabulary/)
 
-#### 📶 B2 (Upper-Intermediate)
-
 **Reading (Leitura):**
-- [Climate migrants](https://test-english.com/reading/b2/climate-migrants-b2-english-reading-test/)
+- [Extreme weather](https://test-english.com/reading/b1-b2/extreme-weather-b1-english-reading-test/)
+- [Seeding clouds to make rain](https://test-english.com/reading/b1-b2/seeding-clouds-to-make-rain-b1-english-reading-test/)
+- [Eco-terrorism](https://test-english.com/reading/b1-b2/eco-terrorism-b1-english-reading-test/)
+
+#### 📶 B2 (Upper-Intermediate)
 
 **Vocabulary (Vocabulário):**
 - [Pollution and the environment](https://test-english.com/vocabulary/b2/pollution-and-the-environment-b2-english-vocabulary/)
+
+**Listening (Audição):**
+- [Thailand sees brisk trade in illegal species](https://test-english.com/listening/b2/thailand-sees-brisk-trade-illegal-species/)
+
+**Reading (Leitura):**
+- [Climate migrants](https://test-english.com/reading/b2/climate-migrants-b2-english-reading-test/)
 
 ### Other Situational & General Topics (Outros Assuntos e Tópicos Gerais)
 
 #### 📶 A1 (Beginner)
 
+**Vocabulary (Vocabulário):**
+- [Common things](https://test-english.com/vocabulary/a1/common-things-a1-english-vocabulary/)
+- [Countries and nationalities](https://test-english.com/vocabulary/a1/countries-and-nationalities-a1-english-vocabulary/)
+
 **Listening (Audição):**
-- [Giving personal information](https://test-english.com/listening/a1/giving-personal-information-a1-english-listening-test/)
-- [How often do you...?](https://test-english.com/listening/a1/how-often-do-you-a1-english-listening-test/)
-- [What are you doing?](https://test-english.com/listening/a1/what-are-you-doing-a1-english-listening-test/)
-- [What are you going to do?](https://test-english.com/listening/a1/what-are-you-going-to-do-a1-english-listening-test/)
 - [Countries, nationalities, and languages](https://test-english.com/listening/a1/countries-nationalities-and-languages-a1-english-listening-test/)
-- [What did you do last summer](https://test-english.com/listening/a1/what-did-you-do-last-summer-listening-test/)
 
 **Reading (Leitura):**
-- [Guess who?](https://test-english.com/reading/a1/guess-who-a1-english-reading-test/)
 - [The British ways](https://test-english.com/reading/a1/the-british-ways-a1-english-reading-test/)
 - [Top things that I do](https://test-english.com/reading/a1/top-things-that-i-do-a1-english-reading-test/)
 - [Traditions around the world](https://test-english.com/reading/a1/around-the-world-traditions-a1-english-reading-test/)
-- [Thanksgiving](https://test-english.com/reading/a1/thanksgiving-reading-test/)
-- [Future retirement plans](https://test-english.com/reading/a1/future-retirement-plans-a1-english-reading-test/)
-- [Three American festivals](https://test-english.com/reading/a1/three-american-festivals-reading-test/)
-- [Going to the mall](https://test-english.com/reading/a1/going-to-the-mall-reading-test/)
+
+**Writing (Escrita):**
+- [How to write a personal profile](https://test-english.com/writing/a1/how-to-write-a-personal-profile-a1-english-writing/)
 
 **Use of English (Uso da Língua):**
 - [A1 English test 1 – text with multiple choice gaps](https://test-english.com/use-of-english/a1/a1-test-1/)
@@ -912,35 +987,20 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [A1 English test 10 – multiple choice questions](https://test-english.com/use-of-english/a1/a1-english-test-10-multiple-choice-questions/)
 - [A1 English test 11 – Text with multiple-choice gaps](https://test-english.com/use-of-english/a1/a1-english-test-11-text-with-multiple-choice-gaps/)
 
-**Vocabulary (Vocabulário):**
-- [Common things](https://test-english.com/vocabulary/a1/common-things-a1-english-vocabulary/)
-- [Common verbs and verb phrases](https://test-english.com/vocabulary/a1/common-verbs-and-verb-phrases-a1-english-vocabulary/)
-- [Countries and nationalities](https://test-english.com/vocabulary/a1/countries-and-nationalities-a1-english-vocabulary/)
-- [Movement verbs](https://test-english.com/vocabulary/a1/movement-verbs-a1-english-vocabulary/)
-- [Basic phrasal verbs](https://test-english.com/vocabulary/a1/basic-phrasal-verbs-a1-english-vocabulary/)
-
-**Writing (Escrita):**
-- [Essay about 'My Neighbourhood'](https://test-english.com/writing/a1/essay-about-my-neighbourhood-a1-english-writing/)
-- [How to write a personal profile](https://test-english.com/writing/a1/how-to-write-a-personal-profile-a1-english-writing/)
-
 #### 📶 A2 (Elementary)
 
 **Listening (Audição):**
-- [Have you ever... (Experiences)](https://test-english.com/listening/a2/have-you-ever-experiences-a2-english-listening-test/)
 - [Future plans](https://test-english.com/listening/a2/future-plans-listening-test/)
-- [If I were a millionaire (Second conditional)](https://test-english.com/listening/a2/if-i-were-a-millionaire-second-conditional-a2-english-listening-test/)
 
 **Reading (Leitura):**
 - [What rainbows mean around the world](https://test-english.com/reading/a2/what-rainbows-mean-around-the-world-a2-english-reading-test/)
-- [Three popular inventions from the 1920s](https://test-english.com/reading/a2/three-popular-inventions-from-the-1920s-reading-test/)
-- [A really popular summer festival in the UK](https://test-english.com/reading/a2/a-really-popular-summer-festival-in-the-uk-a2-english-reading-test/)
-- [Three experiences I've had](https://test-english.com/reading/a2/three-experiences-i-have-had-a2-english-reading-test/)
 - [Why aren't babies born on certain days?](https://test-english.com/reading/a2/why-arent-babies-born-on-certain-days_reading-test/)
 - [Diva of magic](https://test-english.com/reading/a2/diva-of-magic-reading-test/)
-- [Frogs in love: Romeo and Juliet](https://test-english.com/reading/a2/frogs-in-love-romeo-and-juliet-reading-test/)
-- [Black Friday](https://test-english.com/reading/a2/black-friday/)
 - [Mummy of a lost Egyptian queen identified](https://test-english.com/reading/a2/archaeologists-identify-mummy-lost-egyptian-queen/)
-- [The benefits of nuts](https://test-english.com/reading/a2/benefits-of-nuts/)
+
+**Writing (Escrita):**
+- [Writing a postcard](https://test-english.com/writing/a2/writing-a-postcard-a2-english-writing/)
+- [How to write an opinion essay](https://test-english.com/writing/a2/how-to-write-an-opinion-essay-a2-english-writing/)
 
 **Use of English (Uso da Língua):**
 - [A2 English test 1 - text with multiple choice gaps](https://test-english.com/use-of-english/a2/a2-english-test-1-text-multiple-choice-gaps/)
@@ -955,36 +1015,24 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [A2 English test 10 – multiple choice questions](https://test-english.com/use-of-english/a2/a2-english-test-10-multiple-choice-questions/)
 - [A2 English test 11 – Text with multiple-choice gaps](https://test-english.com/use-of-english/a2/a2-english-test-11-text-with-multiple-choice-gaps/)
 
-**Vocabulary (Vocabulário):**
-- [Words with prepositions](https://test-english.com/vocabulary/a2/words-with-prepositions-a2-english-vocabulary/)
-- [Common phrasal verbs](https://test-english.com/vocabulary/a2/common-phrasal-verbs-a2-english-vocabulary/)
-- [Say, tell, speak, talk, etc.](https://test-english.com/vocabulary/a2/say-tell-speak-talk-etc-a2-english-vocabulary/)
-- [Containers and quantities](https://test-english.com/vocabulary/a2/containers-and-quantities-a2-english-vocabulary/)
-- [Everyday problems and solutions](https://test-english.com/vocabulary/a2/everyday-problems-and-solutions-a2-english-vocabulary/)
-
-**Writing (Escrita):**
-- [Writing a postcard](https://test-english.com/writing/a2/writing-a-postcard-a2-english-writing/)
-- [How to write an opinion essay](https://test-english.com/writing/a2/how-to-write-an-opinion-essay-a2-english-writing/)
-
 #### 📶 B1 (Intermediate)
 
 **Listening (Audição):**
-- [Weird driving rules (Modal verbs)](https://test-english.com/listening/b1/weird-driving-rules-modal-verbs-b1-english-listening-test/)
-- [How to fuel the future](https://test-english.com/listening/b1/how-to-fuel-the-future-listening-test/)
 - [Why do languages die?](https://test-english.com/listening/b1/why-do-languages-die-listening-test/)
 - [Is this the safest place in the world?](https://test-english.com/listening/b1/safest-place-world-listening-test/)
 
 **Reading (Leitura):**
-- [Why your coworkers hate you](https://test-english.com/reading/b1/why-your-coworkers-hate-you-b1-english-reading-test/)
 - [Underwater search for lost love](https://test-english.com/reading/b1/underwater-search-for-lost-love-b1-english-reading-test/)
-- [Actors who died on set](https://test-english.com/reading/b1/actors-who-died-on-set-b1-english-reading-test/)
 - [The arm of Liberty](https://test-english.com/reading/b1/the-arm-of-liberty-reading-test/)
-- [The unhealthiest places in the world](https://test-english.com/reading/b1/the-unhealthiest-places-in-the-world-b1-english-reading-test/)
 - [Memorabilia: What’s the thrill?](https://test-english.com/reading/b1/memorabilia-whats-the-thrill-b1-english-reading-test/)
 - [Active Villagers](https://test-english.com/reading/b1/active-villagers/)
-- [eBay tips for selling successfully](https://test-english.com/reading/b1/ebay-tips-selling-successfully/)
 - [The Ig Nobel Prizes](https://test-english.com/reading/b1/ig-nobel-prizes/)
-- [Curriculum Vitaes: Tips that can Help](https://test-english.com/reading/b1/curriculum-vitaes-tips-can-help/)
+
+**Writing (Escrita):**
+- [Writing an opinion essay – Tips, structure, examples, exercises](https://test-english.com/writing/b1/writing-an-opinion-essay/)
+- [How to write a past story from a given sentence](https://test-english.com/writing/b1/how-to-write-a-past-story-from-a-given-sentence/)
+- [How to write an article – B1 Preliminary (PET) Exam](https://test-english.com/writing/b1/how-to-write-an-article/)
+- [A product review](https://test-english.com/writing/b1/a-product-review-b1-english-writing/)
 
 **Use of English (Uso da Língua):**
 - [B1 English test 1 - text with multiple-choice gaps](https://test-english.com/use-of-english/b1/b1-test-1/)
@@ -999,50 +1047,34 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [B1 English test 10 – multiple choice questions](https://test-english.com/use-of-english/b1/b1-english-test-10-multiple-choice-questions/)
 - [B1 English test 11 – Text with multiple-choice gaps](https://test-english.com/use-of-english/b1/b1-english-test-11-text-with-multiple-choice-gaps/)
 
-**Writing (Escrita):**
-- [Writing an opinion essay – Tips, structure, examples, exercises](https://test-english.com/writing/b1/writing-an-opinion-essay/)
-- [How to write a past story from a given sentence](https://test-english.com/writing/b1/how-to-write-a-past-story-from-a-given-sentence/)
-- [How to write an article – B1 Preliminary (PET) Exam](https://test-english.com/writing/b1/how-to-write-an-article/)
-- [A product review](https://test-english.com/writing/b1/a-product-review-b1-english-writing/)
-
 #### 📶 B1-B2 (Pre-Upper-Intermediate)
+
+**Vocabulary (Vocabulário):**
+- [Word pairs](https://test-english.com/vocabulary/b1-b2/word-pairs-b1-english-vocabulary/)
 
 **Listening (Audição):**
 - [Ravi, the uncatchable smuggler](https://test-english.com/listening/b1-b2/ravi-the-uncatchable-smuggler-b1-listening-test/)
-- [Will humans become supermachines?](https://test-english.com/listening/b1-b2/will-humans-become-supermachines-b1-english-listening-test/)
 - [I should have...](https://test-english.com/listening/b1-b2/i-should-have-b2-english-listening-test/)
-- [The return of Polio in the US](https://test-english.com/listening/b1-b2/the-return-of-polio-in-the-us_b1-b2-listening-test/)
-- [Do you suffer from cyberchondria?](https://test-english.com/listening/b1-b2/cyberchondria/)
 - [Islamic fashion gains popularity](https://test-english.com/listening/b1-b2/islamic-fashion-gains-popularity/)
-- [The Hyperloop: the future of transportation?](https://test-english.com/listening/b1-b2/the-hyperloop/)
-- [The Ecocapsule](https://test-english.com/listening/b1-b2/the-ecocapsule/)
 - [Surviving in the jungle](https://test-english.com/listening/b1-b2/surviving-in-the-jungle/)
-- [My Husband is Annoying](https://test-english.com/listening/b1-b2/my-husband-is-annoying-b1-b2-listening-test/)
-- [Sleep Disorders Overview](https://test-english.com/listening/b1-b2/sleep-disorders-overview/)
-- [Actors talk about acting](https://test-english.com/listening/b1-b2/actors-talk-acting/)
 - [Batman brings justice](https://test-english.com/listening/b1-b2/batman-brings-justice/)
 - [Detroit](https://test-english.com/listening/b1-b2/detroit/)
-- [Head transplant](https://test-english.com/listening/b1-b2/head-transplant/)
 
 **Reading (Leitura):**
-- [Why we sleep](https://test-english.com/reading/b1-b2/why-we-sleep-b1-english-reading-test/)
 - [Why we can't stop lying](https://test-english.com/reading/b1-b2/why-we-cant-stop-lying-b1-english-reading-test/)
 - [Incredible hoaxes](https://test-english.com/reading/b1-b2/incredible-hoaxes-b1-english-reading-test/)
 - [Crazy conspiracy theories](https://test-english.com/reading/b1-b2/crazy-conspiracy-theories-b1-english-reading-test/)
-- [Supernova hunters](https://test-english.com/reading/b1-b2/supernova-hunters-b1-english-reading-test/)
-- [Binge-watching](https://test-english.com/reading/b1-b2/binge-watching-b1-b2-reading-test/)
-- [Seeding clouds to make rain](https://test-english.com/reading/b1-b2/seeding-clouds-to-make-rain-b1-english-reading-test/)
-- [AI boomers vs AI doomers](https://test-english.com/reading/b1-b2/ai-boomers-vs-ai-doomers-b1-english-reading-test/)
 - [Deadly TikTok challenges](https://test-english.com/reading/b1-b2/deadly-tiktok-challenges-reading-test/)
-- [World walker](https://test-english.com/reading/b1-b2/world-walker-reading-test/)
-- [Where are the Harry Potter Stars now?](https://test-english.com/reading/b1-b2/where-are-the-harry-potter-stars-now-reading-test/)
 - [Strange burial](https://test-english.com/reading/b1-b2/strange-burial-reading-test/)
 - [Fear of Missing Out (FOMO)](https://test-english.com/reading/b1-b2/fear-of-missing-out-fomo-reading-test/)
 - [Scamming the Scammers](https://test-english.com/reading/b1-b2/scamming-the-scammers-b1-english-reading-test/)
-- [Eco-terrorism](https://test-english.com/reading/b1-b2/eco-terrorism-b1-english-reading-test/)
 - [A paranormal experience?](https://test-english.com/reading/b1-b2/a-paranormal-experience/)
-- [Should motherhood define me?](https://test-english.com/reading/b1-b2/should-motherhood-define-me/)
-- [Does cannabis cure cancer?](https://test-english.com/reading/b1-b2/does-cannabis-cure-cancer/)
+
+**Writing (Escrita):**
+- [A for and against essay – a balanced essay](https://test-english.com/writing/b1-b2/for-against-essay-balanced-essay/)
+- [Narrative writing step by step](https://test-english.com/writing/b1-b2/narrative-writing-step-by-step/)
+- [Writing a 'how-to' article for a blog or magazine](https://test-english.com/writing/b1-b2/writing-a-how-to-article-for-a-blog-or-magazine/)
+- [Giving your opinion](https://test-english.com/writing/b1-b2/giving-your-opinion-b1-english-writing/)
 
 **Use of English (Uso da Língua):**
 - [B1+ English test 1 – text with multiple choice gaps](https://test-english.com/use-of-english/b1-b2/b1-english-test-1-text-multiple-choice-gaps/)
@@ -1057,40 +1089,27 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [B1+ English test 10 – multiple choice questions](https://test-english.com/use-of-english/b1-b2/b1-english-test-10-multiple-choice-questions/)
 - [B1+ English test 11 – Text with multiple-choice gaps](https://test-english.com/use-of-english/b1-b2/b1-b2-english-test-11-text-with-multiple-choice-gaps/)
 
-**Vocabulary (Vocabulário):**
-- [Word pairs](https://test-english.com/vocabulary/b1-b2/word-pairs-b1-english-vocabulary/)
-- [Everyday problems](https://test-english.com/vocabulary/b1-b2/everyday-problems-b1-english-vocabulary/)
-
-**Writing (Escrita):**
-- [A for and against essay – a balanced essay](https://test-english.com/writing/b1-b2/for-against-essay-balanced-essay/)
-- [Narrative writing step by step](https://test-english.com/writing/b1-b2/narrative-writing-step-by-step/)
-- [Writing a 'how-to' article for a blog or magazine](https://test-english.com/writing/b1-b2/writing-a-how-to-article-for-a-blog-or-magazine/)
-- [Giving your opinion](https://test-english.com/writing/b1-b2/giving-your-opinion-b1-english-writing/)
-
 #### 📶 B2 (Upper-Intermediate)
 
+**Vocabulary (Vocabulário):**
+- [War and peace](https://test-english.com/vocabulary/b2/war-and-peace-b2-english-vocabulary/)
+- [Challenges and achievements](https://test-english.com/vocabulary/b2/challenges-and-achievements-b2-english-vocabulary/)
+
 **Listening (Audição):**
-- [Regrets: I Wish I’d...](https://test-english.com/listening/b2/regrets-i-wish-id-b2-english-listening-test/)
-- [Behind the scenes with an actor](https://test-english.com/listening/b2/behind-the-scenes-with-an-actor-b2-english-listening-test/)
-- [Retirement Challenges in the U.S.](https://test-english.com/listening/b2/retirement-challenges-in-the-u-s-b2-english-listening-test/)
 - [Frida Kahlo](https://test-english.com/listening/b2/frida-kahlo/)
 - [Why English spelling is so weird](https://test-english.com/listening/b2/why-english-is-so-weird/)
 - [The benefits of a bilingual brain](https://test-english.com/listening/b2/benefits-bilingual-brain/)
 - [Threat of war](https://test-english.com/listening/b2/threat-of-war/)
-- [Thailand sees brisk trade in illegal species](https://test-english.com/listening/b2/thailand-sees-brisk-trade-illegal-species/)
 
 **Reading (Leitura):**
-- [Is overtourism pricing locals out?](https://test-english.com/reading/b2/is-overtourism-pricing-locals-out-b2-english-reading-test/)
-- [Using AI to talk to the deceased](https://test-english.com/reading/b2/using-ai-to-talk-to-the-deceased-b2-english-reading-test/)
-- [Regulating deepfakes](https://test-english.com/reading/b2/regulating-deepfakes-b2-english-reading-test/)
-- [Weak ties: The power of acquaintances](https://test-english.com/reading/b2/weak-ties-unveiling-the-power-of-acquaintances-b2-english-reading-test/)
-- [The most sought-after company benefits](https://test-english.com/reading/b2/the-most-sought-after-company-benefits-b2-english-reading-test/)
-- [Finding calm in cities](https://test-english.com/reading/b2/finding-calm-in-cities-b2-english-reading-test/)
-- [Second-hand fashion](https://test-english.com/reading/b2/second-hand-fashion-b2-english-reading-test/)
-- [Fatphobia: The stigma of being fat](https://test-english.com/reading/b2/fatphobia-the-stigma-of-being-fat-b2-english-reading-test/)
-- [Crypto addicts](https://test-english.com/reading/b2/crypto-addicts-b2-reading-test/)
 - [Have we taken security too far?](https://test-english.com/reading/b2/have-we-taken-security-too-far/)
-- [The principles of the New High Protein Diet](https://test-english.com/reading/b2/principles-new-high-protein-diet/)
+
+**Writing (Escrita):**
+- [Writing formal letter of complaint – Tips, examples and exercises](https://test-english.com/writing/b2/a-formal-letter-of-complaint-tips-examples-exercises/)
+- [Writing a discussion essay: Discuss two views and give your opinion](https://test-english.com/writing/b2/writing-a-discussion-essay-discuss-two-views-and-give-your-opinion/)
+- [Opinion essay – agree or disagree with a statement](https://test-english.com/writing/b2/opinion-essay-agree-or-disagree-with-a-statement/)
+- [A formal letter of apology](https://test-english.com/writing/b2/a-formal-letter-of-apology-b2-english-writing/)
+- [A report](https://test-english.com/writing/b2/a-report-b2-english-writing/)
 
 **Use of English (Uso da Língua):**
 - [B2 English test 1 – text with multiple choice gaps](https://test-english.com/use-of-english/b2/b2-english-test-1-text-multiple-choice-gaps/)
@@ -1105,34 +1124,19 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [B2 English test 10 – multiple choice questions](https://test-english.com/use-of-english/b2/b2-english-test-10-multiple-choice-questions/)
 - [B2 English test 11 – text with multiple-choice gaps](https://test-english.com/use-of-english/b2/b2-english-test-11-text-with-multiple-choice-gaps/)
 
-**Vocabulary (Vocabulário):**
-- [War and peace](https://test-english.com/vocabulary/b2/war-and-peace-b2-english-vocabulary/)
-- [Challenges and achievements](https://test-english.com/vocabulary/b2/challenges-and-achievements-b2-english-vocabulary/)
-- [Phrasal verbs I](https://test-english.com/vocabulary/b2/phrasal-verbs-i-b2-english-vocabulary/)
-- [Phrasal verbs II](https://test-english.com/vocabulary/b2/phrasal-verbs-ii-b2-english-vocabulary/)
-
-**Writing (Escrita):**
-- [Writing formal letter of complaint – Tips, examples and exercises](https://test-english.com/writing/b2/a-formal-letter-of-complaint-tips-examples-exercises/)
-- [Writing a discussion essay: Discuss two views and give your opinion](https://test-english.com/writing/b2/writing-a-discussion-essay-discuss-two-views-and-give-your-opinion/)
-- [Opinion essay – agree or disagree with a statement](https://test-english.com/writing/b2/opinion-essay-agree-or-disagree-with-a-statement/)
-- [A formal letter of apology](https://test-english.com/writing/b2/a-formal-letter-of-apology-b2-english-writing/)
-- [A report](https://test-english.com/writing/b2/a-report-b2-english-writing/)
-
 #### 📶 C1/C2 (Advanced)
+
+**Vocabulary (Vocabulário):**
+- [Ways of walking](https://test-english.com/vocabulary/c1/ways-of-walking-c1-english-vocabulary/)
+- [Vague language: imprecision](https://test-english.com/vocabulary/c1/vague-language-imprecision-c1-english-vocabulary/)
 
 **Listening (Audição):**
 - [When I completely embarrassed myself](https://test-english.com/listening/c1/when-i-completely-embarrassed-myself-c1-english-listening-test/)
-- [Why is walking humans' superpower?](https://test-english.com/listening/c1/why-is-walking-humans-superpower-c1-english-listening-test/)
 - [When you can't trust who you hear](https://test-english.com/listening/c1/when-you-cant-trust-who-you-hear-c1-english-listening-test/)
 
 **Reading (Leitura):**
 - [What makes us laugh?](https://test-english.com/reading/c1/what-makes-us-laugh-c1-english-reading-test/)
 - [A walk gone wrong](https://test-english.com/reading/c1/a-walk-gone-wrong-c1-english-reading-test/)
-
-**Vocabulary (Vocabulário):**
-- [Ways of walking](https://test-english.com/vocabulary/c1/ways-of-walking-c1-english-vocabulary/)
-- [Vague language: imprecision](https://test-english.com/vocabulary/c1/vague-language-imprecision-c1-english-vocabulary/)
-- [Idiomatic infinitive phrases](https://test-english.com/vocabulary/c1/idiomatic-infinitive-phrases-c1-english-vocabulary/)
 
 **Writing (Escrita):**
 - [A problem solution essay](https://test-english.com/writing/c1/a-problem-solution-essay-c1-english-writing/)
@@ -1143,43 +1147,51 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 #### 📶 A1 (Beginner)
 
+**Vocabulary (Vocabulário):**
+- [Shops and shopping](https://test-english.com/vocabulary/a1/shops-and-shopping-a1-english-vocabulary/)
+
 **Listening (Audição):**
 - [Shopping habits](https://test-english.com/listening/a1/shopping-habits-listening-test/)
 
 **Reading (Leitura):**
+- [Going to the mall](https://test-english.com/reading/a1/going-to-the-mall-reading-test/)
 - [Online shopping](https://test-english.com/reading/a1/online-shopping/)
 - [Where are you going to shop?](https://test-english.com/reading/a1/where-are-you-going-to-shop-a1-english-reading-test/)
 
-**Vocabulary (Vocabulário):**
-- [Shops and shopping](https://test-english.com/vocabulary/a1/shops-and-shopping-a1-english-vocabulary/)
-
 #### 📶 A2 (Elementary)
+
+**Vocabulary (Vocabulário):**
+- [Shops and shopping](https://test-english.com/vocabulary/a2/shops-and-shopping-a2-english-vocabulary/)
 
 **Listening (Audição):**
 - [Shopping for clothes](https://test-english.com/listening/a2/shopping-for-clothes-a2-english-listening-test/)
 
 **Reading (Leitura):**
+- [Black Friday](https://test-english.com/reading/a2/black-friday/)
 - [The girl who saved 100 lives](https://test-english.com/reading/a2/the-girl-who-saved-100-lives-a2-english-reading-test/)
 - [Ancient robots](https://test-english.com/reading/a2/ancient-robots-reading-test/)
 - [Growing up poor](https://test-english.com/reading/a2/growing-up-poor/)
 
-**Vocabulary (Vocabulário):**
-- [Shops and shopping](https://test-english.com/vocabulary/a2/shops-and-shopping-a2-english-vocabulary/)
-
 #### 📶 B1 (Intermediate)
+
+**Vocabulary (Vocabulário):**
+- [Money](https://test-english.com/vocabulary/b1/money-b1-english-vocabulary/)
 
 **Listening (Audição):**
 - [Talking About Money](https://test-english.com/listening/b1/talking-about-money-b1-english-listening-test/)
 - [Borough Market](https://test-english.com/listening/b1/borough-market-b1-english-listening-test/)
 
 **Reading (Leitura):**
+- [eBay tips for selling successfully](https://test-english.com/reading/b1/ebay-tips-selling-successfully/)
 - [Travel around Europe in 5 stops](https://test-english.com/reading/b1/travel-around-europe-in-5-stops-b1-english-reading-test/)
 - [How LED lights can save sea turtles' lives](https://test-english.com/reading/b1/how-led-lights-can-save-sea-turtles-lives-b1-english-reading-test/)
 
-**Vocabulary (Vocabulário):**
-- [Money](https://test-english.com/vocabulary/b1/money-b1-english-vocabulary/)
-
 #### 📶 B1-B2 (Pre-Upper-Intermediate)
+
+**Vocabulary (Vocabulário):**
+- [Crime and punishment](https://test-english.com/vocabulary/b1-b2/crime-and-punishment-b1-b2-english-vocabulary/)
+- [Types of crime and offenders](https://test-english.com/vocabulary/b1-b2/types-of-crime-and-offenders-b1-english-vocabulary/)
+- [Business](https://test-english.com/vocabulary/b1-b2/business-b1-english-vocabulary/)
 
 **Listening (Audição):**
 - [Crime scene investigation](https://test-english.com/listening/b1-b2/crime-scene-investigation-b1-english-listening-test/)
@@ -1189,18 +1201,15 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [The business of running](https://test-english.com/reading/b1-b2/the-business-of-running-b1-english-reading-test/)
 - [Profiting from true crime stories](https://test-english.com/reading/b1-b2/profiting-from-true-crime-stories-b1-english-reading/)
 
-**Vocabulary (Vocabulário):**
-- [Crime and punishment](https://test-english.com/vocabulary/b1-b2/crime-and-punishment-b1-b2-english-vocabulary/)
-- [Types of crime and offenders](https://test-english.com/vocabulary/b1-b2/types-of-crime-and-offenders-b1-english-vocabulary/)
-- [Business](https://test-english.com/vocabulary/b1-b2/business-b1-english-vocabulary/)
-
 #### 📶 B2 (Upper-Intermediate)
-
-**Reading (Leitura):**
-- [Do we really need cash anymore?](https://test-english.com/reading/b2/do-we-need-cash-anymore-b2-reading-test/)
 
 **Vocabulary (Vocabulário):**
 - [Money and finance](https://test-english.com/vocabulary/b2/money-and-finance-b2-english-vocabulary/)
+
+**Reading (Leitura):**
+- [Second-hand fashion](https://test-english.com/reading/b2/second-hand-fashion-b2-english-reading-test/)
+- [Crypto addicts](https://test-english.com/reading/b2/crypto-addicts-b2-reading-test/)
+- [Do we really need cash anymore?](https://test-english.com/reading/b2/do-we-need-cash-anymore-b2-reading-test/)
 
 ### Technology & Science (Tecnologia e Ciência)
 
@@ -1218,6 +1227,9 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 **Vocabulary (Vocabulário):**
 - [Technology](https://test-english.com/vocabulary/a2/technology-a2-english-vocabulary/)
 
+**Reading (Leitura):**
+- [Three popular inventions from the 1920s](https://test-english.com/reading/a2/three-popular-inventions-from-the-1920s-reading-test/)
+
 **Writing (Escrita):**
 - [Writing and responding to an informal email invitation](https://test-english.com/writing/a2/writing-and-responding-to-an-informal-email-invitation/)
 - [A thank-you email](https://test-english.com/writing/a2/a-thank-you-email-a2-english-writing/)
@@ -1226,6 +1238,9 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 **Vocabulary (Vocabulário):**
 - [Phone Talk](https://test-english.com/vocabulary/b1/phone-talk-b1-english-vocabulary/)
+
+**Listening (Audição):**
+- [How to fuel the future](https://test-english.com/listening/b1/how-to-fuel-the-future-listening-test/)
 
 **Writing (Escrita):**
 - [How to write an email to a friend giving news](https://test-english.com/writing/b1/how-to-write-an-email-to-a-friend-giving-news/)
@@ -1236,6 +1251,14 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 **Vocabulary (Vocabulário):**
 - [Technology](https://test-english.com/vocabulary/b1-b2/technology-b1-english-vocabulary/)
 
+**Listening (Audição):**
+- [Will humans become supermachines?](https://test-english.com/listening/b1-b2/will-humans-become-supermachines-b1-english-listening-test/)
+- [The Ecocapsule](https://test-english.com/listening/b1-b2/the-ecocapsule/)
+
+**Reading (Leitura):**
+- [Supernova hunters](https://test-english.com/reading/b1-b2/supernova-hunters-b1-english-reading-test/)
+- [AI boomers vs AI doomers](https://test-english.com/reading/b1-b2/ai-boomers-vs-ai-doomers-b1-english-reading-test/)
+
 **Writing (Escrita):**
 - [An informal email – asking for and giving advice](https://test-english.com/writing/b1-b2/an-informal-email-advice/)
 - [How to write an apology email - Saying sorry to your friend](https://test-english.com/writing/b1-b2/how-to-write-an-apology-email-saying-sorry-to-your-friend/)
@@ -1243,12 +1266,16 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 #### 📶 B2 (Upper-Intermediate)
 
+**Vocabulary (Vocabulário):**
+- [Technology: Managing your devices](https://test-english.com/vocabulary/b2/technology-b2-english-vocabulary/)
+
 **Listening (Audição):**
 - [Life without a cell phone](https://test-english.com/listening/b2/life-without-cell-phone/)
 - [Detox camps for internet addicts](https://test-english.com/listening/b2/internet-addiction-south-korea/)
 
-**Vocabulary (Vocabulário):**
-- [Technology: Managing your devices](https://test-english.com/vocabulary/b2/technology-b2-english-vocabulary/)
+**Reading (Leitura):**
+- [Using AI to talk to the deceased](https://test-english.com/reading/b2/using-ai-to-talk-to-the-deceased-b2-english-reading-test/)
+- [Regulating deepfakes](https://test-english.com/reading/b2/regulating-deepfakes-b2-english-reading-test/)
 
 **Writing (Escrita):**
 - [Formal email or letter asking for information](https://test-english.com/writing/b2/formal-email-letter-asking-information/)
@@ -1263,6 +1290,10 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 #### 📶 A1 (Beginner)
 
+**Vocabulary (Vocabulário):**
+- [The house: rooms, parts, and things](https://test-english.com/vocabulary/a1/the-house-rooms-parts-and-things-a1-english-vocabulary/)
+- [Places in a town](https://test-english.com/vocabulary/a1/in-the-town-a1-english-vocabulary/)
+
 **Listening (Audição):**
 - [Describing rooms (there is/are, prep. of place)](https://test-english.com/listening/a1/describing-rooms-there-is-are-prepositions-of-place-a1-english-listening-test/)
 - [The house: My favourite room](https://test-english.com/listening/a1/the-house-my-favourite-room-a1-english-listening-test/)
@@ -1273,14 +1304,15 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [Email to a friend: I'm confined at home](https://test-english.com/reading/a1/email-to-a-friend-im-confined-at-home-a1-english-reading-test/)
 - [Looking for the perfect home](https://test-english.com/reading/a1/looking-for-the-perfect-home-a1-english-reading-test/)
 
-**Vocabulary (Vocabulário):**
-- [The house: rooms, parts, and things](https://test-english.com/vocabulary/a1/the-house-rooms-parts-and-things-a1-english-vocabulary/)
-- [Places in a town](https://test-english.com/vocabulary/a1/in-the-town-a1-english-vocabulary/)
-
 **Writing (Escrita):**
+- [Essay about 'My Neighbourhood'](https://test-english.com/writing/a1/essay-about-my-neighbourhood-a1-english-writing/)
 - [A description of my house](https://test-english.com/writing/a1/a-description-of-my-house-a1-english-writing/)
 
 #### 📶 A2 (Elementary)
+
+**Vocabulary (Vocabulário):**
+- [Housework](https://test-english.com/vocabulary/a2/housework-a2-english-vocabulary/)
+- [Towns and cities](https://test-english.com/vocabulary/a2/towns-and-cities-a2-english-vocabulary/)
 
 **Listening (Audição):**
 - [What are your roommates like?](https://test-english.com/listening/a2/what-are-your-roommates-like-a2-english-listening-test/)
@@ -1293,11 +1325,10 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [Living in a small town vs a big city](https://test-english.com/reading/a2/living-in-a-small-town-vs-a-big-city-a2-english-reading-test/)
 - [Should kids help with household chores?](https://test-english.com/reading/a2/should-kids-help-with-household-chores-a2-english-reading-test/)
 
-**Vocabulary (Vocabulário):**
-- [Housework](https://test-english.com/vocabulary/a2/housework-a2-english-vocabulary/)
-- [Towns and cities](https://test-english.com/vocabulary/a2/towns-and-cities-a2-english-vocabulary/)
-
 #### 📶 B1 (Intermediate)
+
+**Vocabulary (Vocabulário):**
+- [Houses](https://test-english.com/vocabulary/b1/houses-and-buildings-b1-english-vocabulary/)
 
 **Listening (Audição):**
 - [York, England: a medieval town](https://test-english.com/listening/b1/york-england-a-medieval-town-b1-english-listening-test/)
@@ -1309,19 +1340,16 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [Chocolate town for chocolate workers](https://test-english.com/reading/b1/chocolate-town-chocolate-workers-reading-test/)
 - [Welcome to the home of the future](https://test-english.com/reading/b1/welcome-home-future/)
 
-**Vocabulary (Vocabulário):**
-- [Houses](https://test-english.com/vocabulary/b1/houses-and-buildings-b1-english-vocabulary/)
-
 **Writing (Escrita):**
 - [Describing your home](https://test-english.com/writing/b1/describing-your-home-b1-english-writing/)
 
 #### 📶 B1-B2 (Pre-Upper-Intermediate)
 
-**Listening (Audição):**
-- [Haunted house in Pennsylvania](https://test-english.com/listening/b1-b2/haunted-house-pennsylvania/)
-
 **Vocabulary (Vocabulário):**
 - [Houses and home words](https://test-english.com/vocabulary/b1-b2/houses-and-home-words-b1-english-vocabulary/)
+
+**Listening (Audição):**
+- [Haunted house in Pennsylvania](https://test-english.com/listening/b1-b2/haunted-house-pennsylvania/)
 
 ### Travel, Transport & Tourism (Viagem, Transporte e Turismo)
 
@@ -1339,6 +1367,11 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 #### 📶 A2 (Elementary)
 
+**Vocabulary (Vocabulário):**
+- [In a hotel](https://test-english.com/vocabulary/a2/in-a-hotel-a2-english-vocabulary/)
+- [Giving directions](https://test-english.com/vocabulary/a2/giving-directions-a2-english-vocabulary/)
+- [Holidays](https://test-english.com/vocabulary/a2/holidays-a2-english-vocabulary/)
+
 **Listening (Audição):**
 - [Checking into a hotel](https://test-english.com/listening/a2/checking-into-a-hotel-a2-english-listening-test/)
 - [Giving directions](https://test-english.com/listening/a2/giving-directions-a2-english-listening-test/)
@@ -1354,16 +1387,15 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [Accommodation](https://test-english.com/reading/a2/accommodation/)
 - [How to buy tickets for Glastonbury Festival](https://test-english.com/reading/a2/how-to-buy-tickets-glastonbury-festival/)
 
-**Vocabulary (Vocabulário):**
-- [In a hotel](https://test-english.com/vocabulary/a2/in-a-hotel-a2-english-vocabulary/)
-- [Giving directions](https://test-english.com/vocabulary/a2/giving-directions-a2-english-vocabulary/)
-- [Holidays](https://test-english.com/vocabulary/a2/holidays-a2-english-vocabulary/)
-
 **Writing (Escrita):**
 - [My last holiday](https://test-english.com/writing/a2/my-last-holiday-writing/)
 - [How to write an email to book a hotel room](https://test-english.com/writing/a2/how-to-write-an-email-to-book-a-hotel-room/)
 
 #### 📶 B1 (Intermediate)
+
+**Vocabulary (Vocabulário):**
+- [Hotels and accommodation](https://test-english.com/vocabulary/b1/hotels-and-accommodation-b1-english-vocabulary/)
+- [Transport](https://test-english.com/vocabulary/b1/transport-b1-english-vocabulary/)
 
 **Listening (Audição):**
 - [Working while travelling the world](https://test-english.com/listening/b1/working-while-travelling-the-world-b1-english-listening-test/)
@@ -1376,17 +1408,18 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [SpeedFlatmating (Accommodation)](https://test-english.com/reading/b1/speedflatmating-accommodation-b1-english-reading-test/)
 - [Hotel leaflet](https://test-english.com/reading/b1/hotel-leaflet/)
 
-**Vocabulary (Vocabulário):**
-- [Hotels and accommodation](https://test-english.com/vocabulary/b1/hotels-and-accommodation-b1-english-vocabulary/)
-- [Transport](https://test-english.com/vocabulary/b1/transport-b1-english-vocabulary/)
-
 **Writing (Escrita):**
 - [How to write a hotel review after a stay](https://test-english.com/writing/b1/how-to-write-a-hotel-review-after-a-stay/)
 - [Email making plans for visit](https://test-english.com/writing/b1/email-making-plans-for-visit-b1-writing/)
 
 #### 📶 B1-B2 (Pre-Upper-Intermediate)
 
+**Vocabulary (Vocabulário):**
+- [Air travel](https://test-english.com/vocabulary/b1-b2/air-travel-b1-b2-english-vocabulary/)
+- [Travel](https://test-english.com/vocabulary/b1-b2/travel-b1-english-vocabulary/)
+
 **Listening (Audição):**
+- [The Hyperloop: the future of transportation?](https://test-english.com/listening/b1-b2/the-hyperloop/)
 - [Journey through our Solar System](https://test-english.com/listening/b1-b2/journey-through-our-solar-system-b2-english-listening-test/)
 - [Air travel experiences](https://test-english.com/listening/b1-b2/air-travel-experiences-b1-english-listening-test/)
 - [Living on the road](https://test-english.com/listening/b1-b2/living-on-the-road/)
@@ -1394,14 +1427,15 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [Solar road](https://test-english.com/listening/b1-b2/solar-road/)
 
 **Reading (Leitura):**
+- [World walker](https://test-english.com/reading/b1-b2/world-walker-reading-test/)
 - [Can you stay friends after divorce?](https://test-english.com/reading/b1-b2/can-you-stay-friends-after-divorce/)
 - [What type of accommodation best suits you?](https://test-english.com/reading/b1-b2/what-type-of-accommodation-best-suits-you-b1-english-reading-test/)
 
-**Vocabulary (Vocabulário):**
-- [Air travel](https://test-english.com/vocabulary/b1-b2/air-travel-b1-b2-english-vocabulary/)
-- [Travel](https://test-english.com/vocabulary/b1-b2/travel-b1-english-vocabulary/)
-
 #### 📶 B2 (Upper-Intermediate)
+
+**Vocabulary (Vocabulário):**
+- [Tourism](https://test-english.com/vocabulary/b2/tourism-b2-english-vocabulary/)
+- [Cars, roads and traffic](https://test-english.com/vocabulary/b2/car-b2-english-vocabulary/)
 
 **Listening (Audição):**
 - [Dark Tourism](https://test-english.com/listening/b2/dark-tourism-b2-english-listening-test/)
@@ -1409,13 +1443,15 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [The future of airport security](https://test-english.com/listening/b2/future-airport-security/)
 
 **Reading (Leitura):**
+- [Is overtourism pricing locals out?](https://test-english.com/reading/b2/is-overtourism-pricing-locals-out-b2-english-reading-test/)
 - [Coolcationing: A new travel trend](https://test-english.com/reading/b2/coolcationing-a-new-travel-trend-b2-english-reading-test/)
 - [The most unusual tourist attractions](https://test-english.com/reading/b2/the-most-unusual-tourist-attractions-b2-english-reading-test/)
 - [Egypt travel guide](https://test-english.com/reading/b2/egypt-travel-guide/)
 
-**Vocabulary (Vocabulário):**
-- [Tourism](https://test-english.com/vocabulary/b2/tourism-b2-english-vocabulary/)
-- [Cars, roads and traffic](https://test-english.com/vocabulary/b2/car-b2-english-vocabulary/)
+#### 📶 C1/C2 (Advanced)
+
+**Listening (Audição):**
+- [Why is walking humans' superpower?](https://test-english.com/listening/c1/why-is-walking-humans-superpower-c1-english-listening-test/)
 
 ### Work, Jobs & Education (Trabalho, Profissões e Educação)
 
@@ -1428,6 +1464,7 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [Schools in Britain](https://test-english.com/listening/a1/schools-in-britain-listening-test/)
 
 **Reading (Leitura):**
+- [Future retirement plans](https://test-english.com/reading/a1/future-retirement-plans-a1-english-reading-test/)
 - [Memories of my first day at school](https://test-english.com/reading/a1/my-first-day-at-school-reading-test/)
 - [Famous people’s first jobs](https://test-english.com/reading/a1/famous-peoples-first-jobs-reading-comprehension-test/)
 
@@ -1445,19 +1482,21 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 #### 📶 B1 (Intermediate)
 
+**Vocabulary (Vocabulário):**
+- [Education](https://test-english.com/vocabulary/b1/education-b1-english-vocabulary/)
+- [Work](https://test-english.com/vocabulary/b1/work-b1-english-vocabulary/)
+
 **Listening (Audição):**
 - [Stories of school and education](https://test-english.com/listening/b1/stories-of-school-and-education-b1-english-listening-test/)
 - [Personal Work Stories](https://test-english.com/listening/b1/personal-work-stories-b1-english-listening-test/)
 - [Are exams necessary?](https://test-english.com/listening/b1/are-exams-necessary-b1-english-listening-test/)
 
 **Reading (Leitura):**
+- [Why your coworkers hate you](https://test-english.com/reading/b1/why-your-coworkers-hate-you-b1-english-reading-test/)
+- [Curriculum Vitaes: Tips that can Help](https://test-english.com/reading/b1/curriculum-vitaes-tips-can-help/)
 - [Unusual and wonderful jobs](https://test-english.com/reading/b1/unusual-and-wonderful-jobs-b1-english-reading-test/)
 - [How sleep transformed professional football](https://test-english.com/reading/b1/how-sleep-transformed-professional-football-reading-test/)
 - [Learning English Forum. Your answer!](https://test-english.com/reading/b1/learning-english-forum-your-answer-reading-test/)
-
-**Vocabulary (Vocabulário):**
-- [Education](https://test-english.com/vocabulary/b1/education-b1-english-vocabulary/)
-- [Work](https://test-english.com/vocabulary/b1/work-b1-english-vocabulary/)
 
 #### 📶 B1-B2 (Pre-Upper-Intermediate)
 
@@ -1469,7 +1508,12 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 
 #### 📶 B2 (Upper-Intermediate)
 
+**Vocabulary (Vocabulário):**
+- [Work and jobs](https://test-english.com/vocabulary/b2/work-and-jobs-b2-english-vocabulary/)
+- [Education](https://test-english.com/vocabulary/b2/education-b2-english-vocabulary/)
+
 **Listening (Audição):**
+- [Retirement Challenges in the U.S.](https://test-english.com/listening/b2/retirement-challenges-in-the-u-s-b2-english-listening-test/)
 - [What is it like to work in the film industry?](https://test-english.com/listening/b2/what-is-it-like-to-work-in-the-film-industry-b2-listening-test/)
 - [How good is your job?](https://test-english.com/listening/b2/how-good-is-your-job-b2-listening-test/)
 - [Inside Google's office](https://test-english.com/listening/b2/inside-googles-office/)
@@ -1479,13 +1523,10 @@ Exercícios práticos contextualizados por tópicos da vida real (diálogos, tex
 - [Interview with Lily Singh](https://test-english.com/listening/b2/interview-lily-singh/)
 
 **Reading (Leitura):**
+- [The most sought-after company benefits](https://test-english.com/reading/b2/the-most-sought-after-company-benefits-b2-english-reading-test/)
 - [UK students protest Covid-19 measures](https://test-english.com/reading/b2/uk-students-protest-covid-19-measures-reading-test/)
 - [Learning from penguin poop](https://test-english.com/reading/b2/learning-from-penguin-poop-reading-test/)
 - [10 things you should never do when starting a new job](https://test-english.com/reading/b2/10-things-never-starting-new-job/)
-
-**Vocabulary (Vocabulário):**
-- [Work and jobs](https://test-english.com/vocabulary/b2/work-and-jobs-b2-english-vocabulary/)
-- [Education](https://test-english.com/vocabulary/b2/education-b2-english-vocabulary/)
 
 **Writing (Escrita):**
 - [Writing an article for the First exam](https://test-english.com/writing/b2/writing-an-article-for-the-first-exam-b2-english-writing/)
