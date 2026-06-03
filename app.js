@@ -450,6 +450,8 @@ function toggleTheme() {
 // Toggle Completion state of an exercise card
 function toggleCompletion(link) {
     if (state.completed[link]) {
+        const confirmUncheck = confirm("Tem certeza que deseja desmarcar este exercício? O registro com data e hora de conclusão será removido.");
+        if (!confirmUncheck) return;
         delete state.completed[link];
     } else {
         const now = new Date();
