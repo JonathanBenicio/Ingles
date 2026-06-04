@@ -33,6 +33,8 @@ body.dark-theme {
     --shadow-card: 0 4px 20px rgba(0, 0, 0, 0.4);
     --accent-primary: hsl(142, 70%, 45%);
     --accent-hover: hsl(142, 70%, 52%);
+    --accent-in-progress: hsl(38, 95%, 55%);
+    --accent-in-progress-hover: hsl(38, 95%, 62%);
     --btn-secondary-bg: hsl(220, 15%, 20%);
     --btn-secondary-hover: hsl(220, 15%, 26%);
     --input-bg: hsl(220, 20%, 18%);
@@ -50,6 +52,8 @@ body.light-theme {
     --shadow-card: 0 10px 30px rgba(60, 64, 67, 0.08);
     --accent-primary: hsl(142, 60%, 40%);
     --accent-hover: hsl(142, 60%, 34%);
+    --accent-in-progress: hsl(38, 90%, 45%);
+    --accent-in-progress-hover: hsl(38, 90%, 38%);
     --btn-secondary-bg: hsl(220, 20%, 92%);
     --btn-secondary-hover: hsl(220, 20%, 86%);
     --input-bg: hsl(220, 20%, 94%);
@@ -498,7 +502,16 @@ body.light-theme .main-stats {
     font-size: 24px;
     font-weight: 700;
     color: var(--accent-primary);
-    margin-bottom: 6px;
+    margin-bottom: 4px;
+}
+.stats-in-progress {
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--accent-in-progress);
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
 }
 .stats-desc {
     color: var(--text-muted);
@@ -654,6 +667,10 @@ body.light-theme .exercise-card:hover {
     background-color: var(--accent-primary);
 }
 
+.exercise-card.in-progress::before {
+    background-color: var(--accent-in-progress);
+}
+
 .card-top {
     display: flex;
     justify-content: space-between;
@@ -687,6 +704,13 @@ body.light-theme .exercise-card:hover {
     border: 1px solid var(--border-color);
 }
 
+/* Card Actions Container */
+.card-actions-row {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
 /* Card Checkbox Toggle */
 .card-check-btn {
     width: 28px;
@@ -716,6 +740,37 @@ body.light-theme .exercise-card:hover {
 .exercise-card.completed .card-check-btn:hover {
     background-color: hsl(142, 70%, 38%);
     border-color: hsl(142, 70%, 38%);
+}
+
+/* Card In Progress Toggle */
+.card-in-progress-btn {
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    border: 2px solid var(--border-color);
+    background-color: transparent;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-muted);
+    font-size: 11px;
+    transition: var(--transition-smooth);
+    flex-shrink: 0;
+}
+.card-in-progress-btn:hover {
+    border-color: var(--accent-in-progress);
+    color: var(--accent-in-progress);
+    background-color: rgba(251, 191, 36, 0.05);
+}
+.exercise-card.in-progress .card-in-progress-btn {
+    border-color: var(--accent-in-progress);
+    background-color: var(--accent-in-progress);
+    color: white;
+}
+.exercise-card.in-progress .card-in-progress-btn:hover {
+    background-color: var(--accent-in-progress-hover);
+    border-color: var(--accent-in-progress-hover);
 }
 
 .card-middle {
@@ -1057,6 +1112,17 @@ body.light-theme .exercise-card:hover {
 .completion-date-wrapper:hover {
     border-color: var(--accent-primary);
     color: var(--text-main);
+}
+.exercise-card.in-progress .completion-date-wrapper:hover {
+    border-color: var(--accent-in-progress);
+}
+@keyframes pulse-clock {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+.exercise-card.in-progress .card-in-progress-btn i {
+    animation: pulse-clock 2s infinite ease-in-out;
 }
 .date-picker-input {
     position: absolute;

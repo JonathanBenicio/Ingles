@@ -93,6 +93,11 @@
                         Concluídos ✔
                     </label>
                     <label class="custom-radio">
+                        <input type="radio" name="status-filter" value="in-progress">
+                        <span class="radio-mark"></span>
+                        Em Andamento ⏳
+                    </label>
+                    <label class="custom-radio">
                         <input type="radio" name="status-filter" value="pending">
                         <span class="radio-mark"></span>
                         Não Concluídos ⌛
@@ -148,6 +153,7 @@
                     <div class="stats-info">
                         <h2>Seu Progresso Geral</h2>
                         <div class="stats-count" id="overall-count-text">0 / 0 concluídos</div>
+                        <div class="stats-in-progress" id="in-progress-count-text">0 em andamento</div>
                         <p class="stats-desc">Falta pouco para atingir sua fluência! Mantenha a constância.</p>
                     </div>
                 </div>

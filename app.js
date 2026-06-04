@@ -105,6 +105,7 @@ const TAXONOMY = [
 // State Management
 const state = {
     completed: {}, // Maps: link -> dateCompletedString ("DD/MM/YYYY HH:MM")
+    inProgress: {}, // Maps: link -> dateStartedString ("DD/MM/YYYY HH:MM")
     theme: 'dark',
     filters: {
         search: '',
@@ -150,6 +151,18 @@ function loadState() {
         }
     }
     
+    // Load in-progress exercises
+    const savedInProgress = localStorage.getItem('english_in_progress_exercises');
+    if (savedInProgress) {
+        try {
+            state.inProgress = JSON.parse(savedInProgress);
+        } catch (e) {
+            state.inProgress = {};
+        }
+    } else {
+        state.inProgress = {};
+    }
+    
     // Load theme
     const savedTheme = localStorage.getItem('english_tracker_theme');
     state.theme = savedTheme || 'dark';
@@ -165,6 +178,7 @@ function loadState() {
 // Save state to LocalStorage
 function saveState() {
     localStorage.setItem('english_completed_exercises', JSON.stringify(state.completed));
+    localStorage.setItem('english_in_progress_exercises', JSON.stringify(state.inProgress));
 }
 
 // Gather unique categories from dataset (excluding grammar-points)
@@ -457,6 +471,10 @@ function toggleCompletion(link) {
         const now = new Date();
         const dateStr = now.toLocaleDateString('pt-BR') + ' ' + now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
         state.completed[link] = dateStr;
+        // Automatically remove from in progress when completed
+        if (state.inProgress && state.inProgress[link]) {
+            delete state.inProgress[link];
+        }
     }
     saveState();
     renderStats();
@@ -468,6 +486,7 @@ function toggleCompletion(link) {
         if (titleLink && titleLink.getAttribute('href') === link) {
             if (state.completed[link]) {
                 card.classList.add('completed');
+                card.classList.remove('in-progress');
                 card.querySelector('.completion-date').innerHTML = `
                     <span>Concluído em:</span>
                     <span class="completion-date-wrapper">
@@ -507,14 +526,83 @@ function updateCompletionDate(link, inputDateValue) {
     }
 }
 
+// Toggle In Progress state of an exercise card
+function toggleInProgress(link) {
+    if (state.completed[link]) {
+        // If completed, ask to reopen and move to in progress
+        const confirmDemote = confirm("Este exercício já está concluído. Deseja reabrir e marcá-lo como Em Andamento?");
+        if (!confirmDemote) return;
+        delete state.completed[link];
+    }
+    
+    if (state.inProgress[link]) {
+        delete state.inProgress[link];
+    } else {
+        const now = new Date();
+        const dateStr = now.toLocaleDateString('pt-BR') + ' ' + now.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+        state.inProgress[link] = dateStr;
+    }
+    saveState();
+    renderStats();
+    
+    // Update target card without full grid reload to prevent scroll jumps
+    const cards = document.querySelectorAll(`.exercise-card`);
+    cards.forEach(card => {
+        const titleLink = card.querySelector('.exercise-title');
+        if (titleLink && titleLink.getAttribute('href') === link) {
+            if (state.inProgress[link]) {
+                card.classList.add('in-progress');
+                card.classList.remove('completed');
+                card.querySelector('.completion-date').innerHTML = `
+                    <span>Iniciado em:</span>
+                    <span class="completion-date-wrapper">
+                        <i class="fa-regular fa-calendar-days"></i>
+                        <span class="date-text">${state.inProgress[link]}</span>
+                        <input type="date" class="date-picker-input" data-link="${link}" value="${toInputDate(state.inProgress[link])}">
+                    </span>
+                `;
+                card.querySelector('.date-picker-input').addEventListener('change', (e) => {
+                    updateInProgressDate(link, e.target.value);
+                });
+            } else {
+                card.classList.remove('in-progress');
+                card.querySelector('.completion-date').innerHTML = '';
+            }
+        }
+    });
+
+    // Update history drawer if open
+    if (document.getElementById('history-drawer').classList.contains('open')) {
+        renderHistory();
+    }
+}
+
+// Update specific In Progress Date from Inline Date Pickers
+function updateInProgressDate(link, inputDateValue) {
+    const originalDateTime = state.inProgress[link] || '';
+    const newDateTime = fromInputDate(inputDateValue, originalDateTime);
+    if (newDateTime) {
+        state.inProgress[link] = newDateTime;
+        saveState();
+        renderAll();
+    }
+}
+
 // Render Stats & Progress Indicators
 function renderStats() {
     const totalCount = EXERCISES_DATA.length;
     const completedCount = Object.keys(state.completed).length;
+    const inProgressCount = Object.keys(state.inProgress || {}).length;
     const percentage = totalCount > 0 ? Math.round((completedCount / totalCount) * 100) : 0;
     
     // Overall text update
     document.getElementById('overall-count-text').textContent = `${completedCount} / ${totalCount} concluídos`;
+    
+    const inProgressEl = document.getElementById('in-progress-count-text');
+    if (inProgressEl) {
+        inProgressEl.textContent = `${inProgressCount} em andamento`;
+    }
+    
     document.getElementById('progress-percentage-text').textContent = `${percentage}%`;
     
     // Update SVG Circular Ring Progress
@@ -605,10 +693,12 @@ function renderCards() {
             if (state.filters.categories[ex.category] === false) return false;
         }
         
-        // Status filter (All, Completed, Pending)
+        // Status filter (All, Completed, In-Progress, Pending)
         const isCompleted = !!state.completed[ex.link];
+        const isInProgress = !!state.inProgress[ex.link];
         if (state.filters.status === 'completed' && !isCompleted) return false;
-        if (state.filters.status === 'pending' && isCompleted) return false;
+        if (state.filters.status === 'in-progress' && !isInProgress) return false;
+        if (state.filters.status === 'pending' && (isCompleted || isInProgress)) return false;
         
         // Subgroup filter (multi-select filter logic: if active array has elements, item must match one of them)
         if (state.filters.subgroups.length > 0) {
@@ -633,10 +723,11 @@ function renderCards() {
     filtered.forEach(ex => {
         const metadata = SKILL_METADATA[ex.category] || { label: ex.category, color: 'var(--text-muted)' };
         const isCompleted = !!state.completed[ex.link];
-        const dateStr = state.completed[ex.link] || '';
+        const isInProgress = !!state.inProgress[ex.link];
+        const dateStr = isCompleted ? (state.completed[ex.link] || '') : (isInProgress ? (state.inProgress[ex.link] || '') : '');
         
         const card = document.createElement('div');
-        card.className = `exercise-card ${isCompleted ? 'completed' : ''}`;
+        card.className = `exercise-card ${isCompleted ? 'completed' : (isInProgress ? 'in-progress' : '')}`;
         card.style.setProperty('--cat-color', metadata.color);
         card.style.setProperty('--cat-bg-color', metadata.bgGlow);
         
@@ -646,9 +737,14 @@ function renderCards() {
                     <span class="cat-badge" style="background-color: var(--cat-bg-color); color: var(--cat-color);">${metadata.label}</span>
                     <span class="level-badge">${ex.level.toUpperCase()}</span>
                 </div>
-                <button class="card-check-btn" title="Marcar como concluído" aria-label="Marcar como concluído">
-                    <i class="fa-solid fa-check"></i>
-                </button>
+                <div class="card-actions-row">
+                    <button class="card-in-progress-btn" title="Marcar como em andamento" aria-label="Marcar como em andamento">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                    <button class="card-check-btn" title="Marcar como concluído" aria-label="Marcar como concluído">
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                </div>
             </div>
             <div class="card-middle">
                 <a href="${ex.link}" target="_blank" rel="noopener noreferrer" class="exercise-title" title="Abrir exercício em nova guia">
@@ -667,10 +763,23 @@ function renderCards() {
                             <span class="date-text">${dateStr}</span>
                             <input type="date" class="date-picker-input" data-link="${ex.link}" value="${toInputDate(dateStr)}">
                         </span>
-                    ` : ''}
+                    ` : (isInProgress ? `
+                        <span>Iniciado em:</span>
+                        <span class="completion-date-wrapper">
+                            <i class="fa-regular fa-calendar-days"></i>
+                            <span class="date-text">${dateStr}</span>
+                            <input type="date" class="date-picker-input" data-link="${ex.link}" value="${toInputDate(dateStr)}">
+                        </span>
+                    ` : '')}
                 </div>
             </div>
         `;
+        
+        // In progress click bindings
+        card.querySelector('.card-in-progress-btn').addEventListener('click', (e) => {
+            e.preventDefault();
+            toggleInProgress(ex.link);
+        });
         
         // Completion click bindings
         card.querySelector('.card-check-btn').addEventListener('click', (e) => {
@@ -679,9 +788,13 @@ function renderCards() {
         });
         
         // Date picker bindings
-        if (isCompleted) {
+        if (isCompleted || isInProgress) {
             card.querySelector('.date-picker-input').addEventListener('change', (e) => {
-                updateCompletionDate(ex.link, e.target.value);
+                if (isCompleted) {
+                    updateCompletionDate(ex.link, e.target.value);
+                } else {
+                    updateInProgressDate(ex.link, e.target.value);
+                }
             });
         }
         
@@ -755,7 +868,11 @@ function renderAll() {
 
 // Export progress database as a JSON download
 function exportProgress() {
-    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(state.completed, null, 2));
+    const backupData = {
+        completed: state.completed,
+        inProgress: state.inProgress || {}
+    };
+    const dataStr = "data:text/json;charset=utf-8," + encodeURIComponent(JSON.stringify(backupData, null, 2));
     const downloadAnchor = document.createElement('a');
     
     const now = new Date();
@@ -784,22 +901,30 @@ function importProgress(e) {
                 return;
             }
             
-            // Validate entries
-            let isValid = true;
-            for (const key in parsed) {
-                if (typeof parsed[key] !== 'string') {
-                    isValid = false;
-                    break;
-                }
-            }
-            
-            if (!isValid) {
-                alert("Erro: O arquivo de backup enviado contém formato de dados incorreto!");
-                return;
-            }
-            
             // Restore progress logs
-            state.completed = parsed;
+            if (parsed.completed !== undefined) {
+                // Modern backup format
+                state.completed = parsed.completed || {};
+                state.inProgress = parsed.inProgress || {};
+            } else {
+                // Legacy backup format
+                let isValid = true;
+                for (const key in parsed) {
+                    if (typeof parsed[key] !== 'string') {
+                        isValid = false;
+                        break;
+                    }
+                }
+                
+                if (!isValid) {
+                    alert("Erro: O arquivo de backup enviado contém formato de dados incorreto!");
+                    return;
+                }
+                
+                state.completed = parsed;
+                state.inProgress = {};
+            }
+            
             saveState();
             renderAll();
             alert("Sucesso: Progresso restaurado com sucesso a partir do backup!");
@@ -815,9 +940,10 @@ function importProgress(e) {
 
 // Reset all completion records with confirmation dialog
 function resetProgress() {
-    const confirmReset = confirm("Aviso: Isso irá deletar permanentemente todo o seu histórico de exercícios concluídos. Tem certeza que deseja zerar?");
+    const confirmReset = confirm("Aviso: Isso irá deletar permanentemente todo o seu histórico de exercícios concluídos e em andamento. Tem certeza que deseja zerar?");
     if (confirmReset) {
         state.completed = {};
+        state.inProgress = {};
         saveState();
         renderAll();
         alert("Histórico de progresso zerado com sucesso!");
